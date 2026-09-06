@@ -1,0 +1,13 @@
+{
+    "project": "ISL INCLUDE-50 Sign Recognition",
+    "model": "N:\\ISL-Recognition-Research\\models\\include50_lstm_v2_best.keras",
+    "num_classes": 50,
+    "sequence_length": 45,
+    "features": 258,
+    "validation_samples": 141,
+    "test_samples": 142,
+    "validation_accuracy_percent": 95.04,
+    "test_accuracy_percent": 87.32,
+    "validation_mean_confidence_percent": 93.64,
+    "test_mean_confidence_percent": 93.23
+}

@@ -1,0 +1,462 @@
+{
+  "model": "N:\\ISL-Recognition-Research\\models\\include50_hand_lstm_best.keras",
+  "samples": 124,
+  "classes": 50,
+  "accuracy": 0.9274193548387096,
+  "macro_precision": 0.93,
+  "macro_recall": 0.9099999999999998,
+  "macro_f1": 0.9105714285714285,
+  "confidence_is_not_accuracy": true,
+  "per_class": [
+    {
+      "class_id": 0,
+      "label": "1. Dog",
+      "accuracy": 0.6666666666666666,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 3
+    },
+    {
+      "class_id": 1,
+      "label": "1. loud",
+      "accuracy": 0.6666666666666666,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 3
+    },
+    {
+      "class_id": 2,
+      "label": "11. Car",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 3,
+      "label": "14. Election",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 4,
+      "label": "16. train ticket",
+      "accuracy": 0.6666666666666666,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 3
+    },
+    {
+      "class_id": 5,
+      "label": "19. House",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 6,
+      "label": "2. Death",
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "support": 2
+    },
+    {
+      "class_id": 7,
+      "label": "2. quiet",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 8,
+      "label": "23. Court",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 9,
+      "label": "28. Store or Shop",
+      "accuracy": 1.0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "support": 3
+    },
+    {
+      "class_id": 10,
+      "label": "28. Window",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 11,
+      "label": "3. happy",
+      "accuracy": 1.0,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "support": 2
+    },
+    {
+      "class_id": 12,
+      "label": "34. Pen",
+      "accuracy": null,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    {
+      "class_id": 13,
+      "label": "35. Bank",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 14,
+      "label": "37. Hat",
+      "accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "support": 2
+    },
+    {
+      "class_id": 15,
+      "label": "4. Bird",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 16,
+      "label": "40. I",
+      "accuracy": 0.6666666666666666,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 3
+    },
+    {
+      "class_id": 17,
+      "label": "40. Paint",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 18,
+      "label": "42. T-Shirt",
+      "accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "support": 2
+    },
+    {
+      "class_id": 19,
+      "label": "44. Shoes",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 20,
+      "label": "44. it",
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "support": 3
+    },
+    {
+      "class_id": 21,
+      "label": "46. you (plural)",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 22,
+      "label": "47. Red",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 23,
+      "label": "48. Hello",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 24,
+      "label": "5. Cow",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 25,
+      "label": "51. Good Morning",
+      "accuracy": 1.0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "support": 3
+    },
+    {
+      "class_id": 26,
+      "label": "53. Fan",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 27,
+      "label": "54. Black",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 28,
+      "label": "54. Cell phone",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    {
+      "class_id": 29,
+      "label": "55. Thank you",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 30,
+      "label": "55. White",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 31,
+      "label": "61. Father",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 32,
+      "label": "61. Summer",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 33,
+      "label": "64. Fall",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 34,
+      "label": "66. Brother",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    {
+      "class_id": 35,
+      "label": "67. Monday",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 36,
+      "label": "77. Boy",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 37,
+      "label": "78. Girl",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 38,
+      "label": "78. Year",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 39,
+      "label": "78. long",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 40,
+      "label": "79. short",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 41,
+      "label": "83. big large",
+      "accuracy": 1.0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "support": 3
+    },
+    {
+      "class_id": 42,
+      "label": "84. Teacher",
+      "accuracy": 1.0,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "support": 2
+    },
+    {
+      "class_id": 43,
+      "label": "84. small little",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    {
+      "class_id": 44,
+      "label": "86. Time",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class_id": 45,
+      "label": "87. hot",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 46,
+      "label": "91. Priest",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    {
+      "class_id": 47,
+      "label": "91. new",
+      "accuracy": 1.0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "support": 3
+    },
+    {
+      "class_id": 48,
+      "label": "94. good",
+      "accuracy": 0.6666666666666666,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 3
+    },
+    {
+      "class_id": 49,
+      "label": "97. dry",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    }
+  ]
+}

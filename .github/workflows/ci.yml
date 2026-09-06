@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements-dev.txt
+
+      - name: Compile source files
+        run: python -m compileall app tests
+
+      - name: Run unit tests
+        run: python -m pytest -q
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check frontend JavaScript
+        run: node --check frontend/app.js
+
+      - name: Check frontend assets
+        shell: bash
+        run: test -s frontend/index.html && test -s frontend/styles.css && test -s frontend/config.js && test -s frontend/classes.json && test -s frontend/action-mapping.json
+
+      - name: Validate production model contract
+        run: >-
+          python -c "import json, numpy as np, tensorflow as tf; from pathlib import Path; m = tf.keras.models.load_model('models/include50_lstm_v2_best.keras'); assert m.input_shape[1:] == (45, 258), m.input_shape; assert m.output_shape[-1] == 50, m.output_shape; data = json.loads(Path('models/include50_classes_v2.json').read_text(encoding='utf-8')); assert len(data) == 50; assert all(str(i) in data for i in range(50)); out = m.predict(np.zeros((1, 45, 258), dtype=np.float32), verbose=0); assert out.shape == (1, 50); assert np.isfinite(out).all(); assert np.allclose(out.sum(axis=1), 1.0, atol=1e-5); print('model-contract-ok')"
+
+      - name: Build Docker image
+        run: docker build -t isl-recognition:test .
+
+      - name: Build frontend image
+        run: docker build -t isl-recognition-frontend:test frontend

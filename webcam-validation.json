@@ -1,0 +1,28 @@
+[
+  {
+    "expected": "4. Bird",
+    "prediction": "1. loud",
+    "confidence": 0.9999687671661377,
+    "top3": [
+      {
+        "label": "1. loud",
+        "confidence": 0.9999687671661377
+      },
+      {
+        "label": "83. big large",
+        "confidence": 0.000013043871149420738
+      },
+      {
+        "label": "3. happy",
+        "confidence": 0.000004271872057870496
+      }
+    ],
+    "quality": {
+      "validated": true,
+      "frames": 45,
+      "features_per_frame": 258
+    },
+    "timestamp": "2026-09-06T05:46:16.272Z",
+    "correct": false
+  }
+]

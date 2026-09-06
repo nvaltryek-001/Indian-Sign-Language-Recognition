@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.5
+tensorflow==2.15.1
+mediapipe==0.10.14
+jax==0.4.34
+jaxlib==0.4.34
+opencv-contrib-python==4.10.0.84
+numpy==1.25.2

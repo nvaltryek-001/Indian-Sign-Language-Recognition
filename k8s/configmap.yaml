@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: isl-recognition-config
+  namespace: isl-recognition
+data:
+  ISL_LOG_LEVEL: INFO

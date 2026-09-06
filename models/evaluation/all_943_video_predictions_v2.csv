@@ -1,0 +1,944 @@
+video,actual_sign,predicted_sign,confidence_percent,status
+Adjectives\1. loud\MVI_5177.MOV,1. loud,1. loud,99.9389,CORRECT
+Adjectives\1. loud\MVI_5178.MOV,1. loud,1. loud,99.9027,CORRECT
+Adjectives\1. loud\MVI_5179.MOV,1. loud,1. loud,99.9219,CORRECT
+Adjectives\1. loud\MVI_5257.MOV,1. loud,1. loud,99.9678,CORRECT
+Adjectives\1. loud\MVI_5258.MOV,1. loud,1. loud,99.9429,CORRECT
+Adjectives\1. loud\MVI_5259.MOV,1. loud,1. loud,99.9471,CORRECT
+Adjectives\1. loud\MVI_5335.MOV,1. loud,1. loud,99.9592,CORRECT
+Adjectives\1. loud\MVI_5336.MOV,1. loud,1. loud,99.9546,CORRECT
+Adjectives\1. loud\MVI_5337.MOV,1. loud,1. loud,99.8818,CORRECT
+Adjectives\1. loud\MVI_9289.MOV,1. loud,5. Cow,88.9949,WRONG
+Adjectives\1. loud\MVI_9290.MOV,1. loud,1. loud,99.4409,CORRECT
+Adjectives\1. loud\MVI_9291.MOV,1. loud,1. loud,99.9650,CORRECT
+Adjectives\1. loud\MVI_9368.MOV,1. loud,1. loud,99.8586,CORRECT
+Adjectives\1. loud\MVI_9369.MOV,1. loud,1. loud,99.8488,CORRECT
+Adjectives\1. loud\MVI_9370.MOV,1. loud,1. loud,99.9571,CORRECT
+Adjectives\1. loud\MVI_9448.MOV,1. loud,1. loud,99.9360,CORRECT
+Adjectives\1. loud\MVI_9449.MOV,1. loud,1. loud,99.9463,CORRECT
+Adjectives\1. loud\MVI_9450.MOV,1. loud,1. loud,99.9453,CORRECT
+Adjectives\1. loud\MVI_9534.MOV,1. loud,1. loud,99.9404,CORRECT
+Adjectives\1. loud\MVI_9535.MOV,1. loud,1. loud,99.9632,CORRECT
+Adjectives\1. loud\MVI_9536.MOV,1. loud,1. loud,99.9641,CORRECT
+Adjectives\2. quiet\MVI_5180.MOV,2. quiet,2. quiet,99.9102,CORRECT
+Adjectives\2. quiet\MVI_5181.MOV,2. quiet,2. quiet,99.8747,CORRECT
+Adjectives\2. quiet\MVI_5182.MOV,2. quiet,2. quiet,99.9073,CORRECT
+Adjectives\2. quiet\MVI_5260.MOV,2. quiet,2. quiet,99.9286,CORRECT
+Adjectives\2. quiet\MVI_5261.MOV,2. quiet,2. quiet,99.8650,CORRECT
+Adjectives\2. quiet\MVI_5262.MOV,2. quiet,2. quiet,99.8572,CORRECT
+Adjectives\2. quiet\MVI_5338.MOV,2. quiet,2. quiet,99.9123,CORRECT
+Adjectives\2. quiet\MVI_5339.MOV,2. quiet,2. quiet,99.9094,CORRECT
+Adjectives\2. quiet\MVI_5340.MOV,2. quiet,2. quiet,99.7134,CORRECT
+Adjectives\2. quiet\MVI_9292.MOV,2. quiet,2. quiet,99.8900,CORRECT
+Adjectives\2. quiet\MVI_9293.MOV,2. quiet,2. quiet,99.6726,CORRECT
+Adjectives\2. quiet\MVI_9294.MOV,2. quiet,2. quiet,98.3386,CORRECT
+Adjectives\2. quiet\MVI_9371.MOV,2. quiet,2. quiet,99.9809,CORRECT
+Adjectives\2. quiet\MVI_9372.MOV,2. quiet,2. quiet,99.9710,CORRECT
+Adjectives\2. quiet\MVI_9373.MOV,2. quiet,2. quiet,99.9805,CORRECT
+Adjectives\2. quiet\MVI_9451.MOV,2. quiet,2. quiet,99.9102,CORRECT
+Adjectives\2. quiet\MVI_9452.MOV,2. quiet,2. quiet,99.9072,CORRECT
+Adjectives\2. quiet\MVI_9453.MOV,2. quiet,2. quiet,99.9077,CORRECT
+Adjectives\2. quiet\MVI_9537.MOV,2. quiet,2. quiet,99.7633,CORRECT
+Adjectives\2. quiet\MVI_9538.MOV,2. quiet,2. quiet,99.9228,CORRECT
+Adjectives\2. quiet\MVI_9539.MOV,2. quiet,2. quiet,99.9279,CORRECT
+Adjectives\3. happy\MVI_5183.MOV,3. happy,3. happy,96.5018,CORRECT
+Adjectives\3. happy\MVI_5184.MOV,3. happy,3. happy,92.8018,CORRECT
+Adjectives\3. happy\MVI_5185.MOV,3. happy,3. happy,98.3692,CORRECT
+Adjectives\3. happy\MVI_5263.MOV,3. happy,3. happy,93.1634,CORRECT
+Adjectives\3. happy\MVI_5264.MOV,3. happy,3. happy,98.4571,CORRECT
+Adjectives\3. happy\MVI_5265.MOV,3. happy,3. happy,99.1218,CORRECT
+Adjectives\3. happy\MVI_5341.MOV,3. happy,3. happy,98.7080,CORRECT
+Adjectives\3. happy\MVI_5342.MOV,3. happy,3. happy,90.9504,CORRECT
+Adjectives\3. happy\MVI_5343.MOV,3. happy,3. happy,98.8553,CORRECT
+Adjectives\3. happy\MVI_9295.MOV,3. happy,44. Shoes,85.4166,WRONG
+Adjectives\3. happy\MVI_9296.MOV,3. happy,3. happy,99.6124,CORRECT
+Adjectives\3. happy\MVI_9297.MOV,3. happy,3. happy,99.9281,CORRECT
+Adjectives\3. happy\MVI_9374.MOV,3. happy,3. happy,87.2053,CORRECT
+Adjectives\3. happy\MVI_9375.MOV,3. happy,3. happy,99.8244,CORRECT
+Adjectives\3. happy\MVI_9376.MOV,3. happy,3. happy,99.8409,CORRECT
+Adjectives\3. happy\MVI_9454.MOV,3. happy,3. happy,99.7595,CORRECT
+Adjectives\3. happy\MVI_9455.MOV,3. happy,3. happy,99.6970,CORRECT
+Adjectives\3. happy\MVI_9456.MOV,3. happy,3. happy,99.7327,CORRECT
+Adjectives\3. happy\MVI_9540.MOV,3. happy,3. happy,99.5121,CORRECT
+Adjectives\3. happy\MVI_9541.MOV,3. happy,3. happy,99.7249,CORRECT
+Adjectives\3. happy\MVI_9542.MOV,3. happy,3. happy,84.6180,CORRECT
+Adjectives\78. long\MVI_5106.MOV,78. long,78. long,99.9867,CORRECT
+Adjectives\78. long\MVI_5107.MOV,78. long,78. long,99.9861,CORRECT
+Adjectives\78. long\MVI_5108.MOV,78. long,78. long,99.9834,CORRECT
+Adjectives\78. long\MVI_5186.MOV,78. long,78. long,95.7470,CORRECT
+Adjectives\78. long\MVI_5187.MOV,78. long,78. long,92.7115,CORRECT
+Adjectives\78. long\MVI_5188.MOV,78. long,78. long,99.9585,CORRECT
+Adjectives\78. long\MVI_5266.MOV,78. long,78. long,97.7492,CORRECT
+Adjectives\78. long\MVI_5267.MOV,78. long,78. long,97.7255,CORRECT
+Adjectives\78. long\MVI_5268.MOV,78. long,78. long,95.2526,CORRECT
+Adjectives\78. long\MVI_9217.MOV,78. long,78. long,99.9875,CORRECT
+Adjectives\78. long\MVI_9218.MOV,78. long,78. long,99.9867,CORRECT
+Adjectives\78. long\MVI_9219.MOV,78. long,78. long,99.9927,CORRECT
+Adjectives\78. long\MVI_9298.MOV,78. long,78. long,99.9936,CORRECT
+Adjectives\78. long\MVI_9299.MOV,78. long,78. long,99.9779,CORRECT
+Adjectives\78. long\MVI_9300.MOV,78. long,78. long,99.9842,CORRECT
+Adjectives\78. long\MVI_9377.MOV,78. long,78. long,99.9936,CORRECT
+Adjectives\78. long\MVI_9378.MOV,78. long,78. long,99.9952,CORRECT
+Adjectives\78. long\MVI_9379.MOV,78. long,78. long,99.9967,CORRECT
+Adjectives\78. long\MVI_9458.MOV,78. long,78. long,99.9973,CORRECT
+Adjectives\78. long\MVI_9459.MOV,78. long,78. long,99.9974,CORRECT
+Adjectives\78. long\MVI_9460.MOV,78. long,78. long,99.9955,CORRECT
+Adjectives\79. short\MVI_5110.MOV,79. short,79. short,99.7442,CORRECT
+Adjectives\79. short\MVI_5111.MOV,79. short,79. short,88.4636,CORRECT
+Adjectives\79. short\MVI_5112.MOV,79. short,79. short,99.0220,CORRECT
+Adjectives\79. short\MVI_5189.MOV,79. short,79. short,53.6047,CORRECT
+Adjectives\79. short\MVI_5190.MOV,79. short,79. short,93.0880,CORRECT
+Adjectives\79. short\MVI_5191.MOV,79. short,84. small little,64.3577,WRONG
+Adjectives\79. short\MVI_5269.MOV,79. short,79. short,93.6709,CORRECT
+Adjectives\79. short\MVI_5270.MOV,79. short,79. short,74.5238,CORRECT
+Adjectives\79. short\MVI_5271.MOV,79. short,79. short,87.8728,CORRECT
+Adjectives\79. short\MVI_9220.MOV,79. short,79. short,98.4425,CORRECT
+Adjectives\79. short\MVI_9221.MOV,79. short,79. short,96.2216,CORRECT
+Adjectives\79. short\MVI_9222.MOV,79. short,79. short,97.4658,CORRECT
+Adjectives\79. short\MVI_9301.MOV,79. short,79. short,99.7369,CORRECT
+Adjectives\79. short\MVI_9302.MOV,79. short,79. short,99.4992,CORRECT
+Adjectives\79. short\MVI_9303.MOV,79. short,79. short,99.6728,CORRECT
+Adjectives\79. short\MVI_9380.MOV,79. short,79. short,78.9927,CORRECT
+Adjectives\79. short\MVI_9381.MOV,79. short,79. short,98.8814,CORRECT
+Adjectives\79. short\MVI_9382.MOV,79. short,79. short,98.6228,CORRECT
+Adjectives\79. short\MVI_9461.MOV,79. short,79. short,99.3072,CORRECT
+Adjectives\79. short\MVI_9462.MOV,79. short,79. short,99.6326,CORRECT
+Adjectives\79. short\MVI_9463.MOV,79. short,79. short,98.7231,CORRECT
+Adjectives\83. big large\MVI_5123.MOV,83. big large,83. big large,99.9778,CORRECT
+Adjectives\83. big large\MVI_5124.MOV,83. big large,83. big large,99.9554,CORRECT
+Adjectives\83. big large\MVI_5125.MOV,83. big large,83. big large,99.9349,CORRECT
+Adjectives\83. big large\MVI_5203.MOV,83. big large,1. loud,99.3291,WRONG
+Adjectives\83. big large\MVI_5204.MOV,83. big large,83. big large,99.9557,CORRECT
+Adjectives\83. big large\MVI_5205.MOV,83. big large,83. big large,99.9648,CORRECT
+Adjectives\83. big large\MVI_5283.MOV,83. big large,83. big large,99.8792,CORRECT
+Adjectives\83. big large\MVI_5284.MOV,83. big large,83. big large,99.9182,CORRECT
+Adjectives\83. big large\MVI_5285.MOV,83. big large,83. big large,99.9414,CORRECT
+Adjectives\83. big large\MVI_9233.MOV,83. big large,83. big large,99.9712,CORRECT
+Adjectives\83. big large\MVI_9234.MOV,83. big large,83. big large,99.9734,CORRECT
+Adjectives\83. big large\MVI_9235.MOV,83. big large,83. big large,99.9654,CORRECT
+Adjectives\83. big large\MVI_9316.MOV,83. big large,83. big large,99.9107,CORRECT
+Adjectives\83. big large\MVI_9317.MOV,83. big large,83. big large,99.9450,CORRECT
+Adjectives\83. big large\MVI_9318.MOV,83. big large,83. big large,99.9499,CORRECT
+Adjectives\83. big large\MVI_9394.MOV,83. big large,83. big large,99.9711,CORRECT
+Adjectives\83. big large\MVI_9395.MOV,83. big large,83. big large,99.9390,CORRECT
+Adjectives\83. big large\MVI_9396.MOV,83. big large,83. big large,99.9043,CORRECT
+Adjectives\83. big large\MVI_9475.MOV,83. big large,83. big large,99.9489,CORRECT
+Adjectives\83. big large\MVI_9476.MOV,83. big large,83. big large,99.9609,CORRECT
+Adjectives\83. big large\MVI_9477.MOV,83. big large,83. big large,99.9750,CORRECT
+Adjectives\84. small little\MVI_5126.MOV,84. small little,84. small little,96.2457,CORRECT
+Adjectives\84. small little\MVI_5127.MOV,84. small little,84. small little,91.6051,CORRECT
+Adjectives\84. small little\MVI_5128.MOV,84. small little,87. hot,57.3038,WRONG
+Adjectives\84. small little\MVI_5206.MOV,84. small little,84. small little,96.1228,CORRECT
+Adjectives\84. small little\MVI_5207.MOV,84. small little,84. small little,90.0994,CORRECT
+Adjectives\84. small little\MVI_5208.MOV,84. small little,84. small little,89.9849,CORRECT
+Adjectives\84. small little\MVI_5286.MOV,84. small little,84. small little,88.0211,CORRECT
+Adjectives\84. small little\MVI_5287.MOV,84. small little,84. small little,87.5235,CORRECT
+Adjectives\84. small little\MVI_5288.MOV,84. small little,79. short,72.6013,WRONG
+Adjectives\84. small little\MVI_9236.MOV,84. small little,84. small little,98.9463,CORRECT
+Adjectives\84. small little\MVI_9237.MOV,84. small little,84. small little,98.6343,CORRECT
+Adjectives\84. small little\MVI_9238.MOV,84. small little,84. small little,98.1236,CORRECT
+Adjectives\84. small little\MVI_9319.MOV,84. small little,84. small little,99.0376,CORRECT
+Adjectives\84. small little\MVI_9320.MOV,84. small little,84. small little,99.0158,CORRECT
+Adjectives\84. small little\MVI_9321.MOV,84. small little,84. small little,99.1458,CORRECT
+Adjectives\84. small little\MVI_9397.MOV,84. small little,84. small little,98.8394,CORRECT
+Adjectives\84. small little\MVI_9398.MOV,84. small little,84. small little,96.9439,CORRECT
+Adjectives\84. small little\MVI_9400.MOV,84. small little,84. small little,97.4136,CORRECT
+Adjectives\84. small little\MVI_9478.MOV,84. small little,84. small little,91.5716,CORRECT
+Adjectives\84. small little\MVI_9479.MOV,84. small little,84. small little,93.1263,CORRECT
+Adjectives\84. small little\MVI_9480.MOV,84. small little,79. short,68.4610,WRONG
+Adjectives\87. hot\MVI_5136.MOV,87. hot,87. hot,99.4787,CORRECT
+Adjectives\87. hot\MVI_5137.MOV,87. hot,87. hot,82.2135,CORRECT
+Adjectives\87. hot\MVI_5138.MOV,87. hot,87. hot,99.3486,CORRECT
+Adjectives\87. hot\MVI_5216.MOV,87. hot,87. hot,99.8827,CORRECT
+Adjectives\87. hot\MVI_5217.MOV,87. hot,87. hot,99.8978,CORRECT
+Adjectives\87. hot\MVI_5218.MOV,87. hot,87. hot,99.8987,CORRECT
+Adjectives\87. hot\MVI_5295.MOV,87. hot,87. hot,96.9280,CORRECT
+Adjectives\87. hot\MVI_5296.MOV,87. hot,87. hot,93.3334,CORRECT
+Adjectives\87. hot\MVI_5297.MOV,87. hot,87. hot,99.4569,CORRECT
+Adjectives\87. hot\MVI_9247.MOV,87. hot,87. hot,99.9862,CORRECT
+Adjectives\87. hot\MVI_9248.MOV,87. hot,87. hot,99.9859,CORRECT
+Adjectives\87. hot\MVI_9249.MOV,87. hot,87. hot,99.9857,CORRECT
+Adjectives\87. hot\MVI_9328.MOV,87. hot,87. hot,99.9332,CORRECT
+Adjectives\87. hot\MVI_9329.MOV,87. hot,87. hot,99.9420,CORRECT
+Adjectives\87. hot\MVI_9330.MOV,87. hot,87. hot,99.9336,CORRECT
+Adjectives\87. hot\MVI_9408.MOV,87. hot,87. hot,99.9568,CORRECT
+Adjectives\87. hot\MVI_9409.MOV,87. hot,87. hot,99.9134,CORRECT
+Adjectives\87. hot\MVI_9410.MOV,87. hot,87. hot,99.9729,CORRECT
+Adjectives\87. hot\MVI_9487.MOV,87. hot,87. hot,99.9715,CORRECT
+Adjectives\87. hot\MVI_9488.MOV,87. hot,87. hot,99.9806,CORRECT
+Adjectives\87. hot\MVI_9489.MOV,87. hot,87. hot,99.9826,CORRECT
+Adjectives\91. new\MVI_5148.MOV,91. new,91. new,99.6815,CORRECT
+Adjectives\91. new\MVI_5150.MOV,91. new,91. new,99.5553,CORRECT
+Adjectives\91. new\MVI_5151.MOV,91. new,91. new,99.5895,CORRECT
+Adjectives\91. new\MVI_5229.MOV,91. new,91. new,99.9451,CORRECT
+Adjectives\91. new\MVI_5230.MOV,91. new,91. new,99.9390,CORRECT
+Adjectives\91. new\MVI_5231.MOV,91. new,91. new,99.9301,CORRECT
+Adjectives\91. new\MVI_5307.MOV,91. new,91. new,99.8538,CORRECT
+Adjectives\91. new\MVI_5308.MOV,91. new,91. new,99.7918,CORRECT
+Adjectives\91. new\MVI_5309.MOV,91. new,91. new,99.8860,CORRECT
+Adjectives\91. new\MVI_9259.MOV,91. new,91. new,99.9461,CORRECT
+Adjectives\91. new\MVI_9260.MOV,91. new,91. new,99.8009,CORRECT
+Adjectives\91. new\MVI_9261.MOV,91. new,91. new,99.7404,CORRECT
+Adjectives\91. new\MVI_9340.MOV,91. new,91. new,99.9035,CORRECT
+Adjectives\91. new\MVI_9341.MOV,91. new,91. new,99.9344,CORRECT
+Adjectives\91. new\MVI_9342.MOV,91. new,77. Boy,42.2740,WRONG
+Adjectives\91. new\MVI_9421.MOV,91. new,91. new,99.8378,CORRECT
+Adjectives\91. new\MVI_9422.MOV,91. new,91. new,99.9195,CORRECT
+Adjectives\91. new\MVI_9423.MOV,91. new,91. new,99.9477,CORRECT
+Adjectives\91. new\MVI_9500.MOV,91. new,91. new,99.8869,CORRECT
+Adjectives\91. new\MVI_9501.MOV,91. new,91. new,99.9216,CORRECT
+Adjectives\91. new\MVI_9502.MOV,91. new,91. new,99.5566,CORRECT
+Adjectives\94. good\MVI_5158.MOV,94. good,94. good,95.2647,CORRECT
+Adjectives\94. good\MVI_5159.MOV,94. good,94. good,94.5252,CORRECT
+Adjectives\94. good\MVI_5160.MOV,94. good,94. good,95.9109,CORRECT
+Adjectives\94. good\MVI_5238.MOV,94. good,94. good,98.0102,CORRECT
+Adjectives\94. good\MVI_5239.MOV,94. good,94. good,98.7761,CORRECT
+Adjectives\94. good\MVI_5240.MOV,94. good,94. good,98.4231,CORRECT
+Adjectives\94. good\MVI_5316.MOV,94. good,94. good,99.1970,CORRECT
+Adjectives\94. good\MVI_5317.MOV,94. good,94. good,98.7669,CORRECT
+Adjectives\94. good\MVI_5318.MOV,94. good,94. good,98.8340,CORRECT
+Adjectives\94. good\MVI_9268.MOV,94. good,94. good,99.7993,CORRECT
+Adjectives\94. good\MVI_9269.MOV,94. good,94. good,99.4409,CORRECT
+Adjectives\94. good\MVI_9270.MOV,94. good,94. good,99.7547,CORRECT
+Adjectives\94. good\MVI_9349.MOV,94. good,94. good,97.6248,CORRECT
+Adjectives\94. good\MVI_9350.MOV,94. good,94. good,99.4219,CORRECT
+Adjectives\94. good\MVI_9351.MOV,94. good,94. good,99.7936,CORRECT
+Adjectives\94. good\MVI_9430.MOV,94. good,94. good,99.7181,CORRECT
+Adjectives\94. good\MVI_9431.MOV,94. good,94. good,99.7535,CORRECT
+Adjectives\94. good\MVI_9432.MOV,94. good,94. good,99.7009,CORRECT
+Adjectives\94. good\MVI_9510.MOV,94. good,94. good,99.8452,CORRECT
+Adjectives\94. good\MVI_9511.MOV,94. good,94. good,99.8718,CORRECT
+Adjectives\94. good\MVI_9512.MOV,94. good,94. good,99.8541,CORRECT
+Adjectives\97. dry\MVI_5167.MOV,97. dry,97. dry,99.2800,CORRECT
+Adjectives\97. dry\MVI_5168.MOV,97. dry,97. dry,99.9785,CORRECT
+Adjectives\97. dry\MVI_5169.MOV,97. dry,97. dry,99.9401,CORRECT
+Adjectives\97. dry\MVI_5248.MOV,97. dry,97. dry,99.9845,CORRECT
+Adjectives\97. dry\MVI_5249.MOV,97. dry,97. dry,99.9763,CORRECT
+Adjectives\97. dry\MVI_5250.MOV,97. dry,97. dry,99.9847,CORRECT
+Adjectives\97. dry\MVI_5326.MOV,97. dry,97. dry,99.9445,CORRECT
+Adjectives\97. dry\MVI_5327.MOV,97. dry,97. dry,99.8157,CORRECT
+Adjectives\97. dry\MVI_5328.MOV,97. dry,97. dry,99.9180,CORRECT
+Adjectives\97. dry\MVI_9277.MOV,97. dry,97. dry,99.6226,CORRECT
+Adjectives\97. dry\MVI_9278.MOV,97. dry,97. dry,98.1641,CORRECT
+Adjectives\97. dry\MVI_9279.MOV,97. dry,97. dry,99.9762,CORRECT
+Adjectives\97. dry\MVI_9359.MOV,97. dry,97. dry,99.9950,CORRECT
+Adjectives\97. dry\MVI_9360.MOV,97. dry,97. dry,99.9896,CORRECT
+Adjectives\97. dry\MVI_9361.MOV,97. dry,97. dry,99.5979,CORRECT
+Adjectives\97. dry\MVI_9439.MOV,97. dry,97. dry,99.9901,CORRECT
+Adjectives\97. dry\MVI_9440.MOV,97. dry,97. dry,99.9899,CORRECT
+Adjectives\97. dry\MVI_9441.MOV,97. dry,97. dry,99.9916,CORRECT
+Adjectives\97. dry\MVI_9521.MOV,97. dry,97. dry,99.9939,CORRECT
+Adjectives\97. dry\MVI_9522.MOV,97. dry,97. dry,99.9944,CORRECT
+Adjectives\97. dry\MVI_9523.MOV,97. dry,97. dry,99.9937,CORRECT
+Animals\1. Dog\MVI_2978.MOV,1. Dog,1. Dog,99.9838,CORRECT
+Animals\1. Dog\MVI_2979.MOV,1. Dog,1. Dog,99.9851,CORRECT
+Animals\1. Dog\MVI_2980.MOV,1. Dog,1. Dog,99.3586,CORRECT
+Animals\1. Dog\MVI_3002.MOV,1. Dog,1. Dog,99.9988,CORRECT
+Animals\1. Dog\MVI_3003.MOV,1. Dog,1. Dog,99.9980,CORRECT
+Animals\1. Dog\MVI_3004.MOV,1. Dog,1. Dog,99.9990,CORRECT
+Animals\1. Dog\MVI_3028.MOV,1. Dog,1. Dog,99.9992,CORRECT
+Animals\1. Dog\MVI_3029.MOV,1. Dog,1. Dog,99.9989,CORRECT
+Animals\1. Dog\MVI_3030.MOV,1. Dog,1. Dog,99.9986,CORRECT
+Animals\1. Dog\MVI_3059.MOV,1. Dog,1. Dog,99.9982,CORRECT
+Animals\1. Dog\MVI_3060.MOV,1. Dog,1. Dog,99.9985,CORRECT
+Animals\1. Dog\MVI_3061.MOV,1. Dog,1. Dog,99.9973,CORRECT
+Animals\1. Dog\MVI_3085.MOV,1. Dog,1. Dog,99.8540,CORRECT
+Animals\1. Dog\MVI_3086.MOV,1. Dog,1. Dog,99.9987,CORRECT
+Animals\1. Dog\MVI_3087.MOV,1. Dog,1. Dog,99.9984,CORRECT
+Animals\1. Dog\MVI_4146.MOV,1. Dog,1. Dog,99.9139,CORRECT
+Animals\1. Dog\MVI_4147.MOV,1. Dog,1. Dog,99.9697,CORRECT
+Animals\1. Dog\MVI_4148.MOV,1. Dog,1. Dog,99.1576,CORRECT
+Animals\1. Dog\MVI_8560.MP4,1. Dog,1. Dog,99.9990,CORRECT
+Animals\1. Dog\MVI_8561.MP4,1. Dog,1. Dog,99.9988,CORRECT
+Animals\4. Bird\MVI_2987.MOV,4. Bird,4. Bird,99.9921,CORRECT
+Animals\4. Bird\MVI_2988.MOV,4. Bird,4. Bird,99.9921,CORRECT
+Animals\4. Bird\MVI_2989.MOV,4. Bird,4. Bird,99.9899,CORRECT
+Animals\4. Bird\MVI_3011.MOV,4. Bird,4. Bird,99.9953,CORRECT
+Animals\4. Bird\MVI_3012.MOV,4. Bird,4. Bird,99.9939,CORRECT
+Animals\4. Bird\MVI_3013.MOV,4. Bird,4. Bird,99.9882,CORRECT
+Animals\4. Bird\MVI_3037.MOV,4. Bird,4. Bird,99.9979,CORRECT
+Animals\4. Bird\MVI_3038.MOV,4. Bird,4. Bird,99.9969,CORRECT
+Animals\4. Bird\MVI_3040.MOV,4. Bird,4. Bird,99.9973,CORRECT
+Animals\4. Bird\MVI_3070.MOV,4. Bird,4. Bird,99.9976,CORRECT
+Animals\4. Bird\MVI_3071.MOV,4. Bird,4. Bird,99.9973,CORRECT
+Animals\4. Bird\MVI_3072.MOV,4. Bird,4. Bird,99.9972,CORRECT
+Animals\4. Bird\MVI_3094.MOV,4. Bird,4. Bird,99.9977,CORRECT
+Animals\4. Bird\MVI_3095.MOV,4. Bird,4. Bird,99.9970,CORRECT
+Animals\4. Bird\MVI_3096.MOV,4. Bird,4. Bird,99.9974,CORRECT
+Animals\4. Bird\MVI_4155.MOV,4. Bird,4. Bird,99.9179,CORRECT
+Animals\4. Bird\MVI_4156.MOV,4. Bird,4. Bird,99.9210,CORRECT
+Animals\4. Bird\MVI_4157.MOV,4. Bird,4. Bird,99.8708,CORRECT
+Animals\4. Bird\MVI_8567.MP4,4. Bird,4. Bird,99.9912,CORRECT
+Animals\4. Bird\MVI_8568.MP4,4. Bird,4. Bird,99.9699,CORRECT
+Animals\5. Cow\MVI_2990.MOV,5. Cow,5. Cow,99.9987,CORRECT
+Animals\5. Cow\MVI_2991.MOV,5. Cow,5. Cow,99.9958,CORRECT
+Animals\5. Cow\MVI_2992.MOV,5. Cow,5. Cow,99.9993,CORRECT
+Animals\5. Cow\MVI_3015.MOV,5. Cow,5. Cow,99.9995,CORRECT
+Animals\5. Cow\MVI_3016.MOV,5. Cow,5. Cow,99.9991,CORRECT
+Animals\5. Cow\MVI_3017.MOV,5. Cow,5. Cow,99.9989,CORRECT
+Animals\5. Cow\MVI_3046.MOV,5. Cow,5. Cow,99.9995,CORRECT
+Animals\5. Cow\MVI_3047.MOV,5. Cow,5. Cow,99.9994,CORRECT
+Animals\5. Cow\MVI_3048.MOV,5. Cow,5. Cow,99.9992,CORRECT
+Animals\5. Cow\MVI_3049.MOV,5. Cow,5. Cow,99.9995,CORRECT
+Animals\5. Cow\MVI_3073.MOV,5. Cow,5. Cow,99.9993,CORRECT
+Animals\5. Cow\MVI_3074.MOV,5. Cow,5. Cow,99.9994,CORRECT
+Animals\5. Cow\MVI_3075.MOV,5. Cow,5. Cow,99.9990,CORRECT
+Animals\5. Cow\MVI_3097.MOV,5. Cow,5. Cow,99.9986,CORRECT
+Animals\5. Cow\MVI_3098.MOV,5. Cow,5. Cow,99.9991,CORRECT
+Animals\5. Cow\MVI_3099.MOV,5. Cow,5. Cow,99.9995,CORRECT
+Animals\5. Cow\MVI_4158.MOV,5. Cow,5. Cow,99.9951,CORRECT
+Animals\5. Cow\MVI_4159.MOV,5. Cow,5. Cow,99.9916,CORRECT
+Animals\5. Cow\MVI_4160.MOV,5. Cow,5. Cow,99.9900,CORRECT
+Animals\5. Cow\MVI_8569.MP4,5. Cow,5. Cow,99.9994,CORRECT
+Animals\5. Cow\MVI_8570.MP4,5. Cow,5. Cow,99.9996,CORRECT
+Clothes\37. Hat\MVI_3688.MOV,37. Hat,37. Hat,99.9486,CORRECT
+Clothes\37. Hat\MVI_3690.MOV,37. Hat,37. Hat,99.7974,CORRECT
+Clothes\37. Hat\MVI_3691.MOV,37. Hat,37. Hat,99.9479,CORRECT
+Clothes\37. Hat\MVI_3835.MOV,37. Hat,37. Hat,99.8414,CORRECT
+Clothes\37. Hat\MVI_3836.MOV,37. Hat,37. Hat,98.6215,CORRECT
+Clothes\37. Hat\MVI_3837.MOV,37. Hat,37. Hat,99.9530,CORRECT
+Clothes\37. Hat\MVI_3984.MOV,37. Hat,37. Hat,99.7824,CORRECT
+Clothes\37. Hat\MVI_3985.MOV,37. Hat,37. Hat,99.9515,CORRECT
+Clothes\37. Hat\MVI_3986.MOV,37. Hat,37. Hat,99.9326,CORRECT
+Clothes\37. Hat\MVI_4197.MOV,37. Hat,37. Hat,99.9427,CORRECT
+Clothes\37. Hat\MVI_4865.MOV,37. Hat,37. Hat,99.8681,CORRECT
+Clothes\37. Hat\MVI_4866.MOV,37. Hat,37. Hat,99.8909,CORRECT
+Clothes\37. Hat\MVI_4867.MOV,37. Hat,37. Hat,99.9267,CORRECT
+Clothes\37. Hat\MVI_5006.MOV,37. Hat,37. Hat,99.9234,CORRECT
+Clothes\37. Hat\MVI_5007.MOV,37. Hat,37. Hat,99.9407,CORRECT
+Clothes\37. Hat\MVI_5008.MOV,37. Hat,37. Hat,99.8997,CORRECT
+Clothes\37. Hat\MVI_5154.MOV,37. Hat,37. Hat,99.9288,CORRECT
+Clothes\37. Hat\MVI_5155.MOV,37. Hat,37. Hat,99.9242,CORRECT
+Clothes\37. Hat\MVI_5156.MOV,37. Hat,37. Hat,99.9510,CORRECT
+Clothes\37. Hat\MVI_8600.MP4,37. Hat,54. Black,67.6461,WRONG
+Clothes\42. T-Shirt\MVI_3704.MOV,42. T-Shirt,44. Shoes,98.3453,WRONG
+Clothes\42. T-Shirt\MVI_3705.MOV,42. T-Shirt,42. T-Shirt,99.9132,CORRECT
+Clothes\42. T-Shirt\MVI_3706.MOV,42. T-Shirt,42. T-Shirt,99.9407,CORRECT
+Clothes\42. T-Shirt\MVI_3850.MOV,42. T-Shirt,42. T-Shirt,99.9816,CORRECT
+Clothes\42. T-Shirt\MVI_3851.MOV,42. T-Shirt,42. T-Shirt,99.9710,CORRECT
+Clothes\42. T-Shirt\MVI_3852.MOV,42. T-Shirt,42. T-Shirt,99.9851,CORRECT
+Clothes\42. T-Shirt\MVI_4002.MOV,42. T-Shirt,42. T-Shirt,99.9671,CORRECT
+Clothes\42. T-Shirt\MVI_4003.MOV,42. T-Shirt,42. T-Shirt,99.9641,CORRECT
+Clothes\42. T-Shirt\MVI_4004.MOV,42. T-Shirt,42. T-Shirt,99.9678,CORRECT
+Clothes\42. T-Shirt\MVI_4202.MOV,42. T-Shirt,42. T-Shirt,99.7545,CORRECT
+Clothes\42. T-Shirt\MVI_4881.MOV,42. T-Shirt,42. T-Shirt,55.9788,CORRECT
+Clothes\42. T-Shirt\MVI_4882.MOV,42. T-Shirt,42. T-Shirt,96.7670,CORRECT
+Clothes\42. T-Shirt\MVI_4883.MOV,42. T-Shirt,42. T-Shirt,98.7848,CORRECT
+Clothes\42. T-Shirt\MVI_5021.MOV,42. T-Shirt,42. T-Shirt,99.7993,CORRECT
+Clothes\42. T-Shirt\MVI_5022.MOV,42. T-Shirt,42. T-Shirt,81.6621,CORRECT
+Clothes\42. T-Shirt\MVI_5023.MOV,42. T-Shirt,42. T-Shirt,96.4313,CORRECT
+Clothes\42. T-Shirt\MVI_5169.MOV,42. T-Shirt,42. T-Shirt,90.3753,CORRECT
+Clothes\42. T-Shirt\MVI_5170.MOV,42. T-Shirt,42. T-Shirt,99.9309,CORRECT
+Clothes\42. T-Shirt\MVI_5171.MOV,42. T-Shirt,42. T-Shirt,99.5899,CORRECT
+Clothes\42. T-Shirt\MVI_8606.MP4,42. T-Shirt,42. T-Shirt,99.9718,CORRECT
+Clothes\44. Shoes\MVI_3710.MOV,44. Shoes,44. Shoes,99.7212,CORRECT
+Clothes\44. Shoes\MVI_3711.MOV,44. Shoes,44. Shoes,99.8128,CORRECT
+Clothes\44. Shoes\MVI_3712.MOV,44. Shoes,44. Shoes,99.8691,CORRECT
+Clothes\44. Shoes\MVI_3856.MOV,44. Shoes,44. Shoes,99.9589,CORRECT
+Clothes\44. Shoes\MVI_3857.MOV,44. Shoes,44. Shoes,99.9819,CORRECT
+Clothes\44. Shoes\MVI_3858.MOV,44. Shoes,44. Shoes,99.9408,CORRECT
+Clothes\44. Shoes\MVI_4008.MOV,44. Shoes,44. Shoes,98.8473,CORRECT
+Clothes\44. Shoes\MVI_4009.MOV,44. Shoes,44. Shoes,99.3014,CORRECT
+Clothes\44. Shoes\MVI_4010.MOV,44. Shoes,44. Shoes,99.8886,CORRECT
+Clothes\44. Shoes\MVI_4204.MOV,44. Shoes,44. Shoes,99.9024,CORRECT
+Clothes\44. Shoes\MVI_4887.MOV,44. Shoes,44. Shoes,99.9205,CORRECT
+Clothes\44. Shoes\MVI_4888.MOV,44. Shoes,44. Shoes,99.9492,CORRECT
+Clothes\44. Shoes\MVI_4889.MOV,44. Shoes,44. Shoes,99.9471,CORRECT
+Clothes\44. Shoes\MVI_5028.MOV,44. Shoes,44. Shoes,99.8870,CORRECT
+Clothes\44. Shoes\MVI_5029.MOV,44. Shoes,44. Shoes,99.9616,CORRECT
+Clothes\44. Shoes\MVI_5030.MOV,44. Shoes,44. Shoes,99.8625,CORRECT
+Clothes\44. Shoes\MVI_5175.MOV,44. Shoes,44. Shoes,99.9448,CORRECT
+Clothes\44. Shoes\MVI_5176.MOV,44. Shoes,44. Shoes,99.8889,CORRECT
+Clothes\44. Shoes\MVI_5177.MOV,44. Shoes,44. Shoes,76.0837,CORRECT
+Clothes\44. Shoes\MVI_8608.MP4,44. Shoes,44. Shoes,99.9468,CORRECT
+Colours\47. Red\MVI_3719.MOV,47. Red,47. Red,94.4186,CORRECT
+Colours\47. Red\MVI_3720.MOV,47. Red,47. Red,89.8597,CORRECT
+Colours\47. Red\MVI_3721.MOV,47. Red,47. Red,93.4432,CORRECT
+Colours\47. Red\MVI_3866.MOV,47. Red,47. Red,77.2183,CORRECT
+Colours\47. Red\MVI_3867.MOV,47. Red,47. Red,91.3898,CORRECT
+Colours\47. Red\MVI_3868.MOV,47. Red,47. Red,88.5766,CORRECT
+Colours\47. Red\MVI_4017.MOV,47. Red,47. Red,56.2669,CORRECT
+Colours\47. Red\MVI_4018.MOV,47. Red,47. Red,92.3262,CORRECT
+Colours\47. Red\MVI_4019.MOV,47. Red,47. Red,83.4512,CORRECT
+Colours\47. Red\MVI_4207.MOV,47. Red,34. Pen,63.8360,WRONG
+Colours\47. Red\MVI_4897.MOV,47. Red,47. Red,97.9448,CORRECT
+Colours\47. Red\MVI_4898.MOV,47. Red,47. Red,98.0743,CORRECT
+Colours\47. Red\MVI_4899.MOV,47. Red,47. Red,98.6254,CORRECT
+Colours\47. Red\MVI_5037.MOV,47. Red,47. Red,93.2717,CORRECT
+Colours\47. Red\MVI_5038.MOV,47. Red,47. Red,77.2167,CORRECT
+Colours\47. Red\MVI_5039.MOV,47. Red,47. Red,98.5575,CORRECT
+Colours\47. Red\MVI_5184.MOV,47. Red,47. Red,97.9907,CORRECT
+Colours\47. Red\MVI_5185.MOV,47. Red,47. Red,95.3205,CORRECT
+Colours\47. Red\MVI_5186.MOV,47. Red,47. Red,95.1448,CORRECT
+Colours\47. Red\MVI_8612.MP4,47. Red,47. Red,98.4553,CORRECT
+Colours\54. Black\MVI_3740.MOV,54. Black,54. Black,99.8354,CORRECT
+Colours\54. Black\MVI_3741.MOV,54. Black,54. Black,99.8693,CORRECT
+Colours\54. Black\MVI_3742.MOV,54. Black,54. Black,99.7822,CORRECT
+Colours\54. Black\MVI_3887.MOV,54. Black,54. Black,99.9013,CORRECT
+Colours\54. Black\MVI_3888.MOV,54. Black,54. Black,99.8688,CORRECT
+Colours\54. Black\MVI_3889.MOV,54. Black,54. Black,99.5515,CORRECT
+Colours\54. Black\MVI_4039.MOV,54. Black,54. Black,99.8168,CORRECT
+Colours\54. Black\MVI_4040.MOV,54. Black,54. Black,99.6591,CORRECT
+Colours\54. Black\MVI_4041.MOV,54. Black,54. Black,99.7937,CORRECT
+Colours\54. Black\MVI_4215.MOV,54. Black,54. Black,99.7338,CORRECT
+Colours\54. Black\MVI_4918.MOV,54. Black,54. Black,96.5307,CORRECT
+Colours\54. Black\MVI_4919.MOV,54. Black,54. Black,98.8558,CORRECT
+Colours\54. Black\MVI_4920.MOV,54. Black,54. Black,98.7475,CORRECT
+Colours\54. Black\MVI_5058.MOV,54. Black,54. Black,99.1867,CORRECT
+Colours\54. Black\MVI_5059.MOV,54. Black,54. Black,98.9586,CORRECT
+Colours\54. Black\MVI_5060.MOV,54. Black,54. Black,98.9870,CORRECT
+Colours\54. Black\MVI_5206.MOV,54. Black,54. Black,99.7132,CORRECT
+Colours\54. Black\MVI_5207.MOV,54. Black,54. Black,99.8615,CORRECT
+Colours\54. Black\MVI_5208.MOV,54. Black,54. Black,99.8817,CORRECT
+Colours\54. Black\MVI_8619.MP4,54. Black,34. Pen,97.8217,WRONG
+Colours\55. White\MVI_3743.MOV,55. White,55. White,98.6064,CORRECT
+Colours\55. White\MVI_3744.MOV,55. White,55. White,99.1897,CORRECT
+Colours\55. White\MVI_3745.MOV,55. White,55. White,98.3989,CORRECT
+Colours\55. White\MVI_3890.MOV,55. White,55. White,97.5390,CORRECT
+Colours\55. White\MVI_3891.MOV,55. White,55. White,98.2150,CORRECT
+Colours\55. White\MVI_3892.MOV,55. White,55. White,98.6966,CORRECT
+Colours\55. White\MVI_4042.MOV,55. White,55. White,98.7838,CORRECT
+Colours\55. White\MVI_4043.MOV,55. White,55. White,98.2536,CORRECT
+Colours\55. White\MVI_4044.MOV,55. White,55. White,75.0212,CORRECT
+Colours\55. White\MVI_4216.MOV,55. White,55. White,97.7204,CORRECT
+Colours\55. White\MVI_4921.MOV,55. White,55. White,98.4934,CORRECT
+Colours\55. White\MVI_4922.MOV,55. White,55. White,98.5552,CORRECT
+Colours\55. White\MVI_4923.MOV,55. White,55. White,98.9841,CORRECT
+Colours\55. White\MVI_5061.MOV,55. White,55. White,98.5856,CORRECT
+Colours\55. White\MVI_5062.MOV,55. White,55. White,98.3344,CORRECT
+Colours\55. White\MVI_5063.MOV,55. White,55. White,98.6289,CORRECT
+Colours\55. White\MVI_5209.MOV,55. White,55. White,95.4367,CORRECT
+Colours\55. White\MVI_5210.MOV,55. White,55. White,97.7859,CORRECT
+Colours\55. White\MVI_5211.MOV,55. White,55. White,98.5404,CORRECT
+Colours\55. White\MVI_8620.MP4,55. White,55. White,99.0248,CORRECT
+Days_and_Time\67. Monday\MVI_4591.MOV,67. Monday,67. Monday,99.9895,CORRECT
+Days_and_Time\67. Monday\MVI_4592.MOV,67. Monday,67. Monday,99.9880,CORRECT
+Days_and_Time\67. Monday\MVI_4593.MOV,67. Monday,67. Monday,99.9660,CORRECT
+Days_and_Time\67. Monday\MVI_4594.MOV,67. Monday,67. Monday,99.9821,CORRECT
+Days_and_Time\67. Monday\MVI_5009.MOV,67. Monday,67. Monday,99.9850,CORRECT
+Days_and_Time\67. Monday\MVI_5010.MOV,67. Monday,67. Monday,99.9923,CORRECT
+Days_and_Time\67. Monday\MVI_5011.MOV,67. Monday,67. Monday,99.9889,CORRECT
+Days_and_Time\67. Monday\MVI_5446.MOV,67. Monday,67. Monday,99.9966,CORRECT
+Days_and_Time\67. Monday\MVI_5447.MOV,67. Monday,67. Monday,99.9961,CORRECT
+Days_and_Time\67. Monday\MVI_5448.MOV,67. Monday,67. Monday,99.9944,CORRECT
+Days_and_Time\67. Monday\MVI_5449.MOV,67. Monday,67. Monday,99.9963,CORRECT
+Days_and_Time\67. Monday\MVI_9142.MP4,67. Monday,67. Monday,99.9725,CORRECT
+Days_and_Time\67. Monday\MVI_9143.MP4,67. Monday,67. Monday,99.9512,CORRECT
+Days_and_Time\67. Monday\MVI_9144.MP4,67. Monday,67. Monday,99.9777,CORRECT
+Days_and_Time\78. Year\MVI_4635.MOV,78. Year,78. Year,99.9716,CORRECT
+Days_and_Time\78. Year\MVI_4636.MOV,78. Year,78. Year,99.9642,CORRECT
+Days_and_Time\78. Year\MVI_4637.MOV,78. Year,78. Year,99.9716,CORRECT
+Days_and_Time\78. Year\MVI_4638.MOV,78. Year,78. Year,99.9256,CORRECT
+Days_and_Time\78. Year\MVI_5047.MOV,78. Year,78. Year,99.2670,CORRECT
+Days_and_Time\78. Year\MVI_5048.MOV,78. Year,78. Year,99.9190,CORRECT
+Days_and_Time\78. Year\MVI_5049.MOV,78. Year,78. Year,99.8655,CORRECT
+Days_and_Time\78. Year\MVI_5491.MOV,78. Year,78. Year,99.9335,CORRECT
+Days_and_Time\78. Year\MVI_5492.MOV,78. Year,78. Year,99.9561,CORRECT
+Days_and_Time\78. Year\MVI_5493.MOV,78. Year,78. Year,98.7136,CORRECT
+Days_and_Time\78. Year\MVI_5494.MOV,78. Year,78. Year,99.9503,CORRECT
+Days_and_Time\78. Year\MVI_9175.MP4,78. Year,78. Year,99.9040,CORRECT
+Days_and_Time\78. Year\MVI_9176.MP4,78. Year,78. Year,99.7991,CORRECT
+Days_and_Time\78. Year\MVI_9177.MP4,78. Year,78. Year,99.9291,CORRECT
+Days_and_Time\78. Year\MVI_9178.MP4,78. Year,78. Year,99.8585,CORRECT
+Days_and_Time\86. Time\MVI_4667.MOV,86. Time,86. Time,99.9930,CORRECT
+Days_and_Time\86. Time\MVI_4668.MOV,86. Time,86. Time,99.9960,CORRECT
+Days_and_Time\86. Time\MVI_4669.MOV,86. Time,86. Time,99.9724,CORRECT
+Days_and_Time\86. Time\MVI_4670.MOV,86. Time,86. Time,99.9810,CORRECT
+Days_and_Time\86. Time\MVI_5077.MOV,86. Time,86. Time,99.9918,CORRECT
+Days_and_Time\86. Time\MVI_5078.MOV,86. Time,86. Time,99.9923,CORRECT
+Days_and_Time\86. Time\MVI_5079.MOV,86. Time,86. Time,99.9898,CORRECT
+Days_and_Time\86. Time\MVI_5524.MOV,86. Time,86. Time,99.9948,CORRECT
+Days_and_Time\86. Time\MVI_5525.MOV,86. Time,86. Time,99.9968,CORRECT
+Days_and_Time\86. Time\MVI_5526.MOV,86. Time,86. Time,99.9969,CORRECT
+Days_and_Time\86. Time\MVI_5527.MOV,86. Time,86. Time,99.9963,CORRECT
+Days_and_Time\86. Time\MVI_9201.MP4,86. Time,86. Time,99.9907,CORRECT
+Days_and_Time\86. Time\MVI_9202.MP4,86. Time,86. Time,99.9862,CORRECT
+Days_and_Time\86. Time\MVI_9203.MP4,86. Time,86. Time,99.9902,CORRECT
+Days_and_Time\86. Time\MVI_9204.MP4,86. Time,86. Time,99.9872,CORRECT
+Electronics\53. Fan\MVI_4532.MOV,53. Fan,53. Fan,99.7595,CORRECT
+Electronics\53. Fan\MVI_4533.MOV,53. Fan,61. Summer,70.3055,WRONG
+Electronics\53. Fan\MVI_4534.MOV,53. Fan,53. Fan,99.7447,CORRECT
+Electronics\53. Fan\MVI_4535.MOV,53. Fan,53. Fan,62.2860,CORRECT
+Electronics\53. Fan\MVI_4536.MOV,53. Fan,53. Fan,99.7065,CORRECT
+Electronics\53. Fan\MVI_4964.MOV,53. Fan,53. Fan,99.7066,CORRECT
+Electronics\53. Fan\MVI_4965.MOV,53. Fan,53. Fan,99.8111,CORRECT
+Electronics\53. Fan\MVI_4966.MOV,53. Fan,53. Fan,99.6623,CORRECT
+Electronics\53. Fan\MVI_5387.MOV,53. Fan,53. Fan,99.1352,CORRECT
+Electronics\53. Fan\MVI_5388.MOV,53. Fan,53. Fan,99.7939,CORRECT
+Electronics\53. Fan\MVI_5389.MOV,53. Fan,53. Fan,99.1870,CORRECT
+Electronics\53. Fan\MVI_5390.MOV,53. Fan,53. Fan,99.7087,CORRECT
+Electronics\53. Fan\MVI_9097.MP4,53. Fan,53. Fan,99.7902,CORRECT
+Electronics\53. Fan\MVI_9098.MP4,53. Fan,53. Fan,99.8444,CORRECT
+Electronics\53. Fan\MVI_9099.MP4,53. Fan,53. Fan,99.4515,CORRECT
+Electronics\54. Cell phone\MVI_4537.MOV,54. Cell phone,54. Cell phone,99.9336,CORRECT
+Electronics\54. Cell phone\MVI_4538.MOV,54. Cell phone,54. Cell phone,99.9347,CORRECT
+Electronics\54. Cell phone\MVI_4539.MOV,54. Cell phone,54. Cell phone,99.8955,CORRECT
+Electronics\54. Cell phone\MVI_4540.MOV,54. Cell phone,54. Cell phone,99.9125,CORRECT
+Electronics\54. Cell phone\MVI_4967.MOV,54. Cell phone,53. Fan,98.6031,WRONG
+Electronics\54. Cell phone\MVI_4968.MOV,54. Cell phone,54. Cell phone,68.3186,CORRECT
+Electronics\54. Cell phone\MVI_4969.MOV,54. Cell phone,54. Cell phone,99.6373,CORRECT
+Electronics\54. Cell phone\MVI_5391.MOV,54. Cell phone,54. Cell phone,99.8531,CORRECT
+Electronics\54. Cell phone\MVI_5392.MOV,54. Cell phone,54. Cell phone,99.8869,CORRECT
+Electronics\54. Cell phone\MVI_5393.MOV,54. Cell phone,54. Cell phone,53.3998,CORRECT
+Electronics\54. Cell phone\MVI_5394.MOV,54. Cell phone,54. Cell phone,99.8713,CORRECT
+Electronics\54. Cell phone\MVI_9100.MP4,54. Cell phone,54. Cell phone,99.9181,CORRECT
+Electronics\54. Cell phone\MVI_9101.MP4,54. Cell phone,54. Cell phone,99.8927,CORRECT
+Electronics\54. Cell phone\MVI_9102.MP4,54. Cell phone,54. Cell phone,99.9025,CORRECT
+Greetings\48. Hello\MVI_0029.MOV,48. Hello,48. Hello,98.3610,CORRECT
+Greetings\48. Hello\MVI_0030.MOV,48. Hello,48. Hello,99.0447,CORRECT
+Greetings\48. Hello\MVI_0031.MOV,48. Hello,48. Hello,98.8516,CORRECT
+Greetings\48. Hello\MVI_0032.MOV,48. Hello,48. Hello,98.7722,CORRECT
+Greetings\48. Hello\MVI_0037.MOV,48. Hello,48. Hello,99.0796,CORRECT
+Greetings\48. Hello\MVI_0038.MOV,48. Hello,48. Hello,98.2663,CORRECT
+Greetings\48. Hello\MVI_0039.MOV,48. Hello,48. Hello,99.2176,CORRECT
+Greetings\48. Hello\MVI_0089.MOV,48. Hello,48. Hello,98.0285,CORRECT
+Greetings\48. Hello\MVI_0090.MOV,48. Hello,48. Hello,94.0743,CORRECT
+Greetings\48. Hello\MVI_0091.MOV,48. Hello,48. Hello,95.5795,CORRECT
+Greetings\48. Hello\MVI_9914.MOV,48. Hello,48. Hello,98.5395,CORRECT
+Greetings\48. Hello\MVI_9915.MOV,48. Hello,48. Hello,97.8663,CORRECT
+Greetings\48. Hello\MVI_9916.MOV,48. Hello,48. Hello,98.5912,CORRECT
+Greetings\48. Hello\MVI_9917.MOV,48. Hello,48. Hello,98.7015,CORRECT
+Greetings\48. Hello\MVI_9954.MOV,48. Hello,48. Hello,99.0721,CORRECT
+Greetings\48. Hello\MVI_9955.MOV,48. Hello,48. Hello,98.3870,CORRECT
+Greetings\48. Hello\MVI_9956.MOV,48. Hello,48. Hello,95.9662,CORRECT
+Greetings\48. Hello\MVI_9957.MOV,48. Hello,48. Hello,91.5145,CORRECT
+Greetings\48. Hello\MVI_9982.MOV,48. Hello,48. Hello,97.6328,CORRECT
+Greetings\48. Hello\MVI_9983.MOV,48. Hello,48. Hello,97.5886,CORRECT
+Greetings\48. Hello\MVI_9984.MOV,48. Hello,48. Hello,91.3324,CORRECT
+Greetings\51. Good Morning\MVI_0042.MOV,51. Good Morning,51. Good Morning,99.6506,CORRECT
+Greetings\51. Good Morning\MVI_0043.MOV,51. Good Morning,51. Good Morning,99.6126,CORRECT
+Greetings\51. Good Morning\MVI_0044.MOV,51. Good Morning,51. Good Morning,99.6118,CORRECT
+Greetings\51. Good Morning\MVI_0045.MOV,51. Good Morning,51. Good Morning,99.5694,CORRECT
+Greetings\51. Good Morning\MVI_0046.MOV,51. Good Morning,51. Good Morning,99.4892,CORRECT
+Greetings\51. Good Morning\MVI_0047.MOV,51. Good Morning,51. Good Morning,99.6020,CORRECT
+Greetings\51. Good Morning\MVI_0048.MOV,51. Good Morning,66. Brother,39.8390,WRONG
+Greetings\51. Good Morning\MVI_0098.MOV,51. Good Morning,51. Good Morning,49.2597,CORRECT
+Greetings\51. Good Morning\MVI_0099.MOV,51. Good Morning,51. Good Morning,99.5728,CORRECT
+Greetings\51. Good Morning\MVI_0100.MOV,51. Good Morning,51. Good Morning,99.5553,CORRECT
+Greetings\51. Good Morning\MVI_9932.MOV,51. Good Morning,51. Good Morning,98.7838,CORRECT
+Greetings\51. Good Morning\MVI_9933.MOV,51. Good Morning,51. Good Morning,99.5762,CORRECT
+Greetings\51. Good Morning\MVI_9934.MOV,51. Good Morning,51. Good Morning,99.4083,CORRECT
+Greetings\51. Good Morning\MVI_9935.MOV,51. Good Morning,51. Good Morning,99.7252,CORRECT
+Greetings\51. Good Morning\MVI_9968.MOV,51. Good Morning,51. Good Morning,98.9606,CORRECT
+Greetings\51. Good Morning\MVI_9969.MOV,51. Good Morning,51. Good Morning,98.1524,CORRECT
+Greetings\51. Good Morning\MVI_9970.MOV,51. Good Morning,51. Good Morning,89.9045,CORRECT
+Greetings\51. Good Morning\MVI_9971.MOV,51. Good Morning,51. Good Morning,98.7914,CORRECT
+Greetings\51. Good Morning\MVI_9991.MOV,51. Good Morning,51. Good Morning,99.4527,CORRECT
+Greetings\51. Good Morning\MVI_9992.MOV,51. Good Morning,51. Good Morning,99.5355,CORRECT
+Greetings\51. Good Morning\MVI_9993.MOV,51. Good Morning,51. Good Morning,99.6459,CORRECT
+Greetings\55. Thank you\MVI_0006.MOV,55. Thank you,55. Thank you,99.9806,CORRECT
+Greetings\55. Thank you\MVI_0007.MOV,55. Thank you,55. Thank you,99.9809,CORRECT
+Greetings\55. Thank you\MVI_0008.MOV,55. Thank you,55. Thank you,99.9785,CORRECT
+Greetings\55. Thank you\MVI_0058.MOV,55. Thank you,55. Thank you,99.9820,CORRECT
+Greetings\55. Thank you\MVI_0059.MOV,55. Thank you,55. Thank you,99.9862,CORRECT
+Greetings\55. Thank you\MVI_0060.MOV,55. Thank you,55. Thank you,99.9893,CORRECT
+Greetings\55. Thank you\MVI_0060_.MOV,55. Thank you,55. Thank you,99.9889,CORRECT
+Greetings\55. Thank you\MVI_0061.MOV,55. Thank you,55. Thank you,99.9767,CORRECT
+Greetings\55. Thank you\MVI_0062.MOV,55. Thank you,55. Thank you,99.9859,CORRECT
+Greetings\55. Thank you\MVI_0063.MOV,55. Thank you,55. Thank you,99.9867,CORRECT
+Greetings\55. Thank you\MVI_0111.MOV,55. Thank you,55. Thank you,99.9928,CORRECT
+Greetings\55. Thank you\MVI_0112.MOV,55. Thank you,55. Thank you,99.9840,CORRECT
+Greetings\55. Thank you\MVI_0113.MOV,55. Thank you,55. Thank you,99.9881,CORRECT
+Greetings\55. Thank you\MVI_9948.MOV,55. Thank you,55. Thank you,99.9774,CORRECT
+Greetings\55. Thank you\MVI_9949.MOV,55. Thank you,55. Thank you,99.9751,CORRECT
+Greetings\55. Thank you\MVI_9950.MOV,55. Thank you,55. Thank you,99.9688,CORRECT
+Greetings\55. Thank you\MVI_9951.MOV,55. Thank you,55. Thank you,99.9568,CORRECT
+Greetings\55. Thank you\MVI_9984.MOV,55. Thank you,55. Thank you,99.9822,CORRECT
+Greetings\55. Thank you\MVI_9985.MOV,55. Thank you,55. Thank you,99.9723,CORRECT
+Greetings\55. Thank you\MVI_9986.MOV,55. Thank you,55. Thank you,99.9778,CORRECT
+Greetings\55. Thank you\MVI_9987.MOV,55. Thank you,55. Thank you,99.9771,CORRECT
+Home\28. Window\MVI_4362.MOV,28. Window,5. Cow,99.6241,WRONG
+Home\28. Window\MVI_4363.MOV,28. Window,28. Window,99.7279,CORRECT
+Home\28. Window\MVI_4364.MOV,28. Window,28. Window,99.8341,CORRECT
+Home\28. Window\MVI_4365.MOV,28. Window,28. Window,99.7310,CORRECT
+Home\28. Window\MVI_4881.MOV,28. Window,28. Window,89.3092,CORRECT
+Home\28. Window\MVI_4882.MOV,28. Window,28. Window,68.7461,CORRECT
+Home\28. Window\MVI_4883.MOV,28. Window,28. Window,98.1704,CORRECT
+Home\28. Window\MVI_8766.MP4,28. Window,28. Window,99.9406,CORRECT
+Home\28. Window\MVI_8767.MP4,28. Window,28. Window,87.7587,CORRECT
+Home\28. Window\MVI_8768.MP4,28. Window,28. Window,99.9434,CORRECT
+Home\28. Window\MVI_8769.MP4,28. Window,28. Window,99.9086,CORRECT
+Home\28. Window\MVI_9013.MP4,28. Window,28. Window,99.8938,CORRECT
+Home\28. Window\MVI_9014.MP4,28. Window,28. Window,99.8887,CORRECT
+Home\28. Window\MVI_9015.MP4,28. Window,28. Window,99.8946,CORRECT
+Home\34. Pen\MVI_4387.MOV,34. Pen,34. Pen,99.9276,CORRECT
+Home\34. Pen\MVI_4388.MOV,34. Pen,34. Pen,99.8519,CORRECT
+Home\34. Pen\MVI_4389.MOV,34. Pen,34. Pen,99.9362,CORRECT
+Home\34. Pen\MVI_4390.MOV,34. Pen,34. Pen,99.8996,CORRECT
+Home\34. Pen\MVI_4906.MOV,34. Pen,51. Good Morning,97.0216,WRONG
+Home\34. Pen\MVI_4907.MOV,34. Pen,40. I,49.5521,WRONG
+Home\34. Pen\MVI_4908.MOV,34. Pen,67. Monday,99.6121,WRONG
+Home\34. Pen\MVI_8791.MP4,34. Pen,34. Pen,99.9343,CORRECT
+Home\34. Pen\MVI_8793.MP4,34. Pen,34. Pen,99.7988,CORRECT
+Home\34. Pen\MVI_8794.MP4,34. Pen,34. Pen,99.9153,CORRECT
+Home\34. Pen\MVI_8795.MP4,34. Pen,34. Pen,99.9452,CORRECT
+Home\34. Pen\MVI_9032.MP4,34. Pen,34. Pen,99.9525,CORRECT
+Home\34. Pen\MVI_9033.MP4,34. Pen,34. Pen,99.9460,CORRECT
+Home\34. Pen\MVI_9034.MP4,34. Pen,34. Pen,99.9450,CORRECT
+Home\40. Paint\MVI_4412.MOV,40. Paint,40. Paint,99.8998,CORRECT
+Home\40. Paint\MVI_4413.MOV,40. Paint,40. Paint,99.9810,CORRECT
+Home\40. Paint\MVI_4414.MOV,40. Paint,40. Paint,99.9775,CORRECT
+Home\40. Paint\MVI_4415.MOV,40. Paint,40. Paint,99.7249,CORRECT
+Home\40. Paint\MVI_4926.MOV,40. Paint,40. Paint,99.9872,CORRECT
+Home\40. Paint\MVI_4927.MOV,40. Paint,40. Paint,99.9865,CORRECT
+Home\40. Paint\MVI_4928.MOV,40. Paint,40. Paint,99.9092,CORRECT
+Home\40. Paint\MVI_8817.MP4,40. Paint,40. Paint,99.9974,CORRECT
+Home\40. Paint\MVI_8818.MP4,40. Paint,40. Paint,99.9980,CORRECT
+Home\40. Paint\MVI_8819.MP4,40. Paint,40. Paint,99.9922,CORRECT
+Home\40. Paint\MVI_8820.MP4,40. Paint,40. Paint,99.9965,CORRECT
+Home\40. Paint\MVI_8821.MP4,40. Paint,40. Paint,98.4302,CORRECT
+Home\40. Paint\MVI_9051.MP4,40. Paint,40. Paint,99.9833,CORRECT
+Home\40. Paint\MVI_9052.MP4,40. Paint,40. Paint,99.9913,CORRECT
+Home\40. Paint\MVI_9053.MP4,40. Paint,40. Paint,99.9842,CORRECT
+Jobs\84. Teacher\MVI_4457.MOV,84. Teacher,84. Teacher,99.9916,CORRECT
+Jobs\84. Teacher\MVI_4458.MOV,84. Teacher,84. Teacher,99.9768,CORRECT
+Jobs\84. Teacher\MVI_4459.MOV,84. Teacher,84. Teacher,99.9716,CORRECT
+Jobs\84. Teacher\MVI_4460.MOV,84. Teacher,84. Teacher,99.9849,CORRECT
+Jobs\84. Teacher\MVI_4744.MOV,84. Teacher,84. Teacher,98.1569,CORRECT
+Jobs\84. Teacher\MVI_4745.MOV,84. Teacher,84. Teacher,99.7649,CORRECT
+Jobs\84. Teacher\MVI_4746.MOV,84. Teacher,84. Teacher,99.9681,CORRECT
+Jobs\84. Teacher\MVI_5310.MOV,84. Teacher,84. Teacher,99.9852,CORRECT
+Jobs\84. Teacher\MVI_5311.MOV,84. Teacher,84. Teacher,99.9891,CORRECT
+Jobs\84. Teacher\MVI_5312.MOV,84. Teacher,84. Teacher,99.9861,CORRECT
+Jobs\84. Teacher\MVI_5313.MOV,84. Teacher,84. Teacher,99.9898,CORRECT
+Jobs\84. Teacher\MVI_8864.MP4,84. Teacher,84. Teacher,99.9719,CORRECT
+Jobs\84. Teacher\MVI_8865.MP4,84. Teacher,84. Teacher,99.9804,CORRECT
+Jobs\84. Teacher\MVI_8866.MP4,84. Teacher,84. Teacher,99.9858,CORRECT
+Jobs\91. Priest\MVI_4486.MOV,91. Priest,91. Priest,99.8992,CORRECT
+Jobs\91. Priest\MVI_4487.MOV,91. Priest,91. Priest,99.8842,CORRECT
+Jobs\91. Priest\MVI_4488.MOV,91. Priest,91. Priest,99.9112,CORRECT
+Jobs\91. Priest\MVI_4489.MOV,91. Priest,91. Priest,99.8686,CORRECT
+Jobs\91. Priest\MVI_4490.MOV,91. Priest,91. Priest,99.7876,CORRECT
+Jobs\91. Priest\MVI_4770.MOV,91. Priest,91. Priest,99.8440,CORRECT
+Jobs\91. Priest\MVI_4771.MOV,91. Priest,91. Priest,99.8169,CORRECT
+Jobs\91. Priest\MVI_4772.MOV,91. Priest,91. Priest,99.8205,CORRECT
+Jobs\91. Priest\MVI_5342.MOV,91. Priest,91. Priest,99.7628,CORRECT
+Jobs\91. Priest\MVI_5343.MOV,91. Priest,91. Priest,99.8556,CORRECT
+Jobs\91. Priest\MVI_5344.MOV,91. Priest,91. Priest,99.9011,CORRECT
+Jobs\91. Priest\MVI_5345.MOV,91. Priest,91. Priest,99.9030,CORRECT
+Jobs\91. Priest\MVI_8887.MP4,91. Priest,91. Priest,99.8210,CORRECT
+Jobs\91. Priest\MVI_8888.MP4,91. Priest,91. Priest,99.7567,CORRECT
+Jobs\91. Priest\MVI_8889.MP4,91. Priest,91. Priest,99.8286,CORRECT
+Means_of_Transportation\11. Car\MVI_3116.MOV,11. Car,11. Car,99.9811,CORRECT
+Means_of_Transportation\11. Car\MVI_3117.MOV,11. Car,11. Car,99.9888,CORRECT
+Means_of_Transportation\11. Car\MVI_3118.MOV,11. Car,11. Car,99.9349,CORRECT
+Means_of_Transportation\11. Car\MVI_3145.MOV,11. Car,11. Car,99.9969,CORRECT
+Means_of_Transportation\11. Car\MVI_3146.MOV,11. Car,11. Car,99.9959,CORRECT
+Means_of_Transportation\11. Car\MVI_3147.MOV,11. Car,11. Car,99.9952,CORRECT
+Means_of_Transportation\11. Car\MVI_3174.MOV,11. Car,11. Car,99.9951,CORRECT
+Means_of_Transportation\11. Car\MVI_3175.MOV,11. Car,11. Car,99.9953,CORRECT
+Means_of_Transportation\11. Car\MVI_3176.MOV,11. Car,11. Car,99.9934,CORRECT
+Means_of_Transportation\11. Car\MVI_3209.MOV,11. Car,11. Car,99.9956,CORRECT
+Means_of_Transportation\11. Car\MVI_3210.MOV,11. Car,11. Car,99.9975,CORRECT
+Means_of_Transportation\11. Car\MVI_3211.MOV,11. Car,11. Car,99.9970,CORRECT
+Means_of_Transportation\11. Car\MVI_3238.MOV,11. Car,11. Car,99.9961,CORRECT
+Means_of_Transportation\11. Car\MVI_3239.MOV,11. Car,11. Car,99.9975,CORRECT
+Means_of_Transportation\11. Car\MVI_3240.MOV,11. Car,11. Car,99.9967,CORRECT
+Means_of_Transportation\11. Car\MVI_4176.MOV,11. Car,11. Car,99.8971,CORRECT
+Means_of_Transportation\11. Car\MVI_4177.MOV,11. Car,11. Car,99.9304,CORRECT
+Means_of_Transportation\11. Car\MVI_4178.MOV,11. Car,11. Car,99.9449,CORRECT
+Means_of_Transportation\11. Car\MVI_8583.MP4,11. Car,11. Car,99.9943,CORRECT
+Means_of_Transportation\11. Car\MVI_8584.MP4,11. Car,11. Car,99.9940,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3132.MOV,16. train ticket,16. train ticket,99.9973,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3133.MOV,16. train ticket,16. train ticket,99.9983,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3134.MOV,16. train ticket,16. train ticket,99.9987,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3162.MOV,16. train ticket,11. Car,78.3753,WRONG
+Means_of_Transportation\16. train ticket\MVI_3163.MOV,16. train ticket,16. train ticket,99.8290,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3164.MOV,16. train ticket,16. train ticket,99.9942,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3194.MOV,16. train ticket,16. train ticket,99.9973,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3195.MOV,16. train ticket,16. train ticket,99.9958,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3196.MOV,16. train ticket,16. train ticket,99.9980,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3197.MOV,16. train ticket,16. train ticket,99.9981,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3224.MOV,16. train ticket,16. train ticket,99.9986,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3225.MOV,16. train ticket,16. train ticket,99.9992,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3226.MOV,16. train ticket,16. train ticket,99.9985,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3253.MOV,16. train ticket,16. train ticket,99.9987,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3254.MOV,16. train ticket,16. train ticket,99.9986,CORRECT
+Means_of_Transportation\16. train ticket\MVI_3255.MOV,16. train ticket,16. train ticket,99.9985,CORRECT
+Means_of_Transportation\16. train ticket\MVI_4191.MOV,16. train ticket,16. train ticket,99.9882,CORRECT
+Means_of_Transportation\16. train ticket\MVI_4192.MOV,16. train ticket,16. train ticket,99.9957,CORRECT
+Means_of_Transportation\16. train ticket\MVI_4193.MOV,16. train ticket,16. train ticket,99.9969,CORRECT
+Means_of_Transportation\16. train ticket\MVI_8596.MP4,16. train ticket,16. train ticket,94.9933,CORRECT
+Means_of_Transportation\16. train ticket\MVI_8597.MP4,16. train ticket,16. train ticket,99.9900,CORRECT
+People\61. Father\MVI_3763.MOV,61. Father,61. Father,99.9869,CORRECT
+People\61. Father\MVI_3764.MOV,61. Father,61. Father,99.9906,CORRECT
+People\61. Father\MVI_3765.MOV,61. Father,61. Father,99.9932,CORRECT
+People\61. Father\MVI_3909.MOV,61. Father,61. Father,99.9915,CORRECT
+People\61. Father\MVI_3910.MOV,61. Father,61. Father,99.9985,CORRECT
+People\61. Father\MVI_3912.MOV,61. Father,61. Father,99.9962,CORRECT
+People\61. Father\MVI_4060.MOV,61. Father,61. Father,99.9980,CORRECT
+People\61. Father\MVI_4061.MOV,61. Father,61. Father,99.9986,CORRECT
+People\61. Father\MVI_4062.MOV,61. Father,61. Father,99.9972,CORRECT
+People\61. Father\MVI_4223.MOV,61. Father,61. Father,50.8574,CORRECT
+People\61. Father\MVI_4940.MOV,61. Father,61. Father,99.9981,CORRECT
+People\61. Father\MVI_4941.MOV,61. Father,61. Father,99.9964,CORRECT
+People\61. Father\MVI_4942.MOV,61. Father,61. Father,99.9626,CORRECT
+People\61. Father\MVI_5080.MOV,61. Father,61. Father,99.9991,CORRECT
+People\61. Father\MVI_5081.MOV,61. Father,61. Father,99.9987,CORRECT
+People\61. Father\MVI_5082.MOV,61. Father,61. Father,99.9964,CORRECT
+People\61. Father\MVI_5227.MOV,61. Father,61. Father,99.9986,CORRECT
+People\61. Father\MVI_5228.MOV,61. Father,61. Father,99.9982,CORRECT
+People\61. Father\MVI_5229.MOV,61. Father,61. Father,99.9940,CORRECT
+People\61. Father\MVI_8626.MP4,61. Father,61. Father,99.9935,CORRECT
+People\66. Brother\MVI_3778.MOV,66. Brother,66. Brother,99.9791,CORRECT
+People\66. Brother\MVI_3779.MOV,66. Brother,66. Brother,99.9534,CORRECT
+People\66. Brother\MVI_3780.MOV,66. Brother,66. Brother,99.8976,CORRECT
+People\66. Brother\MVI_3781.MOV,66. Brother,66. Brother,99.9217,CORRECT
+People\66. Brother\MVI_3927.MOV,66. Brother,66. Brother,99.9924,CORRECT
+People\66. Brother\MVI_3928.MOV,66. Brother,66. Brother,99.9826,CORRECT
+People\66. Brother\MVI_3929.MOV,66. Brother,66. Brother,99.9902,CORRECT
+People\66. Brother\MVI_4075.MOV,66. Brother,66. Brother,99.9028,CORRECT
+People\66. Brother\MVI_4076.MOV,66. Brother,66. Brother,99.9869,CORRECT
+People\66. Brother\MVI_4077.MOV,66. Brother,66. Brother,99.9948,CORRECT
+People\66. Brother\MVI_4230.MOV,66. Brother,66. Brother,99.9088,CORRECT
+People\66. Brother\MVI_4955.MOV,66. Brother,66. Brother,99.9409,CORRECT
+People\66. Brother\MVI_4956.MOV,66. Brother,66. Brother,99.9548,CORRECT
+People\66. Brother\MVI_4957.MOV,66. Brother,66. Brother,99.9905,CORRECT
+People\66. Brother\MVI_5095.MOV,66. Brother,66. Brother,99.9832,CORRECT
+People\66. Brother\MVI_5096.MOV,66. Brother,66. Brother,78.1867,CORRECT
+People\66. Brother\MVI_5097.MOV,66. Brother,66. Brother,99.9792,CORRECT
+People\66. Brother\MVI_5243.MOV,66. Brother,66. Brother,99.9849,CORRECT
+People\66. Brother\MVI_5244.MOV,66. Brother,66. Brother,99.9917,CORRECT
+People\66. Brother\MVI_5245.MOV,66. Brother,66. Brother,99.9895,CORRECT
+People\66. Brother\MVI_8631.MP4,66. Brother,66. Brother,99.9683,CORRECT
+People\77. Boy\MVI_3814.MOV,77. Boy,77. Boy,90.1069,CORRECT
+People\77. Boy\MVI_3815.MOV,77. Boy,77. Boy,93.7224,CORRECT
+People\77. Boy\MVI_3816.MOV,77. Boy,77. Boy,91.8583,CORRECT
+People\77. Boy\MVI_3962.MOV,77. Boy,78. Girl,69.7573,WRONG
+People\77. Boy\MVI_3963.MOV,77. Boy,77. Boy,84.2618,CORRECT
+People\77. Boy\MVI_3964.MOV,77. Boy,77. Boy,89.1885,CORRECT
+People\77. Boy\MVI_4109.MOV,77. Boy,77. Boy,64.3444,CORRECT
+People\77. Boy\MVI_4110.MOV,77. Boy,77. Boy,96.1219,CORRECT
+People\77. Boy\MVI_4111.MOV,77. Boy,77. Boy,96.0988,CORRECT
+People\77. Boy\MVI_4112.MOV,77. Boy,77. Boy,96.5947,CORRECT
+People\77. Boy\MVI_4242.MOV,77. Boy,77. Boy,90.5142,CORRECT
+People\77. Boy\MVI_4981.MOV,77. Boy,77. Boy,85.6591,CORRECT
+People\77. Boy\MVI_4982.MOV,77. Boy,77. Boy,81.9172,CORRECT
+People\77. Boy\MVI_4983.MOV,77. Boy,77. Boy,92.7330,CORRECT
+People\77. Boy\MVI_5132.MOV,77. Boy,77. Boy,98.2860,CORRECT
+People\77. Boy\MVI_5133.MOV,77. Boy,77. Boy,84.9297,CORRECT
+People\77. Boy\MVI_5134.MOV,77. Boy,77. Boy,97.0042,CORRECT
+People\77. Boy\MVI_5285.MOV,77. Boy,77. Boy,62.3432,CORRECT
+People\77. Boy\MVI_5286.MOV,77. Boy,77. Boy,73.5642,CORRECT
+People\77. Boy\MVI_5287.MOV,77. Boy,77. Boy,76.3833,CORRECT
+People\77. Boy\MVI_8644.MP4,77. Boy,77. Boy,97.4649,CORRECT
+People\78. Girl\MVI_3817.MOV,78. Girl,78. Girl,73.5266,CORRECT
+People\78. Girl\MVI_3818.MOV,78. Girl,78. Girl,78.6994,CORRECT
+People\78. Girl\MVI_3819.MOV,78. Girl,78. Girl,54.1763,CORRECT
+People\78. Girl\MVI_3965.MOV,78. Girl,78. Girl,86.1434,CORRECT
+People\78. Girl\MVI_3966.MOV,78. Girl,78. Girl,80.0096,CORRECT
+People\78. Girl\MVI_3967.MOV,78. Girl,78. Girl,72.6082,CORRECT
+People\78. Girl\MVI_4113.MOV,78. Girl,77. Boy,85.7092,WRONG
+People\78. Girl\MVI_4114.MOV,78. Girl,54. Black,95.6988,WRONG
+People\78. Girl\MVI_4115.MOV,78. Girl,78. Girl,89.9460,CORRECT
+People\78. Girl\MVI_4243.MOV,78. Girl,78. Girl,62.9268,CORRECT
+People\78. Girl\MVI_4984.MOV,78. Girl,77. Boy,68.0787,WRONG
+People\78. Girl\MVI_4985.MOV,78. Girl,78. Girl,95.8655,CORRECT
+People\78. Girl\MVI_4986.MOV,78. Girl,78. Girl,95.7728,CORRECT
+People\78. Girl\MVI_5135.MOV,78. Girl,78. Girl,98.7658,CORRECT
+People\78. Girl\MVI_5136.MOV,78. Girl,78. Girl,72.4669,CORRECT
+People\78. Girl\MVI_5137.MOV,78. Girl,78. Girl,98.0930,CORRECT
+People\78. Girl\MVI_5288.MOV,78. Girl,78. Girl,96.1603,CORRECT
+People\78. Girl\MVI_5289.MOV,78. Girl,78. Girl,94.5738,CORRECT
+People\78. Girl\MVI_5290.MOV,78. Girl,78. Girl,94.8452,CORRECT
+People\78. Girl\MVI_8645.MP4,78. Girl,78. Girl,99.1564,CORRECT
+Places\19. House\MVI_3267.MOV,19. House,19. House,99.9916,CORRECT
+Places\19. House\MVI_3268.MOV,19. House,19. House,99.9954,CORRECT
+Places\19. House\MVI_3269.MOV,19. House,19. House,99.9964,CORRECT
+Places\19. House\MVI_3270.MOV,19. House,19. House,99.9859,CORRECT
+Places\19. House\MVI_3349.MOV,19. House,19. House,99.9887,CORRECT
+Places\19. House\MVI_3350.MOV,19. House,19. House,99.9902,CORRECT
+Places\19. House\MVI_3351.MOV,19. House,19. House,99.9937,CORRECT
+Places\19. House\MVI_3352.MOV,19. House,19. House,99.9893,CORRECT
+Places\19. House\MVI_3435.MOV,19. House,35. Bank,61.1112,WRONG
+Places\19. House\MVI_3436.MOV,19. House,19. House,99.9914,CORRECT
+Places\19. House\MVI_3437.MOV,19. House,19. House,99.9949,CORRECT
+Places\19. House\MVI_3438.MOV,19. House,19. House,99.9853,CORRECT
+Places\19. House\MVI_3513.MOV,19. House,19. House,99.9797,CORRECT
+Places\19. House\MVI_3514.MOV,19. House,19. House,99.9858,CORRECT
+Places\19. House\MVI_3515.MOV,19. House,19. House,99.8705,CORRECT
+Places\19. House\MVI_3516.MOV,19. House,19. House,99.9864,CORRECT
+Places\19. House\MVI_3593.MOV,19. House,19. House,99.9939,CORRECT
+Places\19. House\MVI_3594.MOV,19. House,19. House,99.9965,CORRECT
+Places\19. House\MVI_3595.MOV,19. House,19. House,99.9943,CORRECT
+Places\19. House\MVI_3596.MOV,19. House,19. House,99.9962,CORRECT
+Places\23. Court\MVI_3284.MOV,23. Court,23. Court,99.9878,CORRECT
+Places\23. Court\MVI_3285.MOV,23. Court,23. Court,99.9984,CORRECT
+Places\23. Court\MVI_3286.MOV,23. Court,23. Court,99.9981,CORRECT
+Places\23. Court\MVI_3287.MOV,23. Court,23. Court,99.9977,CORRECT
+Places\23. Court\MVI_3365.MOV,23. Court,23. Court,99.9972,CORRECT
+Places\23. Court\MVI_3366.MOV,23. Court,23. Court,99.9987,CORRECT
+Places\23. Court\MVI_3367.MOV,23. Court,23. Court,99.9978,CORRECT
+Places\23. Court\MVI_3370.MOV,23. Court,23. Court,99.9973,CORRECT
+Places\23. Court\MVI_3452.MOV,23. Court,23. Court,99.9980,CORRECT
+Places\23. Court\MVI_3453.MOV,23. Court,23. Court,99.9957,CORRECT
+Places\23. Court\MVI_3454.MOV,23. Court,23. Court,99.9950,CORRECT
+Places\23. Court\MVI_3455.MOV,23. Court,23. Court,99.9969,CORRECT
+Places\23. Court\MVI_3531.MOV,23. Court,23. Court,99.9983,CORRECT
+Places\23. Court\MVI_3532.MOV,23. Court,23. Court,99.9908,CORRECT
+Places\23. Court\MVI_3533.MOV,23. Court,23. Court,99.9985,CORRECT
+Places\23. Court\MVI_3534.MOV,23. Court,23. Court,99.9983,CORRECT
+Places\23. Court\MVI_3609.MOV,23. Court,23. Court,99.9965,CORRECT
+Places\23. Court\MVI_3610.MOV,23. Court,23. Court,99.9883,CORRECT
+Places\23. Court\MVI_3611.MOV,23. Court,23. Court,99.9865,CORRECT
+Places\23. Court\MVI_3612.MOV,23. Court,23. Court,99.9975,CORRECT
+Places\28. Store or Shop\MVI_3307.MOV,28. Store or Shop,28. Store or Shop,99.9832,CORRECT
+Places\28. Store or Shop\MVI_3308.MOV,28. Store or Shop,28. Store or Shop,99.9799,CORRECT
+Places\28. Store or Shop\MVI_3309.MOV,28. Store or Shop,28. Store or Shop,99.9865,CORRECT
+Places\28. Store or Shop\MVI_3310.MOV,28. Store or Shop,28. Store or Shop,99.9819,CORRECT
+Places\28. Store or Shop\MVI_3384.MOV,28. Store or Shop,28. Store or Shop,99.9503,CORRECT
+Places\28. Store or Shop\MVI_3385.MOV,28. Store or Shop,28. Store or Shop,99.9773,CORRECT
+Places\28. Store or Shop\MVI_3386.MOV,28. Store or Shop,28. Store or Shop,99.9774,CORRECT
+Places\28. Store or Shop\MVI_3387.MOV,28. Store or Shop,28. Store or Shop,99.9761,CORRECT
+Places\28. Store or Shop\MVI_3472.MOV,28. Store or Shop,28. Store or Shop,99.9920,CORRECT
+Places\28. Store or Shop\MVI_3473.MOV,28. Store or Shop,28. Store or Shop,99.9931,CORRECT
+Places\28. Store or Shop\MVI_3474.MOV,28. Store or Shop,28. Store or Shop,99.9926,CORRECT
+Places\28. Store or Shop\MVI_3475.MOV,28. Store or Shop,28. Store or Shop,99.9900,CORRECT
+Places\28. Store or Shop\MVI_3552.MOV,28. Store or Shop,28. Store or Shop,99.9952,CORRECT
+Places\28. Store or Shop\MVI_3553.MOV,28. Store or Shop,28. Store or Shop,99.9913,CORRECT
+Places\28. Store or Shop\MVI_3554.MOV,28. Store or Shop,28. Store or Shop,99.9830,CORRECT
+Places\28. Store or Shop\MVI_3555.MOV,28. Store or Shop,28. Store or Shop,99.9831,CORRECT
+Places\28. Store or Shop\MVI_3632.MOV,28. Store or Shop,28. Store or Shop,99.9891,CORRECT
+Places\28. Store or Shop\MVI_3633.MOV,28. Store or Shop,28. Store or Shop,99.9931,CORRECT
+Places\28. Store or Shop\MVI_3634.MOV,28. Store or Shop,28. Store or Shop,99.9927,CORRECT
+Places\28. Store or Shop\MVI_3635.MOV,28. Store or Shop,28. Store or Shop,99.9920,CORRECT
+Places\35. Bank\MVI_3335.MOV,35. Bank,35. Bank,99.9895,CORRECT
+Places\35. Bank\MVI_3336.MOV,35. Bank,35. Bank,99.9974,CORRECT
+Places\35. Bank\MVI_3337.MOV,35. Bank,35. Bank,99.9967,CORRECT
+Places\35. Bank\MVI_3338.MOV,35. Bank,35. Bank,99.9964,CORRECT
+Places\35. Bank\MVI_3419.MOV,35. Bank,35. Bank,99.9927,CORRECT
+Places\35. Bank\MVI_3421.MOV,35. Bank,35. Bank,99.9961,CORRECT
+Places\35. Bank\MVI_3422.MOV,35. Bank,35. Bank,99.9971,CORRECT
+Places\35. Bank\MVI_3423.MOV,35. Bank,35. Bank,99.9960,CORRECT
+Places\35. Bank\MVI_3500.MOV,35. Bank,35. Bank,99.9966,CORRECT
+Places\35. Bank\MVI_3501.MOV,35. Bank,35. Bank,99.9884,CORRECT
+Places\35. Bank\MVI_3502.MOV,35. Bank,35. Bank,99.9959,CORRECT
+Places\35. Bank\MVI_3503.MOV,35. Bank,35. Bank,99.9949,CORRECT
+Places\35. Bank\MVI_3581.MOV,35. Bank,35. Bank,99.9912,CORRECT
+Places\35. Bank\MVI_3582.MOV,35. Bank,35. Bank,99.9968,CORRECT
+Places\35. Bank\MVI_3583.MOV,35. Bank,35. Bank,99.9949,CORRECT
+Places\35. Bank\MVI_3584.MOV,35. Bank,35. Bank,99.9935,CORRECT
+Places\35. Bank\MVI_3661.MOV,35. Bank,35. Bank,99.9965,CORRECT
+Places\35. Bank\MVI_3662.MOV,35. Bank,35. Bank,99.9946,CORRECT
+Places\35. Bank\MVI_3663.MOV,35. Bank,35. Bank,99.9954,CORRECT
+Places\35. Bank\MVI_3664.MOV,35. Bank,35. Bank,99.9965,CORRECT
+Pronouns\40. I\MVI_0001.MOV,40. I,40. I,99.5386,CORRECT
+Pronouns\40. I\MVI_0002.MOV,40. I,40. I,99.2941,CORRECT
+Pronouns\40. I\MVI_0003.MOV,40. I,40. I,99.4667,CORRECT
+Pronouns\40. I\MVI_0012.MOV,40. I,40. I,97.6243,CORRECT
+Pronouns\40. I\MVI_0013.MOV,40. I,40. I,97.7606,CORRECT
+Pronouns\40. I\MVI_0014.MOV,40. I,40. I,94.8043,CORRECT
+Pronouns\40. I\MVI_0064.MOV,40. I,40. I,97.9519,CORRECT
+Pronouns\40. I\MVI_0065.MOV,40. I,40. I,99.5034,CORRECT
+Pronouns\40. I\MVI_0066.MOV,40. I,40. I,97.9091,CORRECT
+Pronouns\40. I\MVI_9878.MOV,40. I,40. I,99.5458,CORRECT
+Pronouns\40. I\MVI_9879.MOV,40. I,40. I,99.4697,CORRECT
+Pronouns\40. I\MVI_9880.MOV,40. I,40. I,99.3120,CORRECT
+Pronouns\40. I\MVI_9881.MOV,40. I,40. I,99.3310,CORRECT
+Pronouns\40. I\MVI_9918.MOV,40. I,40. I,99.1783,CORRECT
+Pronouns\40. I\MVI_9919.MOV,40. I,40. I,99.4347,CORRECT
+Pronouns\40. I\MVI_9920.MOV,40. I,40. I,99.5085,CORRECT
+Pronouns\40. I\MVI_9922.MOV,40. I,40. I,98.9397,CORRECT
+Pronouns\40. I\MVI_9957.MOV,40. I,40. I,99.2049,CORRECT
+Pronouns\40. I\MVI_9958.MOV,40. I,40. I,98.2669,CORRECT
+Pronouns\40. I\MVI_9959.MOV,40. I,40. I,98.7446,CORRECT
+Pronouns\40. I\MVI_9995.MOV,40. I,40. I,99.6639,CORRECT
+Pronouns\44. it\MVI_0013.MOV,44. it,44. it,99.8891,CORRECT
+Pronouns\44. it\MVI_0014.MOV,44. it,44. it,99.8974,CORRECT
+Pronouns\44. it\MVI_0015.MOV,44. it,44. it,99.9051,CORRECT
+Pronouns\44. it\MVI_0016.MOV,44. it,44. it,99.8794,CORRECT
+Pronouns\44. it\MVI_0024.MOV,44. it,44. it,99.6120,CORRECT
+Pronouns\44. it\MVI_0025.MOV,44. it,44. it,99.7577,CORRECT
+Pronouns\44. it\MVI_0026.MOV,44. it,44. it,99.7989,CORRECT
+Pronouns\44. it\MVI_0076.MOV,44. it,44. it,99.7453,CORRECT
+Pronouns\44. it\MVI_0077.MOV,44. it,44. it,99.8576,CORRECT
+Pronouns\44. it\MVI_0078.MOV,44. it,44. it,99.8450,CORRECT
+Pronouns\44. it\MVI_9897.MOV,44. it,44. it,99.7608,CORRECT
+Pronouns\44. it\MVI_9898.MOV,44. it,44. it,99.7533,CORRECT
+Pronouns\44. it\MVI_9899.MOV,44. it,44. it,99.7243,CORRECT
+Pronouns\44. it\MVI_9900.MOV,44. it,44. it,99.7506,CORRECT
+Pronouns\44. it\MVI_9936.MOV,44. it,44. it,99.8799,CORRECT
+Pronouns\44. it\MVI_9937.MOV,44. it,44. it,99.8207,CORRECT
+Pronouns\44. it\MVI_9938.MOV,44. it,44. it,99.8731,CORRECT
+Pronouns\44. it\MVI_9939.MOV,44. it,44. it,99.8736,CORRECT
+Pronouns\44. it\MVI_9969.MOV,44. it,44. it,86.5959,CORRECT
+Pronouns\44. it\MVI_9970.MOV,44. it,44. it,85.6251,CORRECT
+Pronouns\44. it\MVI_9971.MOV,44. it,44. it,85.0402,CORRECT
+Pronouns\46. you (plural)\MVI_0021.MOV,46. you (plural),46. you (plural),99.5706,CORRECT
+Pronouns\46. you (plural)\MVI_0022.MOV,46. you (plural),46. you (plural),99.3127,CORRECT
+Pronouns\46. you (plural)\MVI_0023.MOV,46. you (plural),46. you (plural),81.7305,CORRECT
+Pronouns\46. you (plural)\MVI_0024.MOV,46. you (plural),46. you (plural),98.8459,CORRECT
+Pronouns\46. you (plural)\MVI_0030.MOV,46. you (plural),46. you (plural),61.5439,CORRECT
+Pronouns\46. you (plural)\MVI_0031.MOV,46. you (plural),46. you (plural),81.3229,CORRECT
+Pronouns\46. you (plural)\MVI_0032.MOV,46. you (plural),46. you (plural),78.2784,CORRECT
+Pronouns\46. you (plural)\MVI_0082.MOV,46. you (plural),46. you (plural),98.2908,CORRECT
+Pronouns\46. you (plural)\MVI_0083.MOV,46. you (plural),46. you (plural),98.0125,CORRECT
+Pronouns\46. you (plural)\MVI_0084.MOV,46. you (plural),46. you (plural),97.5979,CORRECT
+Pronouns\46. you (plural)\MVI_9905.MOV,46. you (plural),46. you (plural),99.2489,CORRECT
+Pronouns\46. you (plural)\MVI_9907.MOV,46. you (plural),46. you (plural),99.1860,CORRECT
+Pronouns\46. you (plural)\MVI_9908.MOV,46. you (plural),46. you (plural),99.4383,CORRECT
+Pronouns\46. you (plural)\MVI_9909.MOV,46. you (plural),46. you (plural),98.9622,CORRECT
+Pronouns\46. you (plural)\MVI_9945.MOV,46. you (plural),46. you (plural),78.0029,CORRECT
+Pronouns\46. you (plural)\MVI_9946.MOV,46. you (plural),46. you (plural),68.3379,CORRECT
+Pronouns\46. you (plural)\MVI_9947.MOV,46. you (plural),46. you (plural),99.3287,CORRECT
+Pronouns\46. you (plural)\MVI_9948.MOV,46. you (plural),46. you (plural),94.1028,CORRECT
+Pronouns\46. you (plural)\MVI_9975.MOV,46. you (plural),46. you (plural),99.5181,CORRECT
+Pronouns\46. you (plural)\MVI_9976.MOV,46. you (plural),46. you (plural),99.6270,CORRECT
+Pronouns\46. you (plural)\MVI_9977.MOV,46. you (plural),46. you (plural),99.6504,CORRECT
+Seasons\61. Summer\MVI_4565.MOV,61. Summer,61. Summer,99.8974,CORRECT
+Seasons\61. Summer\MVI_4566.MOV,61. Summer,61. Summer,99.8121,CORRECT
+Seasons\61. Summer\MVI_4567.MOV,61. Summer,61. Summer,99.8735,CORRECT
+Seasons\61. Summer\MVI_4568.MOV,61. Summer,61. Summer,99.7629,CORRECT
+Seasons\61. Summer\MVI_4990.MOV,61. Summer,61. Summer,99.7181,CORRECT
+Seasons\61. Summer\MVI_4991.MOV,61. Summer,61. Summer,51.7099,CORRECT
+Seasons\61. Summer\MVI_4992.MOV,61. Summer,61. Summer,67.0229,CORRECT
+Seasons\61. Summer\MVI_5420.MOV,61. Summer,61. Summer,99.7212,CORRECT
+Seasons\61. Summer\MVI_5421.MOV,61. Summer,61. Summer,76.3499,CORRECT
+Seasons\61. Summer\MVI_5422.MOV,61. Summer,61. Summer,99.7579,CORRECT
+Seasons\61. Summer\MVI_5424.MOV,61. Summer,61. Summer,99.6721,CORRECT
+Seasons\61. Summer\MVI_9122.MP4,61. Summer,61. Summer,99.8942,CORRECT
+Seasons\61. Summer\MVI_9123.MP4,61. Summer,61. Summer,99.9038,CORRECT
+Seasons\61. Summer\MVI_9124.MP4,61. Summer,61. Summer,99.9063,CORRECT
+Seasons\64. Fall\MVI_4577.MOV,64. Fall,64. Fall,99.9051,CORRECT
+Seasons\64. Fall\MVI_4578.MOV,64. Fall,64. Fall,99.9321,CORRECT
+Seasons\64. Fall\MVI_4579.MOV,64. Fall,64. Fall,99.8919,CORRECT
+Seasons\64. Fall\MVI_4580.MOV,64. Fall,64. Fall,99.9345,CORRECT
+Seasons\64. Fall\MVI_4999.MOV,64. Fall,64. Fall,98.4583,CORRECT
+Seasons\64. Fall\MVI_5000.MOV,64. Fall,64. Fall,99.8525,CORRECT
+Seasons\64. Fall\MVI_5001.MOV,64. Fall,64. Fall,99.6877,CORRECT
+Seasons\64. Fall\MVI_5433.MOV,64. Fall,64. Fall,99.8208,CORRECT
+Seasons\64. Fall\MVI_5434.MOV,64. Fall,64. Fall,99.8832,CORRECT
+Seasons\64. Fall\MVI_5435.MOV,64. Fall,64. Fall,99.7777,CORRECT
+Seasons\64. Fall\MVI_5436.MOV,64. Fall,64. Fall,99.8298,CORRECT
+Seasons\64. Fall\MVI_9132.MP4,64. Fall,64. Fall,99.7608,CORRECT
+Seasons\64. Fall\MVI_9133.MP4,64. Fall,64. Fall,99.8118,CORRECT
+Seasons\64. Fall\MVI_9134.MP4,64. Fall,64. Fall,99.6454,CORRECT
+Seasons\64. Fall\MVI_9135.MP4,64. Fall,64. Fall,99.4837,CORRECT
+Society\14. Election\MVI_4304.MOV,14. Election,14. Election,99.9225,CORRECT
+Society\14. Election\MVI_4305.MOV,14. Election,14. Election,99.9796,CORRECT
+Society\14. Election\MVI_4306.MOV,14. Election,14. Election,99.9825,CORRECT
+Society\14. Election\MVI_4307.MOV,14. Election,14. Election,99.9723,CORRECT
+Society\14. Election\MVI_4839.MOV,14. Election,14. Election,99.9134,CORRECT
+Society\14. Election\MVI_4840.MOV,14. Election,14. Election,99.9394,CORRECT
+Society\14. Election\MVI_4841.MOV,14. Election,14. Election,99.8550,CORRECT
+Society\14. Election\MVI_8710.MP4,14. Election,14. Election,99.9901,CORRECT
+Society\14. Election\MVI_8711.MP4,14. Election,14. Election,99.9921,CORRECT
+Society\14. Election\MVI_8712.MP4,14. Election,14. Election,99.9900,CORRECT
+Society\14. Election\MVI_8713.MP4,14. Election,14. Election,99.9904,CORRECT
+Society\14. Election\MVI_8967.MP4,14. Election,14. Election,99.8955,CORRECT
+Society\14. Election\MVI_8968.MP4,14. Election,14. Election,99.9489,CORRECT
+Society\14. Election\MVI_8969.MP4,14. Election,14. Election,99.9245,CORRECT
+Society\2. Death\MVI_4255.MOV,2. Death,2. Death,99.9951,CORRECT
+Society\2. Death\MVI_4256.MOV,2. Death,2. Death,99.9958,CORRECT
+Society\2. Death\MVI_4257.MOV,2. Death,2. Death,34.7710,CORRECT
+Society\2. Death\MVI_4258.MOV,2. Death,2. Death,99.8040,CORRECT
+Society\2. Death\MVI_4800.MOV,2. Death,2. Death,99.9836,CORRECT
+Society\2. Death\MVI_4801.MOV,2. Death,2. Death,99.9459,CORRECT
+Society\2. Death\MVI_4802.MOV,2. Death,2. Death,99.9763,CORRECT
+Society\2. Death\MVI_8661.MP4,2. Death,2. Death,99.9921,CORRECT
+Society\2. Death\MVI_8662.MP4,2. Death,2. Death,99.9929,CORRECT
+Society\2. Death\MVI_8663.MP4,2. Death,2. Death,99.9982,CORRECT
+Society\2. Death\MVI_8664.MP4,2. Death,2. Death,99.9990,CORRECT
+Society\2. Death\MVI_8930.MP4,2. Death,2. Death,99.9976,CORRECT
+Society\2. Death\MVI_8931.MP4,2. Death,2. Death,99.9918,CORRECT
+Society\2. Death\MVI_8932.MP4,2. Death,2. Death,99.9977,CORRECT

@@ -1,0 +1,8 @@
+{
+  "test_samples": 124,
+  "classes": 50,
+  "accuracy": 0.9112903225806451,
+  "accuracy_percent": 91.12903225806451,
+  "top3_accuracy": 0.9838709677419355,
+  "top3_accuracy_percent": 98.38709677419355
+}

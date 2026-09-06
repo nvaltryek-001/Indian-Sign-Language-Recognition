@@ -1,0 +1,661 @@
+video_path,sequence_path,folder_label,class_id,archive
+Greetings/48. Hello/MVI_9915.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9915.npy,48. Hello,23,Greetings_1of2.zip
+Adjectives/78. long/MVI_5108.MOV,data/include50/sequences/Adjectives/78. long/MVI_5108.npy,78. long,39,Adjectives_4of8.zip
+Society/14. Election/MVI_8712.MP4,data/include50/sequences/Society/14. Election/MVI_8712.npy,14. Election,3,Society_2of3.zip
+Greetings/55. Thank you/MVI_0060_.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0060_.npy,55. Thank you,29,Greetings_2of2.zip
+Adjectives/83. big large/MVI_5204.MOV,data/include50/sequences/Adjectives/83. big large/MVI_5204.npy,83. big large,41,Adjectives_5of8.zip
+Society/14. Election/MVI_8969.MP4,data/include50/sequences/Society/14. Election/MVI_8969.npy,14. Election,3,Society_2of3.zip
+Clothes/37. Hat/MVI_5006.MOV,data/include50/sequences/Clothes/37. Hat/MVI_5006.npy,37. Hat,14,Clothes_1of2.zip
+Places/23. Court/MVI_3287.MOV,data/include50/sequences/Places/23. Court/MVI_3287.npy,23. Court,8,Places_2of4.zip
+Adjectives/84. small little/MVI_9236.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9236.npy,84. small little,43,Adjectives_5of8.zip
+Seasons/64. Fall/MVI_9132.MP4,data/include50/sequences/Seasons/64. Fall/MVI_9132.npy,64. Fall,33,Seasons_1of1.zip
+Adjectives/83. big large/MVI_9317.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9317.npy,83. big large,41,Adjectives_5of8.zip
+Adjectives/2. quiet/MVI_5182.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_5182.npy,2. quiet,7,Adjectives_1of8.zip
+People/61. Father/MVI_4062.MOV,data/include50/sequences/People/61. Father/MVI_4062.npy,61. Father,31,People_1of5.zip
+Clothes/37. Hat/MVI_5155.MOV,data/include50/sequences/Clothes/37. Hat/MVI_5155.npy,37. Hat,14,Clothes_1of2.zip
+Adjectives/78. long/MVI_9217.MOV,data/include50/sequences/Adjectives/78. long/MVI_9217.npy,78. long,39,Adjectives_4of8.zip
+Animals/5. Cow/MVI_8570.MP4,data/include50/sequences/Animals/5. Cow/MVI_8570.npy,5. Cow,24,Animals_1of2.zip
+Greetings/48. Hello/MVI_9916.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9916.npy,48. Hello,23,Greetings_1of2.zip
+Adjectives/97. dry/MVI_5248.MOV,data/include50/sequences/Adjectives/97. dry/MVI_5248.npy,97. dry,49,Adjectives_8of8.zip
+Greetings/55. Thank you/MVI_0063.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0063.npy,55. Thank you,29,Greetings_2of2.zip
+Greetings/51. Good Morning/MVI_0042.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_0042.npy,51. Good Morning,25,Greetings_1of2.zip
+Pronouns/44. it/MVI_9938.MOV,data/include50/sequences/Pronouns/44. it/MVI_9938.npy,44. it,20,Pronouns_1of2.zip
+Adjectives/94. good/MVI_9350.MOV,data/include50/sequences/Adjectives/94. good/MVI_9350.npy,94. good,48,Adjectives_7of8.zip
+Adjectives/1. loud/MVI_9536.MOV,data/include50/sequences/Adjectives/1. loud/MVI_9536.npy,1. loud,1,Adjectives_1of8.zip
+People/66. Brother/MVI_3781.MOV,data/include50/sequences/People/66. Brother/MVI_3781.npy,66. Brother,34,People_2of5.zip
+Places/19. House/MVI_3352.MOV,data/include50/sequences/Places/19. House/MVI_3352.npy,19. House,5,Places_1of4.zip
+Home/40. Paint/MVI_8817.MP4,data/include50/sequences/Home/40. Paint/MVI_8817.npy,40. Paint,17,Home_3of4.zip
+People/61. Father/MVI_5082.MOV,data/include50/sequences/People/61. Father/MVI_5082.npy,61. Father,31,People_1of5.zip
+Clothes/37. Hat/MVI_4867.MOV,data/include50/sequences/Clothes/37. Hat/MVI_4867.npy,37. Hat,14,Clothes_1of2.zip
+Clothes/37. Hat/MVI_3690.MOV,data/include50/sequences/Clothes/37. Hat/MVI_3690.npy,37. Hat,14,Clothes_1of2.zip
+Means_of_Transportation/16. train ticket/MVI_3194.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3194.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Clothes/37. Hat/MVI_5007.MOV,data/include50/sequences/Clothes/37. Hat/MVI_5007.npy,37. Hat,14,Clothes_1of2.zip
+People/61. Father/MVI_3763.MOV,data/include50/sequences/People/61. Father/MVI_3763.npy,61. Father,31,People_1of5.zip
+Places/28. Store or Shop/MVI_3555.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3555.npy,28. Store or Shop,9,Places_3of4.zip
+Places/28. Store or Shop/MVI_3552.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3552.npy,28. Store or Shop,9,Places_3of4.zip
+Clothes/44. Shoes/MVI_4888.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_4888.npy,44. Shoes,19,Clothes_2of2.zip
+Adjectives/78. long/MVI_9298.MOV,data/include50/sequences/Adjectives/78. long/MVI_9298.npy,78. long,39,Adjectives_4of8.zip
+Adjectives/79. short/MVI_9302.MOV,data/include50/sequences/Adjectives/79. short/MVI_9302.npy,79. short,40,Adjectives_4of8.zip
+Greetings/55. Thank you/MVI_0112.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0112.npy,55. Thank you,29,Greetings_2of2.zip
+Clothes/44. Shoes/MVI_3711.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_3711.npy,44. Shoes,19,Clothes_2of2.zip
+Adjectives/1. loud/MVI_5177.MOV,data/include50/sequences/Adjectives/1. loud/MVI_5177.npy,1. loud,1,Adjectives_1of8.zip
+Animals/5. Cow/MVI_3016.MOV,data/include50/sequences/Animals/5. Cow/MVI_3016.npy,5. Cow,24,Animals_1of2.zip
+Colours/54. Black/MVI_3888.MOV,data/include50/sequences/Colours/54. Black/MVI_3888.npy,54. Black,27,Colours_2of2.zip
+Jobs/91. Priest/MVI_5345.MOV,data/include50/sequences/Jobs/91. Priest/MVI_5345.npy,91. Priest,46,Jobs_1of2.zip
+Clothes/44. Shoes/MVI_4204.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_4204.npy,44. Shoes,19,Clothes_2of2.zip
+Days_and_Time/67. Monday/MVI_5009.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_5009.npy,67. Monday,35,Days_and_Time_1of3.zip
+Society/14. Election/MVI_8713.MP4,data/include50/sequences/Society/14. Election/MVI_8713.npy,14. Election,3,Society_2of3.zip
+Jobs/84. Teacher/MVI_8866.MP4,data/include50/sequences/Jobs/84. Teacher/MVI_8866.npy,84. Teacher,42,Jobs_1of2.zip
+Adjectives/97. dry/MVI_5250.MOV,data/include50/sequences/Adjectives/97. dry/MVI_5250.npy,97. dry,49,Adjectives_8of8.zip
+People/66. Brother/MVI_4076.MOV,data/include50/sequences/People/66. Brother/MVI_4076.npy,66. Brother,34,People_2of5.zip
+Clothes/42. T-Shirt/MVI_4002.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_4002.npy,42. T-Shirt,18,Clothes_2of2.zip
+Means_of_Transportation/16. train ticket/MVI_4192.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_4192.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Colours/55. White/MVI_8620.MP4,data/include50/sequences/Colours/55. White/MVI_8620.npy,55. White,30,Colours_2of2.zip
+Days_and_Time/86. Time/MVI_5079.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_5079.npy,86. Time,44,Days_and_Time_3of3.zip
+Greetings/48. Hello/MVI_9982.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9982.npy,48. Hello,23,Greetings_1of2.zip
+Animals/5. Cow/MVI_3074.MOV,data/include50/sequences/Animals/5. Cow/MVI_3074.npy,5. Cow,24,Animals_1of2.zip
+Electronics/54. Cell phone/MVI_5391.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_5391.npy,54. Cell phone,28,Electronics_1of2.zip
+Days_and_Time/67. Monday/MVI_9143.MP4,data/include50/sequences/Days_and_Time/67. Monday/MVI_9143.npy,67. Monday,35,Days_and_Time_1of3.zip
+Pronouns/44. it/MVI_0014.MOV,data/include50/sequences/Pronouns/44. it/MVI_0014.npy,44. it,20,Pronouns_1of2.zip
+Pronouns/40. I/MVI_0014.MOV,data/include50/sequences/Pronouns/40. I/MVI_0014.npy,40. I,16,Pronouns_1of2.zip
+Animals/4. Bird/MVI_3012.MOV,data/include50/sequences/Animals/4. Bird/MVI_3012.npy,4. Bird,15,Animals_1of2.zip
+Places/28. Store or Shop/MVI_3472.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3472.npy,28. Store or Shop,9,Places_3of4.zip
+Greetings/48. Hello/MVI_0030.MOV,data/include50/sequences/Greetings/48. Hello/MVI_0030.npy,48. Hello,23,Greetings_1of2.zip
+Animals/4. Bird/MVI_3094.MOV,data/include50/sequences/Animals/4. Bird/MVI_3094.npy,4. Bird,15,Animals_1of2.zip
+Means_of_Transportation/11. Car/MVI_3176.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3176.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Adjectives/79. short/MVI_5190.MOV,data/include50/sequences/Adjectives/79. short/MVI_5190.npy,79. short,40,Adjectives_4of8.zip
+Colours/47. Red/MVI_5184.MOV,data/include50/sequences/Colours/47. Red/MVI_5184.npy,47. Red,22,Colours_1of2.zip
+Home/34. Pen/MVI_8791.MP4,data/include50/sequences/Home/34. Pen/MVI_8791.npy,34. Pen,12,Home_2of4.zip
+Colours/47. Red/MVI_5186.MOV,data/include50/sequences/Colours/47. Red/MVI_5186.npy,47. Red,22,Colours_1of2.zip
+Means_of_Transportation/11. Car/MVI_3238.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3238.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Adjectives/84. small little/MVI_9320.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9320.npy,84. small little,43,Adjectives_5of8.zip
+Places/35. Bank/MVI_3584.MOV,data/include50/sequences/Places/35. Bank/MVI_3584.npy,35. Bank,13,Places_4of4.zip
+Places/19. House/MVI_3514.MOV,data/include50/sequences/Places/19. House/MVI_3514.npy,19. House,5,Places_1of4.zip
+Society/2. Death/MVI_8661.MP4,data/include50/sequences/Society/2. Death/MVI_8661.npy,2. Death,6,Society_1of3.zip
+Electronics/53. Fan/MVI_4965.MOV,data/include50/sequences/Electronics/53. Fan/MVI_4965.npy,53. Fan,26,Electronics_1of2.zip
+Greetings/55. Thank you/MVI_9948.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_9948.npy,55. Thank you,29,Greetings_2of2.zip
+Days_and_Time/78. Year/MVI_9175.MP4,data/include50/sequences/Days_and_Time/78. Year/MVI_9175.npy,78. Year,38,Days_and_Time_2of3.zip
+Pronouns/46. you (plural)/MVI_9908.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9908.npy,46. you (plural),21,Pronouns_2of2.zip
+Adjectives/79. short/MVI_9382.MOV,data/include50/sequences/Adjectives/79. short/MVI_9382.npy,79. short,40,Adjectives_4of8.zip
+Adjectives/87. hot/MVI_9330.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9330.npy,87. hot,45,Adjectives_6of8.zip
+Adjectives/87. hot/MVI_5136.MOV,data/include50/sequences/Adjectives/87. hot/MVI_5136.npy,87. hot,45,Adjectives_6of8.zip
+Adjectives/97. dry/MVI_9360.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9360.npy,97. dry,49,Adjectives_8of8.zip
+Greetings/51. Good Morning/MVI_9935.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9935.npy,51. Good Morning,25,Greetings_1of2.zip
+People/66. Brother/MVI_3778.MOV,data/include50/sequences/People/66. Brother/MVI_3778.npy,66. Brother,34,People_2of5.zip
+Seasons/64. Fall/MVI_5436.MOV,data/include50/sequences/Seasons/64. Fall/MVI_5436.npy,64. Fall,33,Seasons_1of1.zip
+Greetings/51. Good Morning/MVI_0046.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_0046.npy,51. Good Morning,25,Greetings_1of2.zip
+Adjectives/91. new/MVI_9422.MOV,data/include50/sequences/Adjectives/91. new/MVI_9422.npy,91. new,47,Adjectives_6of8.zip
+Places/28. Store or Shop/MVI_3386.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3386.npy,28. Store or Shop,9,Places_3of4.zip
+People/77. Boy/MVI_5134.MOV,data/include50/sequences/People/77. Boy/MVI_5134.npy,77. Boy,36,People_4of5.zip
+People/78. Girl/MVI_5137.MOV,data/include50/sequences/People/78. Girl/MVI_5137.npy,78. Girl,37,People_4of5.zip
+Adjectives/83. big large/MVI_9316.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9316.npy,83. big large,41,Adjectives_5of8.zip
+Animals/5. Cow/MVI_4160.MOV,data/include50/sequences/Animals/5. Cow/MVI_4160.npy,5. Cow,24,Animals_1of2.zip
+Clothes/42. T-Shirt/MVI_4882.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_4882.npy,42. T-Shirt,18,Clothes_2of2.zip
+Pronouns/46. you (plural)/MVI_0084.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_0084.npy,46. you (plural),21,Pronouns_2of2.zip
+Clothes/44. Shoes/MVI_3712.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_3712.npy,44. Shoes,19,Clothes_2of2.zip
+People/77. Boy/MVI_4110.MOV,data/include50/sequences/People/77. Boy/MVI_4110.npy,77. Boy,36,People_4of5.zip
+Adjectives/87. hot/MVI_9487.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9487.npy,87. hot,45,Adjectives_6of8.zip
+Places/19. House/MVI_3593.MOV,data/include50/sequences/Places/19. House/MVI_3593.npy,19. House,5,Places_1of4.zip
+Jobs/91. Priest/MVI_5342.MOV,data/include50/sequences/Jobs/91. Priest/MVI_5342.npy,91. Priest,46,Jobs_1of2.zip
+Electronics/53. Fan/MVI_4534.MOV,data/include50/sequences/Electronics/53. Fan/MVI_4534.npy,53. Fan,26,Electronics_1of2.zip
+Days_and_Time/78. Year/MVI_4635.MOV,data/include50/sequences/Days_and_Time/78. Year/MVI_4635.npy,78. Year,38,Days_and_Time_2of3.zip
+Jobs/91. Priest/MVI_4490.MOV,data/include50/sequences/Jobs/91. Priest/MVI_4490.npy,91. Priest,46,Jobs_1of2.zip
+Pronouns/44. it/MVI_0013.MOV,data/include50/sequences/Pronouns/44. it/MVI_0013.npy,44. it,20,Pronouns_1of2.zip
+Greetings/51. Good Morning/MVI_9969.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9969.npy,51. Good Morning,25,Greetings_1of2.zip
+Home/40. Paint/MVI_9051.MP4,data/include50/sequences/Home/40. Paint/MVI_9051.npy,40. Paint,17,Home_3of4.zip
+Seasons/64. Fall/MVI_5001.MOV,data/include50/sequences/Seasons/64. Fall/MVI_5001.npy,64. Fall,33,Seasons_1of1.zip
+Home/34. Pen/MVI_9032.MP4,data/include50/sequences/Home/34. Pen/MVI_9032.npy,34. Pen,12,Home_2of4.zip
+Adjectives/2. quiet/MVI_5180.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_5180.npy,2. quiet,7,Adjectives_1of8.zip
+Colours/47. Red/MVI_4018.MOV,data/include50/sequences/Colours/47. Red/MVI_4018.npy,47. Red,22,Colours_1of2.zip
+Pronouns/46. you (plural)/MVI_9977.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9977.npy,46. you (plural),21,Pronouns_2of2.zip
+Society/14. Election/MVI_4305.MOV,data/include50/sequences/Society/14. Election/MVI_4305.npy,14. Election,3,Society_2of3.zip
+People/77. Boy/MVI_4242.MOV,data/include50/sequences/People/77. Boy/MVI_4242.npy,77. Boy,36,People_4of5.zip
+Seasons/61. Summer/MVI_4568.MOV,data/include50/sequences/Seasons/61. Summer/MVI_4568.npy,61. Summer,32,Seasons_1of1.zip
+Colours/55. White/MVI_4921.MOV,data/include50/sequences/Colours/55. White/MVI_4921.npy,55. White,30,Colours_2of2.zip
+Pronouns/44. it/MVI_9898.MOV,data/include50/sequences/Pronouns/44. it/MVI_9898.npy,44. it,20,Pronouns_1of2.zip
+Colours/55. White/MVI_5062.MOV,data/include50/sequences/Colours/55. White/MVI_5062.npy,55. White,30,Colours_2of2.zip
+Days_and_Time/86. Time/MVI_9202.MP4,data/include50/sequences/Days_and_Time/86. Time/MVI_9202.npy,86. Time,44,Days_and_Time_3of3.zip
+Adjectives/97. dry/MVI_9522.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9522.npy,97. dry,49,Adjectives_8of8.zip
+Seasons/61. Summer/MVI_5422.MOV,data/include50/sequences/Seasons/61. Summer/MVI_5422.npy,61. Summer,32,Seasons_1of1.zip
+Society/2. Death/MVI_8932.MP4,data/include50/sequences/Society/2. Death/MVI_8932.npy,2. Death,6,Society_1of3.zip
+Animals/5. Cow/MVI_3075.MOV,data/include50/sequences/Animals/5. Cow/MVI_3075.npy,5. Cow,24,Animals_1of2.zip
+People/66. Brother/MVI_5095.MOV,data/include50/sequences/People/66. Brother/MVI_5095.npy,66. Brother,34,People_2of5.zip
+Home/34. Pen/MVI_4389.MOV,data/include50/sequences/Home/34. Pen/MVI_4389.npy,34. Pen,12,Home_2of4.zip
+Means_of_Transportation/11. Car/MVI_8584.MP4,data/include50/sequences/Means_of_Transportation/11. Car/MVI_8584.npy,11. Car,2,Means_of_Transportation_1of2.zip
+People/77. Boy/MVI_5286.MOV,data/include50/sequences/People/77. Boy/MVI_5286.npy,77. Boy,36,People_4of5.zip
+People/61. Father/MVI_5080.MOV,data/include50/sequences/People/61. Father/MVI_5080.npy,61. Father,31,People_1of5.zip
+Adjectives/94. good/MVI_9510.MOV,data/include50/sequences/Adjectives/94. good/MVI_9510.npy,94. good,48,Adjectives_7of8.zip
+Adjectives/94. good/MVI_5316.MOV,data/include50/sequences/Adjectives/94. good/MVI_5316.npy,94. good,48,Adjectives_7of8.zip
+People/61. Father/MVI_5227.MOV,data/include50/sequences/People/61. Father/MVI_5227.npy,61. Father,31,People_1of5.zip
+Adjectives/1. loud/MVI_9448.MOV,data/include50/sequences/Adjectives/1. loud/MVI_9448.npy,1. loud,1,Adjectives_1of8.zip
+Adjectives/3. happy/MVI_5264.MOV,data/include50/sequences/Adjectives/3. happy/MVI_5264.npy,3. happy,11,Adjectives_1of8.zip
+Clothes/37. Hat/MVI_3835.MOV,data/include50/sequences/Clothes/37. Hat/MVI_3835.npy,37. Hat,14,Clothes_1of2.zip
+Clothes/44. Shoes/MVI_5028.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_5028.npy,44. Shoes,19,Clothes_2of2.zip
+Society/14. Election/MVI_8710.MP4,data/include50/sequences/Society/14. Election/MVI_8710.npy,14. Election,3,Society_2of3.zip
+Days_and_Time/86. Time/MVI_4669.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_4669.npy,86. Time,44,Days_and_Time_3of3.zip
+Places/35. Bank/MVI_3336.MOV,data/include50/sequences/Places/35. Bank/MVI_3336.npy,35. Bank,13,Places_4of4.zip
+Home/28. Window/MVI_4364.MOV,data/include50/sequences/Home/28. Window/MVI_4364.npy,28. Window,10,Home_1of4.zip
+Adjectives/79. short/MVI_9221.MOV,data/include50/sequences/Adjectives/79. short/MVI_9221.npy,79. short,40,Adjectives_4of8.zip
+Means_of_Transportation/11. Car/MVI_3117.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3117.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Adjectives/84. small little/MVI_9237.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9237.npy,84. small little,43,Adjectives_5of8.zip
+Places/35. Bank/MVI_3335.MOV,data/include50/sequences/Places/35. Bank/MVI_3335.npy,35. Bank,13,Places_4of4.zip
+Places/35. Bank/MVI_3501.MOV,data/include50/sequences/Places/35. Bank/MVI_3501.npy,35. Bank,13,Places_4of4.zip
+Adjectives/83. big large/MVI_5124.MOV,data/include50/sequences/Adjectives/83. big large/MVI_5124.npy,83. big large,41,Adjectives_5of8.zip
+Home/40. Paint/MVI_8818.MP4,data/include50/sequences/Home/40. Paint/MVI_8818.npy,40. Paint,17,Home_3of4.zip
+Home/34. Pen/MVI_8793.MP4,data/include50/sequences/Home/34. Pen/MVI_8793.npy,34. Pen,12,Home_2of4.zip
+Animals/1. Dog/MVI_2979.MOV,data/include50/sequences/Animals/1. Dog/MVI_2979.npy,1. Dog,0,Animals_1of2.zip
+Adjectives/79. short/MVI_9222.MOV,data/include50/sequences/Adjectives/79. short/MVI_9222.npy,79. short,40,Adjectives_4of8.zip
+Clothes/42. T-Shirt/MVI_3851.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_3851.npy,42. T-Shirt,18,Clothes_2of2.zip
+Places/23. Court/MVI_3531.MOV,data/include50/sequences/Places/23. Court/MVI_3531.npy,23. Court,8,Places_2of4.zip
+Adjectives/1. loud/MVI_5179.MOV,data/include50/sequences/Adjectives/1. loud/MVI_5179.npy,1. loud,1,Adjectives_1of8.zip
+People/66. Brother/MVI_4075.MOV,data/include50/sequences/People/66. Brother/MVI_4075.npy,66. Brother,34,People_2of5.zip
+Society/14. Election/MVI_8711.MP4,data/include50/sequences/Society/14. Election/MVI_8711.npy,14. Election,3,Society_2of3.zip
+Clothes/42. T-Shirt/MVI_5170.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_5170.npy,42. T-Shirt,18,Clothes_2of2.zip
+Adjectives/91. new/MVI_5150.MOV,data/include50/sequences/Adjectives/91. new/MVI_5150.npy,91. new,47,Adjectives_6of8.zip
+Adjectives/94. good/MVI_5238.MOV,data/include50/sequences/Adjectives/94. good/MVI_5238.npy,94. good,48,Adjectives_7of8.zip
+Colours/54. Black/MVI_3740.MOV,data/include50/sequences/Colours/54. Black/MVI_3740.npy,54. Black,27,Colours_2of2.zip
+Adjectives/91. new/MVI_5148.MOV,data/include50/sequences/Adjectives/91. new/MVI_5148.npy,91. new,47,Adjectives_6of8.zip
+Adjectives/1. loud/MVI_9369.MOV,data/include50/sequences/Adjectives/1. loud/MVI_9369.npy,1. loud,1,Adjectives_1of8.zip
+Places/23. Court/MVI_3284.MOV,data/include50/sequences/Places/23. Court/MVI_3284.npy,23. Court,8,Places_2of4.zip
+People/77. Boy/MVI_3814.MOV,data/include50/sequences/People/77. Boy/MVI_3814.npy,77. Boy,36,People_4of5.zip
+People/61. Father/MVI_3910.MOV,data/include50/sequences/People/61. Father/MVI_3910.npy,61. Father,31,People_1of5.zip
+Colours/54. Black/MVI_4920.MOV,data/include50/sequences/Colours/54. Black/MVI_4920.npy,54. Black,27,Colours_2of2.zip
+Adjectives/83. big large/MVI_5123.MOV,data/include50/sequences/Adjectives/83. big large/MVI_5123.npy,83. big large,41,Adjectives_5of8.zip
+Home/40. Paint/MVI_4926.MOV,data/include50/sequences/Home/40. Paint/MVI_4926.npy,40. Paint,17,Home_3of4.zip
+Adjectives/1. loud/MVI_5257.MOV,data/include50/sequences/Adjectives/1. loud/MVI_5257.npy,1. loud,1,Adjectives_1of8.zip
+Means_of_Transportation/16. train ticket/MVI_3224.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3224.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Means_of_Transportation/11. Car/MVI_3239.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3239.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Electronics/53. Fan/MVI_4966.MOV,data/include50/sequences/Electronics/53. Fan/MVI_4966.npy,53. Fan,26,Electronics_1of2.zip
+Pronouns/46. you (plural)/MVI_0082.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_0082.npy,46. you (plural),21,Pronouns_2of2.zip
+Colours/54. Black/MVI_5060.MOV,data/include50/sequences/Colours/54. Black/MVI_5060.npy,54. Black,27,Colours_2of2.zip
+Adjectives/78. long/MVI_9219.MOV,data/include50/sequences/Adjectives/78. long/MVI_9219.npy,78. long,39,Adjectives_4of8.zip
+People/66. Brother/MVI_5243.MOV,data/include50/sequences/People/66. Brother/MVI_5243.npy,66. Brother,34,People_2of5.zip
+Places/23. Court/MVI_3366.MOV,data/include50/sequences/Places/23. Court/MVI_3366.npy,23. Court,8,Places_2of4.zip
+Seasons/61. Summer/MVI_5420.MOV,data/include50/sequences/Seasons/61. Summer/MVI_5420.npy,61. Summer,32,Seasons_1of1.zip
+People/78. Girl/MVI_4243.MOV,data/include50/sequences/People/78. Girl/MVI_4243.npy,78. Girl,37,People_4of5.zip
+Jobs/91. Priest/MVI_5344.MOV,data/include50/sequences/Jobs/91. Priest/MVI_5344.npy,91. Priest,46,Jobs_1of2.zip
+Adjectives/87. hot/MVI_9328.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9328.npy,87. hot,45,Adjectives_6of8.zip
+Greetings/55. Thank you/MVI_0113.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0113.npy,55. Thank you,29,Greetings_2of2.zip
+Adjectives/83. big large/MVI_5285.MOV,data/include50/sequences/Adjectives/83. big large/MVI_5285.npy,83. big large,41,Adjectives_5of8.zip
+Greetings/48. Hello/MVI_9955.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9955.npy,48. Hello,23,Greetings_1of2.zip
+Adjectives/78. long/MVI_5107.MOV,data/include50/sequences/Adjectives/78. long/MVI_5107.npy,78. long,39,Adjectives_4of8.zip
+Greetings/48. Hello/MVI_0029.MOV,data/include50/sequences/Greetings/48. Hello/MVI_0029.npy,48. Hello,23,Greetings_1of2.zip
+Means_of_Transportation/11. Car/MVI_4177.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_4177.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Means_of_Transportation/11. Car/MVI_3174.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3174.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Home/28. Window/MVI_9013.MP4,data/include50/sequences/Home/28. Window/MVI_9013.npy,28. Window,10,Home_1of4.zip
+Colours/54. Black/MVI_3741.MOV,data/include50/sequences/Colours/54. Black/MVI_3741.npy,54. Black,27,Colours_2of2.zip
+Means_of_Transportation/16. train ticket/MVI_4193.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_4193.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Home/28. Window/MVI_8766.MP4,data/include50/sequences/Home/28. Window/MVI_8766.npy,28. Window,10,Home_1of4.zip
+Pronouns/40. I/MVI_9957.MOV,data/include50/sequences/Pronouns/40. I/MVI_9957.npy,40. I,16,Pronouns_1of2.zip
+Means_of_Transportation/16. train ticket/MVI_3253.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3253.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Adjectives/94. good/MVI_9430.MOV,data/include50/sequences/Adjectives/94. good/MVI_9430.npy,94. good,48,Adjectives_7of8.zip
+Jobs/84. Teacher/MVI_5311.MOV,data/include50/sequences/Jobs/84. Teacher/MVI_5311.npy,84. Teacher,42,Jobs_1of2.zip
+Places/19. House/MVI_3351.MOV,data/include50/sequences/Places/19. House/MVI_3351.npy,19. House,5,Places_1of4.zip
+Adjectives/94. good/MVI_9270.MOV,data/include50/sequences/Adjectives/94. good/MVI_9270.npy,94. good,48,Adjectives_7of8.zip
+Adjectives/2. quiet/MVI_5339.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_5339.npy,2. quiet,7,Adjectives_1of8.zip
+Adjectives/83. big large/MVI_9235.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9235.npy,83. big large,41,Adjectives_5of8.zip
+Adjectives/2. quiet/MVI_5340.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_5340.npy,2. quiet,7,Adjectives_1of8.zip
+Electronics/54. Cell phone/MVI_4539.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_4539.npy,54. Cell phone,28,Electronics_1of2.zip
+Days_and_Time/78. Year/MVI_5048.MOV,data/include50/sequences/Days_and_Time/78. Year/MVI_5048.npy,78. Year,38,Days_and_Time_2of3.zip
+Electronics/53. Fan/MVI_4536.MOV,data/include50/sequences/Electronics/53. Fan/MVI_4536.npy,53. Fan,26,Electronics_1of2.zip
+Adjectives/83. big large/MVI_5125.MOV,data/include50/sequences/Adjectives/83. big large/MVI_5125.npy,83. big large,41,Adjectives_5of8.zip
+Adjectives/91. new/MVI_9423.MOV,data/include50/sequences/Adjectives/91. new/MVI_9423.npy,91. new,47,Adjectives_6of8.zip
+Society/2. Death/MVI_8663.MP4,data/include50/sequences/Society/2. Death/MVI_8663.npy,2. Death,6,Society_1of3.zip
+Electronics/54. Cell phone/MVI_4540.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_4540.npy,54. Cell phone,28,Electronics_1of2.zip
+Adjectives/3. happy/MVI_9456.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9456.npy,3. happy,11,Adjectives_1of8.zip
+Pronouns/44. it/MVI_9899.MOV,data/include50/sequences/Pronouns/44. it/MVI_9899.npy,44. it,20,Pronouns_1of2.zip
+Seasons/61. Summer/MVI_4566.MOV,data/include50/sequences/Seasons/61. Summer/MVI_4566.npy,61. Summer,32,Seasons_1of1.zip
+Days_and_Time/86. Time/MVI_5525.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_5525.npy,86. Time,44,Days_and_Time_3of3.zip
+People/78. Girl/MVI_4115.MOV,data/include50/sequences/People/78. Girl/MVI_4115.npy,78. Girl,37,People_4of5.zip
+Pronouns/40. I/MVI_0001.MOV,data/include50/sequences/Pronouns/40. I/MVI_0001.npy,40. I,16,Pronouns_1of2.zip
+Adjectives/3. happy/MVI_9376.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9376.npy,3. happy,11,Adjectives_1of8.zip
+Places/28. Store or Shop/MVI_3474.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3474.npy,28. Store or Shop,9,Places_3of4.zip
+Jobs/91. Priest/MVI_8888.MP4,data/include50/sequences/Jobs/91. Priest/MVI_8888.npy,91. Priest,46,Jobs_1of2.zip
+Adjectives/1. loud/MVI_5259.MOV,data/include50/sequences/Adjectives/1. loud/MVI_5259.npy,1. loud,1,Adjectives_1of8.zip
+Adjectives/3. happy/MVI_5183.MOV,data/include50/sequences/Adjectives/3. happy/MVI_5183.npy,3. happy,11,Adjectives_1of8.zip
+Greetings/55. Thank you/MVI_9950.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_9950.npy,55. Thank you,29,Greetings_2of2.zip
+Adjectives/2. quiet/MVI_9292.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9292.npy,2. quiet,7,Adjectives_1of8.zip
+Home/40. Paint/MVI_4414.MOV,data/include50/sequences/Home/40. Paint/MVI_4414.npy,40. Paint,17,Home_3of4.zip
+Adjectives/3. happy/MVI_5342.MOV,data/include50/sequences/Adjectives/3. happy/MVI_5342.npy,3. happy,11,Adjectives_1of8.zip
+Colours/47. Red/MVI_5039.MOV,data/include50/sequences/Colours/47. Red/MVI_5039.npy,47. Red,22,Colours_1of2.zip
+Colours/54. Black/MVI_5208.MOV,data/include50/sequences/Colours/54. Black/MVI_5208.npy,54. Black,27,Colours_2of2.zip
+Days_and_Time/67. Monday/MVI_4591.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_4591.npy,67. Monday,35,Days_and_Time_1of3.zip
+Adjectives/94. good/MVI_5318.MOV,data/include50/sequences/Adjectives/94. good/MVI_5318.npy,94. good,48,Adjectives_7of8.zip
+Pronouns/40. I/MVI_0012.MOV,data/include50/sequences/Pronouns/40. I/MVI_0012.npy,40. I,16,Pronouns_1of2.zip
+Colours/54. Black/MVI_3742.MOV,data/include50/sequences/Colours/54. Black/MVI_3742.npy,54. Black,27,Colours_2of2.zip
+Places/28. Store or Shop/MVI_3633.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3633.npy,28. Store or Shop,9,Places_3of4.zip
+Clothes/42. T-Shirt/MVI_4003.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_4003.npy,42. T-Shirt,18,Clothes_2of2.zip
+Seasons/64. Fall/MVI_5433.MOV,data/include50/sequences/Seasons/64. Fall/MVI_5433.npy,64. Fall,33,Seasons_1of1.zip
+People/66. Brother/MVI_5245.MOV,data/include50/sequences/People/66. Brother/MVI_5245.npy,66. Brother,34,People_2of5.zip
+Clothes/44. Shoes/MVI_5176.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_5176.npy,44. Shoes,19,Clothes_2of2.zip
+People/78. Girl/MVI_5290.MOV,data/include50/sequences/People/78. Girl/MVI_5290.npy,78. Girl,37,People_4of5.zip
+Home/28. Window/MVI_8769.MP4,data/include50/sequences/Home/28. Window/MVI_8769.npy,28. Window,10,Home_1of4.zip
+Places/19. House/MVI_3596.MOV,data/include50/sequences/Places/19. House/MVI_3596.npy,19. House,5,Places_1of4.zip
+Adjectives/2. quiet/MVI_9451.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9451.npy,2. quiet,7,Adjectives_1of8.zip
+Adjectives/91. new/MVI_9421.MOV,data/include50/sequences/Adjectives/91. new/MVI_9421.npy,91. new,47,Adjectives_6of8.zip
+Animals/4. Bird/MVI_3040.MOV,data/include50/sequences/Animals/4. Bird/MVI_3040.npy,4. Bird,15,Animals_1of2.zip
+Greetings/55. Thank you/MVI_0060.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0060.npy,55. Thank you,29,Greetings_2of2.zip
+Places/28. Store or Shop/MVI_3553.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3553.npy,28. Store or Shop,9,Places_3of4.zip
+Electronics/54. Cell phone/MVI_4969.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_4969.npy,54. Cell phone,28,Electronics_1of2.zip
+Seasons/64. Fall/MVI_4579.MOV,data/include50/sequences/Seasons/64. Fall/MVI_4579.npy,64. Fall,33,Seasons_1of1.zip
+People/77. Boy/MVI_3815.MOV,data/include50/sequences/People/77. Boy/MVI_3815.npy,77. Boy,36,People_4of5.zip
+Adjectives/3. happy/MVI_9375.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9375.npy,3. happy,11,Adjectives_1of8.zip
+Greetings/55. Thank you/MVI_9987.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_9987.npy,55. Thank you,29,Greetings_2of2.zip
+Adjectives/84. small little/MVI_9400.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9400.npy,84. small little,43,Adjectives_5of8.zip
+Jobs/84. Teacher/MVI_4457.MOV,data/include50/sequences/Jobs/84. Teacher/MVI_4457.npy,84. Teacher,42,Jobs_1of2.zip
+People/77. Boy/MVI_3816.MOV,data/include50/sequences/People/77. Boy/MVI_3816.npy,77. Boy,36,People_4of5.zip
+Places/19. House/MVI_3516.MOV,data/include50/sequences/Places/19. House/MVI_3516.npy,19. House,5,Places_1of4.zip
+Greetings/51. Good Morning/MVI_9992.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9992.npy,51. Good Morning,25,Greetings_1of2.zip
+Greetings/48. Hello/MVI_9917.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9917.npy,48. Hello,23,Greetings_1of2.zip
+Adjectives/97. dry/MVI_5328.MOV,data/include50/sequences/Adjectives/97. dry/MVI_5328.npy,97. dry,49,Adjectives_8of8.zip
+Pronouns/40. I/MVI_0065.MOV,data/include50/sequences/Pronouns/40. I/MVI_0065.npy,40. I,16,Pronouns_1of2.zip
+Colours/54. Black/MVI_4041.MOV,data/include50/sequences/Colours/54. Black/MVI_4041.npy,54. Black,27,Colours_2of2.zip
+Colours/55. White/MVI_5063.MOV,data/include50/sequences/Colours/55. White/MVI_5063.npy,55. White,30,Colours_2of2.zip
+Adjectives/97. dry/MVI_9441.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9441.npy,97. dry,49,Adjectives_8of8.zip
+Days_and_Time/86. Time/MVI_5526.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_5526.npy,86. Time,44,Days_and_Time_3of3.zip
+Means_of_Transportation/16. train ticket/MVI_3225.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3225.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Adjectives/97. dry/MVI_9439.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9439.npy,97. dry,49,Adjectives_8of8.zip
+Pronouns/40. I/MVI_9959.MOV,data/include50/sequences/Pronouns/40. I/MVI_9959.npy,40. I,16,Pronouns_1of2.zip
+Adjectives/97. dry/MVI_9279.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9279.npy,97. dry,49,Adjectives_8of8.zip
+Places/23. Court/MVI_3533.MOV,data/include50/sequences/Places/23. Court/MVI_3533.npy,23. Court,8,Places_2of4.zip
+Days_and_Time/78. Year/MVI_4637.MOV,data/include50/sequences/Days_and_Time/78. Year/MVI_4637.npy,78. Year,38,Days_and_Time_2of3.zip
+Electronics/53. Fan/MVI_5390.MOV,data/include50/sequences/Electronics/53. Fan/MVI_5390.npy,53. Fan,26,Electronics_1of2.zip
+Pronouns/44. it/MVI_9897.MOV,data/include50/sequences/Pronouns/44. it/MVI_9897.npy,44. it,20,Pronouns_1of2.zip
+Animals/4. Bird/MVI_3011.MOV,data/include50/sequences/Animals/4. Bird/MVI_3011.npy,4. Bird,15,Animals_1of2.zip
+Means_of_Transportation/16. train ticket/MVI_4191.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_4191.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Adjectives/3. happy/MVI_9454.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9454.npy,3. happy,11,Adjectives_1of8.zip
+Adjectives/79. short/MVI_9462.MOV,data/include50/sequences/Adjectives/79. short/MVI_9462.npy,79. short,40,Adjectives_4of8.zip
+Colours/54. Black/MVI_5207.MOV,data/include50/sequences/Colours/54. Black/MVI_5207.npy,54. Black,27,Colours_2of2.zip
+Days_and_Time/86. Time/MVI_4667.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_4667.npy,86. Time,44,Days_and_Time_3of3.zip
+Animals/5. Cow/MVI_2990.MOV,data/include50/sequences/Animals/5. Cow/MVI_2990.npy,5. Cow,24,Animals_1of2.zip
+Clothes/44. Shoes/MVI_4010.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_4010.npy,44. Shoes,19,Clothes_2of2.zip
+Adjectives/97. dry/MVI_5169.MOV,data/include50/sequences/Adjectives/97. dry/MVI_5169.npy,97. dry,49,Adjectives_8of8.zip
+Animals/5. Cow/MVI_4159.MOV,data/include50/sequences/Animals/5. Cow/MVI_4159.npy,5. Cow,24,Animals_1of2.zip
+Means_of_Transportation/16. train ticket/MVI_3197.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3197.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Adjectives/3. happy/MVI_9296.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9296.npy,3. happy,11,Adjectives_1of8.zip
+People/77. Boy/MVI_5132.MOV,data/include50/sequences/People/77. Boy/MVI_5132.npy,77. Boy,36,People_4of5.zip
+Home/40. Paint/MVI_9052.MP4,data/include50/sequences/Home/40. Paint/MVI_9052.npy,40. Paint,17,Home_3of4.zip
+Means_of_Transportation/11. Car/MVI_4178.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_4178.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Adjectives/94. good/MVI_9432.MOV,data/include50/sequences/Adjectives/94. good/MVI_9432.npy,94. good,48,Adjectives_7of8.zip
+Adjectives/3. happy/MVI_5184.MOV,data/include50/sequences/Adjectives/3. happy/MVI_5184.npy,3. happy,11,Adjectives_1of8.zip
+Seasons/64. Fall/MVI_5000.MOV,data/include50/sequences/Seasons/64. Fall/MVI_5000.npy,64. Fall,33,Seasons_1of1.zip
+Clothes/44. Shoes/MVI_5177.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_5177.npy,44. Shoes,19,Clothes_2of2.zip
+Days_and_Time/67. Monday/MVI_9142.MP4,data/include50/sequences/Days_and_Time/67. Monday/MVI_9142.npy,67. Monday,35,Days_and_Time_1of3.zip
+Greetings/48. Hello/MVI_0038.MOV,data/include50/sequences/Greetings/48. Hello/MVI_0038.npy,48. Hello,23,Greetings_1of2.zip
+Jobs/84. Teacher/MVI_5313.MOV,data/include50/sequences/Jobs/84. Teacher/MVI_5313.npy,84. Teacher,42,Jobs_1of2.zip
+People/78. Girl/MVI_3966.MOV,data/include50/sequences/People/78. Girl/MVI_3966.npy,78. Girl,37,People_4of5.zip
+Colours/55. White/MVI_5061.MOV,data/include50/sequences/Colours/55. White/MVI_5061.npy,55. White,30,Colours_2of2.zip
+Animals/1. Dog/MVI_3086.MOV,data/include50/sequences/Animals/1. Dog/MVI_3086.npy,1. Dog,0,Animals_1of2.zip
+Pronouns/46. you (plural)/MVI_0024.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_0024.npy,46. you (plural),21,Pronouns_2of2.zip
+Adjectives/78. long/MVI_5266.MOV,data/include50/sequences/Adjectives/78. long/MVI_5266.npy,78. long,39,Adjectives_4of8.zip
+Adjectives/2. quiet/MVI_5338.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_5338.npy,2. quiet,7,Adjectives_1of8.zip
+Greetings/48. Hello/MVI_0089.MOV,data/include50/sequences/Greetings/48. Hello/MVI_0089.npy,48. Hello,23,Greetings_1of2.zip
+Adjectives/87. hot/MVI_5218.MOV,data/include50/sequences/Adjectives/87. hot/MVI_5218.npy,87. hot,45,Adjectives_6of8.zip
+Adjectives/1. loud/MVI_5335.MOV,data/include50/sequences/Adjectives/1. loud/MVI_5335.npy,1. loud,1,Adjectives_1of8.zip
+Places/23. Court/MVI_3532.MOV,data/include50/sequences/Places/23. Court/MVI_3532.npy,23. Court,8,Places_2of4.zip
+Adjectives/84. small little/MVI_5126.MOV,data/include50/sequences/Adjectives/84. small little/MVI_5126.npy,84. small little,43,Adjectives_5of8.zip
+Pronouns/44. it/MVI_0026.MOV,data/include50/sequences/Pronouns/44. it/MVI_0026.npy,44. it,20,Pronouns_1of2.zip
+Days_and_Time/67. Monday/MVI_4594.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_4594.npy,67. Monday,35,Days_and_Time_1of3.zip
+Home/34. Pen/MVI_9034.MP4,data/include50/sequences/Home/34. Pen/MVI_9034.npy,34. Pen,12,Home_2of4.zip
+Jobs/91. Priest/MVI_4489.MOV,data/include50/sequences/Jobs/91. Priest/MVI_4489.npy,91. Priest,46,Jobs_1of2.zip
+Pronouns/40. I/MVI_9879.MOV,data/include50/sequences/Pronouns/40. I/MVI_9879.npy,40. I,16,Pronouns_1of2.zip
+Clothes/42. T-Shirt/MVI_3850.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_3850.npy,42. T-Shirt,18,Clothes_2of2.zip
+Places/19. House/MVI_3437.MOV,data/include50/sequences/Places/19. House/MVI_3437.npy,19. House,5,Places_1of4.zip
+Animals/4. Bird/MVI_3070.MOV,data/include50/sequences/Animals/4. Bird/MVI_3070.npy,4. Bird,15,Animals_1of2.zip
+Adjectives/91. new/MVI_5307.MOV,data/include50/sequences/Adjectives/91. new/MVI_5307.npy,91. new,47,Adjectives_6of8.zip
+Places/19. House/MVI_3594.MOV,data/include50/sequences/Places/19. House/MVI_3594.npy,19. House,5,Places_1of4.zip
+Electronics/53. Fan/MVI_9097.MP4,data/include50/sequences/Electronics/53. Fan/MVI_9097.npy,53. Fan,26,Electronics_1of2.zip
+Adjectives/94. good/MVI_5160.MOV,data/include50/sequences/Adjectives/94. good/MVI_5160.npy,94. good,48,Adjectives_7of8.zip
+Jobs/84. Teacher/MVI_8864.MP4,data/include50/sequences/Jobs/84. Teacher/MVI_8864.npy,84. Teacher,42,Jobs_1of2.zip
+People/66. Brother/MVI_3927.MOV,data/include50/sequences/People/66. Brother/MVI_3927.npy,66. Brother,34,People_2of5.zip
+Adjectives/79. short/MVI_9220.MOV,data/include50/sequences/Adjectives/79. short/MVI_9220.npy,79. short,40,Adjectives_4of8.zip
+Electronics/53. Fan/MVI_4532.MOV,data/include50/sequences/Electronics/53. Fan/MVI_4532.npy,53. Fan,26,Electronics_1of2.zip
+Animals/5. Cow/MVI_3047.MOV,data/include50/sequences/Animals/5. Cow/MVI_3047.npy,5. Cow,24,Animals_1of2.zip
+Adjectives/97. dry/MVI_5249.MOV,data/include50/sequences/Adjectives/97. dry/MVI_5249.npy,97. dry,49,Adjectives_8of8.zip
+Pronouns/46. you (plural)/MVI_9976.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9976.npy,46. you (plural),21,Pronouns_2of2.zip
+Pronouns/44. it/MVI_9900.MOV,data/include50/sequences/Pronouns/44. it/MVI_9900.npy,44. it,20,Pronouns_1of2.zip
+Adjectives/94. good/MVI_9268.MOV,data/include50/sequences/Adjectives/94. good/MVI_9268.npy,94. good,48,Adjectives_7of8.zip
+Electronics/54. Cell phone/MVI_4538.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_4538.npy,54. Cell phone,28,Electronics_1of2.zip
+Adjectives/2. quiet/MVI_9372.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9372.npy,2. quiet,7,Adjectives_1of8.zip
+Places/19. House/MVI_3438.MOV,data/include50/sequences/Places/19. House/MVI_3438.npy,19. House,5,Places_1of4.zip
+Means_of_Transportation/16. train ticket/MVI_3255.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3255.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Days_and_Time/67. Monday/MVI_5011.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_5011.npy,67. Monday,35,Days_and_Time_1of3.zip
+Seasons/61. Summer/MVI_9122.MP4,data/include50/sequences/Seasons/61. Summer/MVI_9122.npy,61. Summer,32,Seasons_1of1.zip
+Colours/55. White/MVI_4042.MOV,data/include50/sequences/Colours/55. White/MVI_4042.npy,55. White,30,Colours_2of2.zip
+Clothes/42. T-Shirt/MVI_4202.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_4202.npy,42. T-Shirt,18,Clothes_2of2.zip
+Means_of_Transportation/11. Car/MVI_3211.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3211.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Adjectives/3. happy/MVI_5341.MOV,data/include50/sequences/Adjectives/3. happy/MVI_5341.npy,3. happy,11,Adjectives_1of8.zip
+Jobs/91. Priest/MVI_4770.MOV,data/include50/sequences/Jobs/91. Priest/MVI_4770.npy,91. Priest,46,Jobs_1of2.zip
+Pronouns/40. I/MVI_9919.MOV,data/include50/sequences/Pronouns/40. I/MVI_9919.npy,40. I,16,Pronouns_1of2.zip
+Pronouns/40. I/MVI_9995.MOV,data/include50/sequences/Pronouns/40. I/MVI_9995.npy,40. I,16,Pronouns_1of2.zip
+Pronouns/46. you (plural)/MVI_9907.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9907.npy,46. you (plural),21,Pronouns_2of2.zip
+Days_and_Time/67. Monday/MVI_5446.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_5446.npy,67. Monday,35,Days_and_Time_1of3.zip
+Adjectives/3. happy/MVI_9541.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9541.npy,3. happy,11,Adjectives_1of8.zip
+Animals/1. Dog/MVI_3029.MOV,data/include50/sequences/Animals/1. Dog/MVI_3029.npy,1. Dog,0,Animals_1of2.zip
+Means_of_Transportation/16. train ticket/MVI_8597.MP4,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_8597.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Days_and_Time/78. Year/MVI_5049.MOV,data/include50/sequences/Days_and_Time/78. Year/MVI_5049.npy,78. Year,38,Days_and_Time_2of3.zip
+Electronics/54. Cell phone/MVI_5394.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_5394.npy,54. Cell phone,28,Electronics_1of2.zip
+Days_and_Time/86. Time/MVI_5527.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_5527.npy,86. Time,44,Days_and_Time_3of3.zip
+People/61. Father/MVI_3765.MOV,data/include50/sequences/People/61. Father/MVI_3765.npy,61. Father,31,People_1of5.zip
+Adjectives/79. short/MVI_9303.MOV,data/include50/sequences/Adjectives/79. short/MVI_9303.npy,79. short,40,Adjectives_4of8.zip
+Adjectives/91. new/MVI_9260.MOV,data/include50/sequences/Adjectives/91. new/MVI_9260.npy,91. new,47,Adjectives_6of8.zip
+Adjectives/94. good/MVI_9351.MOV,data/include50/sequences/Adjectives/94. good/MVI_9351.npy,94. good,48,Adjectives_7of8.zip
+Means_of_Transportation/16. train ticket/MVI_3254.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3254.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Clothes/44. Shoes/MVI_8608.MP4,data/include50/sequences/Clothes/44. Shoes/MVI_8608.npy,44. Shoes,19,Clothes_2of2.zip
+Means_of_Transportation/11. Car/MVI_3175.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3175.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Greetings/51. Good Morning/MVI_0044.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_0044.npy,51. Good Morning,25,Greetings_1of2.zip
+Adjectives/94. good/MVI_9511.MOV,data/include50/sequences/Adjectives/94. good/MVI_9511.npy,94. good,48,Adjectives_7of8.zip
+Clothes/37. Hat/MVI_4197.MOV,data/include50/sequences/Clothes/37. Hat/MVI_4197.npy,37. Hat,14,Clothes_1of2.zip
+Adjectives/79. short/MVI_9381.MOV,data/include50/sequences/Adjectives/79. short/MVI_9381.npy,79. short,40,Adjectives_4of8.zip
+Colours/54. Black/MVI_4039.MOV,data/include50/sequences/Colours/54. Black/MVI_4039.npy,54. Black,27,Colours_2of2.zip
+Adjectives/84. small little/MVI_9319.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9319.npy,84. small little,43,Adjectives_5of8.zip
+Adjectives/1. loud/MVI_5258.MOV,data/include50/sequences/Adjectives/1. loud/MVI_5258.npy,1. loud,1,Adjectives_1of8.zip
+Adjectives/79. short/MVI_5271.MOV,data/include50/sequences/Adjectives/79. short/MVI_5271.npy,79. short,40,Adjectives_4of8.zip
+Animals/5. Cow/MVI_3099.MOV,data/include50/sequences/Animals/5. Cow/MVI_3099.npy,5. Cow,24,Animals_1of2.zip
+Society/2. Death/MVI_8930.MP4,data/include50/sequences/Society/2. Death/MVI_8930.npy,2. Death,6,Society_1of3.zip
+Animals/1. Dog/MVI_8560.MP4,data/include50/sequences/Animals/1. Dog/MVI_8560.npy,1. Dog,0,Animals_1of2.zip
+Pronouns/44. it/MVI_9937.MOV,data/include50/sequences/Pronouns/44. it/MVI_9937.npy,44. it,20,Pronouns_1of2.zip
+People/78. Girl/MVI_3965.MOV,data/include50/sequences/People/78. Girl/MVI_3965.npy,78. Girl,37,People_4of5.zip
+Adjectives/3. happy/MVI_9540.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9540.npy,3. happy,11,Adjectives_1of8.zip
+People/78. Girl/MVI_5289.MOV,data/include50/sequences/People/78. Girl/MVI_5289.npy,78. Girl,37,People_4of5.zip
+Jobs/84. Teacher/MVI_4746.MOV,data/include50/sequences/Jobs/84. Teacher/MVI_4746.npy,84. Teacher,42,Jobs_1of2.zip
+Clothes/37. Hat/MVI_3688.MOV,data/include50/sequences/Clothes/37. Hat/MVI_3688.npy,37. Hat,14,Clothes_1of2.zip
+Colours/55. White/MVI_3743.MOV,data/include50/sequences/Colours/55. White/MVI_3743.npy,55. White,30,Colours_2of2.zip
+Clothes/44. Shoes/MVI_5029.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_5029.npy,44. Shoes,19,Clothes_2of2.zip
+Adjectives/87. hot/MVI_9488.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9488.npy,87. hot,45,Adjectives_6of8.zip
+Clothes/37. Hat/MVI_3985.MOV,data/include50/sequences/Clothes/37. Hat/MVI_3985.npy,37. Hat,14,Clothes_1of2.zip
+Days_and_Time/67. Monday/MVI_4592.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_4592.npy,67. Monday,35,Days_and_Time_1of3.zip
+Days_and_Time/78. Year/MVI_9176.MP4,data/include50/sequences/Days_and_Time/78. Year/MVI_9176.npy,78. Year,38,Days_and_Time_2of3.zip
+Adjectives/78. long/MVI_9377.MOV,data/include50/sequences/Adjectives/78. long/MVI_9377.npy,78. long,39,Adjectives_4of8.zip
+Days_and_Time/78. Year/MVI_9177.MP4,data/include50/sequences/Days_and_Time/78. Year/MVI_9177.npy,78. Year,38,Days_and_Time_2of3.zip
+Pronouns/46. you (plural)/MVI_0022.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_0022.npy,46. you (plural),21,Pronouns_2of2.zip
+Greetings/48. Hello/MVI_9957.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9957.npy,48. Hello,23,Greetings_1of2.zip
+People/66. Brother/MVI_5244.MOV,data/include50/sequences/People/66. Brother/MVI_5244.npy,66. Brother,34,People_2of5.zip
+Jobs/91. Priest/MVI_4488.MOV,data/include50/sequences/Jobs/91. Priest/MVI_4488.npy,91. Priest,46,Jobs_1of2.zip
+Greetings/51. Good Morning/MVI_9968.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9968.npy,51. Good Morning,25,Greetings_1of2.zip
+Adjectives/87. hot/MVI_9248.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9248.npy,87. hot,45,Adjectives_6of8.zip
+Animals/1. Dog/MVI_3087.MOV,data/include50/sequences/Animals/1. Dog/MVI_3087.npy,1. Dog,0,Animals_1of2.zip
+Society/14. Election/MVI_8968.MP4,data/include50/sequences/Society/14. Election/MVI_8968.npy,14. Election,3,Society_2of3.zip
+Adjectives/94. good/MVI_9512.MOV,data/include50/sequences/Adjectives/94. good/MVI_9512.npy,94. good,48,Adjectives_7of8.zip
+People/77. Boy/MVI_4111.MOV,data/include50/sequences/People/77. Boy/MVI_4111.npy,77. Boy,36,People_4of5.zip
+Days_and_Time/86. Time/MVI_4668.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_4668.npy,86. Time,44,Days_and_Time_3of3.zip
+Days_and_Time/78. Year/MVI_5492.MOV,data/include50/sequences/Days_and_Time/78. Year/MVI_5492.npy,78. Year,38,Days_and_Time_2of3.zip
+Animals/1. Dog/MVI_3028.MOV,data/include50/sequences/Animals/1. Dog/MVI_3028.npy,1. Dog,0,Animals_1of2.zip
+People/66. Brother/MVI_4077.MOV,data/include50/sequences/People/66. Brother/MVI_4077.npy,66. Brother,34,People_2of5.zip
+Animals/4. Bird/MVI_3096.MOV,data/include50/sequences/Animals/4. Bird/MVI_3096.npy,4. Bird,15,Animals_1of2.zip
+Places/35. Bank/MVI_3423.MOV,data/include50/sequences/Places/35. Bank/MVI_3423.npy,35. Bank,13,Places_4of4.zip
+Greetings/55. Thank you/MVI_0007.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0007.npy,55. Thank you,29,Greetings_2of2.zip
+Colours/55. White/MVI_4922.MOV,data/include50/sequences/Colours/55. White/MVI_4922.npy,55. White,30,Colours_2of2.zip
+Home/34. Pen/MVI_8794.MP4,data/include50/sequences/Home/34. Pen/MVI_8794.npy,34. Pen,12,Home_2of4.zip
+Places/35. Bank/MVI_3419.MOV,data/include50/sequences/Places/35. Bank/MVI_3419.npy,35. Bank,13,Places_4of4.zip
+Electronics/54. Cell phone/MVI_9100.MP4,data/include50/sequences/Electronics/54. Cell phone/MVI_9100.npy,54. Cell phone,28,Electronics_1of2.zip
+Colours/47. Red/MVI_4899.MOV,data/include50/sequences/Colours/47. Red/MVI_4899.npy,47. Red,22,Colours_1of2.zip
+Colours/54. Black/MVI_4215.MOV,data/include50/sequences/Colours/54. Black/MVI_4215.npy,54. Black,27,Colours_2of2.zip
+Adjectives/91. new/MVI_5230.MOV,data/include50/sequences/Adjectives/91. new/MVI_5230.npy,91. new,47,Adjectives_6of8.zip
+Colours/54. Black/MVI_4919.MOV,data/include50/sequences/Colours/54. Black/MVI_4919.npy,54. Black,27,Colours_2of2.zip
+Animals/4. Bird/MVI_3095.MOV,data/include50/sequences/Animals/4. Bird/MVI_3095.npy,4. Bird,15,Animals_1of2.zip
+Clothes/42. T-Shirt/MVI_4004.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_4004.npy,42. T-Shirt,18,Clothes_2of2.zip
+Means_of_Transportation/16. train ticket/MVI_3164.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3164.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Adjectives/83. big large/MVI_5284.MOV,data/include50/sequences/Adjectives/83. big large/MVI_5284.npy,83. big large,41,Adjectives_5of8.zip
+Greetings/55. Thank you/MVI_9986.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_9986.npy,55. Thank you,29,Greetings_2of2.zip
+Colours/47. Red/MVI_5037.MOV,data/include50/sequences/Colours/47. Red/MVI_5037.npy,47. Red,22,Colours_1of2.zip
+Electronics/54. Cell phone/MVI_5392.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_5392.npy,54. Cell phone,28,Electronics_1of2.zip
+Greetings/51. Good Morning/MVI_9993.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9993.npy,51. Good Morning,25,Greetings_1of2.zip
+Clothes/42. T-Shirt/MVI_5171.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_5171.npy,42. T-Shirt,18,Clothes_2of2.zip
+Places/28. Store or Shop/MVI_3634.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3634.npy,28. Store or Shop,9,Places_3of4.zip
+Adjectives/1. loud/MVI_9535.MOV,data/include50/sequences/Adjectives/1. loud/MVI_9535.npy,1. loud,1,Adjectives_1of8.zip
+Clothes/42. T-Shirt/MVI_8606.MP4,data/include50/sequences/Clothes/42. T-Shirt/MVI_8606.npy,42. T-Shirt,18,Clothes_2of2.zip
+Adjectives/78. long/MVI_9218.MOV,data/include50/sequences/Adjectives/78. long/MVI_9218.npy,78. long,39,Adjectives_4of8.zip
+Places/19. House/MVI_3349.MOV,data/include50/sequences/Places/19. House/MVI_3349.npy,19. House,5,Places_1of4.zip
+Adjectives/78. long/MVI_9459.MOV,data/include50/sequences/Adjectives/78. long/MVI_9459.npy,78. long,39,Adjectives_4of8.zip
+People/78. Girl/MVI_4986.MOV,data/include50/sequences/People/78. Girl/MVI_4986.npy,78. Girl,37,People_4of5.zip
+Adjectives/2. quiet/MVI_9453.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9453.npy,2. quiet,7,Adjectives_1of8.zip
+Pronouns/44. it/MVI_0076.MOV,data/include50/sequences/Pronouns/44. it/MVI_0076.npy,44. it,20,Pronouns_1of2.zip
+Places/23. Court/MVI_3609.MOV,data/include50/sequences/Places/23. Court/MVI_3609.npy,23. Court,8,Places_2of4.zip
+Home/28. Window/MVI_4882.MOV,data/include50/sequences/Home/28. Window/MVI_4882.npy,28. Window,10,Home_1of4.zip
+Jobs/91. Priest/MVI_4772.MOV,data/include50/sequences/Jobs/91. Priest/MVI_4772.npy,91. Priest,46,Jobs_1of2.zip
+Adjectives/1. loud/MVI_9291.MOV,data/include50/sequences/Adjectives/1. loud/MVI_9291.npy,1. loud,1,Adjectives_1of8.zip
+Adjectives/91. new/MVI_5151.MOV,data/include50/sequences/Adjectives/91. new/MVI_5151.npy,91. new,47,Adjectives_6of8.zip
+Pronouns/44. it/MVI_9939.MOV,data/include50/sequences/Pronouns/44. it/MVI_9939.npy,44. it,20,Pronouns_1of2.zip
+Pronouns/44. it/MVI_0077.MOV,data/include50/sequences/Pronouns/44. it/MVI_0077.npy,44. it,20,Pronouns_1of2.zip
+Pronouns/40. I/MVI_0003.MOV,data/include50/sequences/Pronouns/40. I/MVI_0003.npy,40. I,16,Pronouns_1of2.zip
+Adjectives/87. hot/MVI_9410.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9410.npy,87. hot,45,Adjectives_6of8.zip
+Animals/5. Cow/MVI_2992.MOV,data/include50/sequences/Animals/5. Cow/MVI_2992.npy,5. Cow,24,Animals_1of2.zip
+Places/19. House/MVI_3267.MOV,data/include50/sequences/Places/19. House/MVI_3267.npy,19. House,5,Places_1of4.zip
+Home/40. Paint/MVI_8819.MP4,data/include50/sequences/Home/40. Paint/MVI_8819.npy,40. Paint,17,Home_3of4.zip
+Greetings/51. Good Morning/MVI_9971.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9971.npy,51. Good Morning,25,Greetings_1of2.zip
+Home/28. Window/MVI_4363.MOV,data/include50/sequences/Home/28. Window/MVI_4363.npy,28. Window,10,Home_1of4.zip
+Adjectives/84. small little/MVI_9321.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9321.npy,84. small little,43,Adjectives_5of8.zip
+People/61. Father/MVI_5229.MOV,data/include50/sequences/People/61. Father/MVI_5229.npy,61. Father,31,People_1of5.zip
+Seasons/64. Fall/MVI_9133.MP4,data/include50/sequences/Seasons/64. Fall/MVI_9133.npy,64. Fall,33,Seasons_1of1.zip
+Home/28. Window/MVI_8768.MP4,data/include50/sequences/Home/28. Window/MVI_8768.npy,28. Window,10,Home_1of4.zip
+People/78. Girl/MVI_3818.MOV,data/include50/sequences/People/78. Girl/MVI_3818.npy,78. Girl,37,People_4of5.zip
+Colours/55. White/MVI_3891.MOV,data/include50/sequences/Colours/55. White/MVI_3891.npy,55. White,30,Colours_2of2.zip
+Means_of_Transportation/16. train ticket/MVI_3195.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3195.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Adjectives/79. short/MVI_9461.MOV,data/include50/sequences/Adjectives/79. short/MVI_9461.npy,79. short,40,Adjectives_4of8.zip
+Animals/4. Bird/MVI_4157.MOV,data/include50/sequences/Animals/4. Bird/MVI_4157.npy,4. Bird,15,Animals_1of2.zip
+Places/28. Store or Shop/MVI_3475.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3475.npy,28. Store or Shop,9,Places_3of4.zip
+Society/2. Death/MVI_4255.MOV,data/include50/sequences/Society/2. Death/MVI_4255.npy,2. Death,6,Society_1of3.zip
+Places/23. Court/MVI_3455.MOV,data/include50/sequences/Places/23. Court/MVI_3455.npy,23. Court,8,Places_2of4.zip
+Colours/55. White/MVI_3744.MOV,data/include50/sequences/Colours/55. White/MVI_3744.npy,55. White,30,Colours_2of2.zip
+Pronouns/40. I/MVI_9918.MOV,data/include50/sequences/Pronouns/40. I/MVI_9918.npy,40. I,16,Pronouns_1of2.zip
+Adjectives/79. short/MVI_5110.MOV,data/include50/sequences/Adjectives/79. short/MVI_5110.npy,79. short,40,Adjectives_4of8.zip
+Jobs/91. Priest/MVI_4487.MOV,data/include50/sequences/Jobs/91. Priest/MVI_4487.npy,91. Priest,46,Jobs_1of2.zip
+Places/35. Bank/MVI_3582.MOV,data/include50/sequences/Places/35. Bank/MVI_3582.npy,35. Bank,13,Places_4of4.zip
+Adjectives/94. good/MVI_5158.MOV,data/include50/sequences/Adjectives/94. good/MVI_5158.npy,94. good,48,Adjectives_7of8.zip
+Adjectives/91. new/MVI_9259.MOV,data/include50/sequences/Adjectives/91. new/MVI_9259.npy,91. new,47,Adjectives_6of8.zip
+Adjectives/78. long/MVI_9379.MOV,data/include50/sequences/Adjectives/78. long/MVI_9379.npy,78. long,39,Adjectives_4of8.zip
+Places/35. Bank/MVI_3337.MOV,data/include50/sequences/Places/35. Bank/MVI_3337.npy,35. Bank,13,Places_4of4.zip
+Seasons/64. Fall/MVI_4580.MOV,data/include50/sequences/Seasons/64. Fall/MVI_4580.npy,64. Fall,33,Seasons_1of1.zip
+Home/28. Window/MVI_9014.MP4,data/include50/sequences/Home/28. Window/MVI_9014.npy,28. Window,10,Home_1of4.zip
+Home/34. Pen/MVI_4390.MOV,data/include50/sequences/Home/34. Pen/MVI_4390.npy,34. Pen,12,Home_2of4.zip
+Pronouns/44. it/MVI_9971.MOV,data/include50/sequences/Pronouns/44. it/MVI_9971.npy,44. it,20,Pronouns_1of2.zip
+Adjectives/87. hot/MVI_5297.MOV,data/include50/sequences/Adjectives/87. hot/MVI_5297.npy,87. hot,45,Adjectives_6of8.zip
+Places/19. House/MVI_3436.MOV,data/include50/sequences/Places/19. House/MVI_3436.npy,19. House,5,Places_1of4.zip
+Society/14. Election/MVI_4840.MOV,data/include50/sequences/Society/14. Election/MVI_4840.npy,14. Election,3,Society_2of3.zip
+Society/14. Election/MVI_4306.MOV,data/include50/sequences/Society/14. Election/MVI_4306.npy,14. Election,3,Society_2of3.zip
+Places/35. Bank/MVI_3581.MOV,data/include50/sequences/Places/35. Bank/MVI_3581.npy,35. Bank,13,Places_4of4.zip
+Jobs/84. Teacher/MVI_4458.MOV,data/include50/sequences/Jobs/84. Teacher/MVI_4458.npy,84. Teacher,42,Jobs_1of2.zip
+Pronouns/46. you (plural)/MVI_0021.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_0021.npy,46. you (plural),21,Pronouns_2of2.zip
+Adjectives/83. big large/MVI_9233.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9233.npy,83. big large,41,Adjectives_5of8.zip
+Animals/4. Bird/MVI_3037.MOV,data/include50/sequences/Animals/4. Bird/MVI_3037.npy,4. Bird,15,Animals_1of2.zip
+Seasons/61. Summer/MVI_4565.MOV,data/include50/sequences/Seasons/61. Summer/MVI_4565.npy,61. Summer,32,Seasons_1of1.zip
+Adjectives/84. small little/MVI_9238.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9238.npy,84. small little,43,Adjectives_5of8.zip
+Pronouns/46. you (plural)/MVI_9909.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9909.npy,46. you (plural),21,Pronouns_2of2.zip
+Adjectives/84. small little/MVI_5208.MOV,data/include50/sequences/Adjectives/84. small little/MVI_5208.npy,84. small little,43,Adjectives_5of8.zip
+People/77. Boy/MVI_4981.MOV,data/include50/sequences/People/77. Boy/MVI_4981.npy,77. Boy,36,People_4of5.zip
+Places/19. House/MVI_3513.MOV,data/include50/sequences/Places/19. House/MVI_3513.npy,19. House,5,Places_1of4.zip
+Seasons/61. Summer/MVI_4567.MOV,data/include50/sequences/Seasons/61. Summer/MVI_4567.npy,61. Summer,32,Seasons_1of1.zip
+Colours/55. White/MVI_3745.MOV,data/include50/sequences/Colours/55. White/MVI_3745.npy,55. White,30,Colours_2of2.zip
+Days_and_Time/78. Year/MVI_5494.MOV,data/include50/sequences/Days_and_Time/78. Year/MVI_5494.npy,78. Year,38,Days_and_Time_2of3.zip
+People/77. Boy/MVI_5287.MOV,data/include50/sequences/People/77. Boy/MVI_5287.npy,77. Boy,36,People_4of5.zip
+Means_of_Transportation/16. train ticket/MVI_3196.MOV,data/include50/sequences/Means_of_Transportation/16. train ticket/MVI_3196.npy,16. train ticket,4,Means_of_Transportation_2of2.zip
+Animals/5. Cow/MVI_3015.MOV,data/include50/sequences/Animals/5. Cow/MVI_3015.npy,5. Cow,24,Animals_1of2.zip
+Society/2. Death/MVI_4800.MOV,data/include50/sequences/Society/2. Death/MVI_4800.npy,2. Death,6,Society_1of3.zip
+Home/28. Window/MVI_9015.MP4,data/include50/sequences/Home/28. Window/MVI_9015.npy,28. Window,10,Home_1of4.zip
+Days_and_Time/78. Year/MVI_9178.MP4,data/include50/sequences/Days_and_Time/78. Year/MVI_9178.npy,78. Year,38,Days_and_Time_2of3.zip
+Adjectives/87. hot/MVI_9329.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9329.npy,87. hot,45,Adjectives_6of8.zip
+Adjectives/2. quiet/MVI_5181.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_5181.npy,2. quiet,7,Adjectives_1of8.zip
+Home/34. Pen/MVI_4388.MOV,data/include50/sequences/Home/34. Pen/MVI_4388.npy,34. Pen,12,Home_2of4.zip
+Adjectives/79. short/MVI_9463.MOV,data/include50/sequences/Adjectives/79. short/MVI_9463.npy,79. short,40,Adjectives_4of8.zip
+Adjectives/79. short/MVI_9301.MOV,data/include50/sequences/Adjectives/79. short/MVI_9301.npy,79. short,40,Adjectives_4of8.zip
+Home/34. Pen/MVI_4387.MOV,data/include50/sequences/Home/34. Pen/MVI_4387.npy,34. Pen,12,Home_2of4.zip
+Clothes/44. Shoes/MVI_4889.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_4889.npy,44. Shoes,19,Clothes_2of2.zip
+Seasons/61. Summer/MVI_9123.MP4,data/include50/sequences/Seasons/61. Summer/MVI_9123.npy,61. Summer,32,Seasons_1of1.zip
+Clothes/44. Shoes/MVI_4887.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_4887.npy,44. Shoes,19,Clothes_2of2.zip
+Adjectives/78. long/MVI_9458.MOV,data/include50/sequences/Adjectives/78. long/MVI_9458.npy,78. long,39,Adjectives_4of8.zip
+Seasons/61. Summer/MVI_4990.MOV,data/include50/sequences/Seasons/61. Summer/MVI_4990.npy,61. Summer,32,Seasons_1of1.zip
+Animals/5. Cow/MVI_3017.MOV,data/include50/sequences/Animals/5. Cow/MVI_3017.npy,5. Cow,24,Animals_1of2.zip
+Adjectives/2. quiet/MVI_5261.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_5261.npy,2. quiet,7,Adjectives_1of8.zip
+Clothes/37. Hat/MVI_3691.MOV,data/include50/sequences/Clothes/37. Hat/MVI_3691.npy,37. Hat,14,Clothes_1of2.zip
+Adjectives/84. small little/MVI_9479.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9479.npy,84. small little,43,Adjectives_5of8.zip
+Places/35. Bank/MVI_3661.MOV,data/include50/sequences/Places/35. Bank/MVI_3661.npy,35. Bank,13,Places_4of4.zip
+Places/35. Bank/MVI_3421.MOV,data/include50/sequences/Places/35. Bank/MVI_3421.npy,35. Bank,13,Places_4of4.zip
+Places/23. Court/MVI_3612.MOV,data/include50/sequences/Places/23. Court/MVI_3612.npy,23. Court,8,Places_2of4.zip
+Greetings/55. Thank you/MVI_0059.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0059.npy,55. Thank you,29,Greetings_2of2.zip
+Adjectives/91. new/MVI_9340.MOV,data/include50/sequences/Adjectives/91. new/MVI_9340.npy,91. new,47,Adjectives_6of8.zip
+Society/2. Death/MVI_4802.MOV,data/include50/sequences/Society/2. Death/MVI_4802.npy,2. Death,6,Society_1of3.zip
+Adjectives/78. long/MVI_5106.MOV,data/include50/sequences/Adjectives/78. long/MVI_5106.npy,78. long,39,Adjectives_4of8.zip
+Colours/47. Red/MVI_4898.MOV,data/include50/sequences/Colours/47. Red/MVI_4898.npy,47. Red,22,Colours_1of2.zip
+Greetings/48. Hello/MVI_9954.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9954.npy,48. Hello,23,Greetings_1of2.zip
+Colours/47. Red/MVI_3868.MOV,data/include50/sequences/Colours/47. Red/MVI_3868.npy,47. Red,22,Colours_1of2.zip
+Pronouns/40. I/MVI_9880.MOV,data/include50/sequences/Pronouns/40. I/MVI_9880.npy,40. I,16,Pronouns_1of2.zip
+Greetings/51. Good Morning/MVI_9991.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9991.npy,51. Good Morning,25,Greetings_1of2.zip
+People/77. Boy/MVI_8644.MP4,data/include50/sequences/People/77. Boy/MVI_8644.npy,77. Boy,36,People_4of5.zip
+Places/35. Bank/MVI_3664.MOV,data/include50/sequences/Places/35. Bank/MVI_3664.npy,35. Bank,13,Places_4of4.zip
+Adjectives/2. quiet/MVI_9373.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9373.npy,2. quiet,7,Adjectives_1of8.zip
+Adjectives/97. dry/MVI_9359.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9359.npy,97. dry,49,Adjectives_8of8.zip
+Places/35. Bank/MVI_3502.MOV,data/include50/sequences/Places/35. Bank/MVI_3502.npy,35. Bank,13,Places_4of4.zip
+Greetings/55. Thank you/MVI_0111.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0111.npy,55. Thank you,29,Greetings_2of2.zip
+Places/23. Court/MVI_3452.MOV,data/include50/sequences/Places/23. Court/MVI_3452.npy,23. Court,8,Places_2of4.zip
+Places/28. Store or Shop/MVI_3632.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3632.npy,28. Store or Shop,9,Places_3of4.zip
+Adjectives/97. dry/MVI_9523.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9523.npy,97. dry,49,Adjectives_8of8.zip
+Society/2. Death/MVI_4256.MOV,data/include50/sequences/Society/2. Death/MVI_4256.npy,2. Death,6,Society_1of3.zip
+Animals/5. Cow/MVI_4158.MOV,data/include50/sequences/Animals/5. Cow/MVI_4158.npy,5. Cow,24,Animals_1of2.zip
+Colours/55. White/MVI_3892.MOV,data/include50/sequences/Colours/55. White/MVI_3892.npy,55. White,30,Colours_2of2.zip
+Adjectives/3. happy/MVI_5265.MOV,data/include50/sequences/Adjectives/3. happy/MVI_5265.npy,3. happy,11,Adjectives_1of8.zip
+Clothes/44. Shoes/MVI_3856.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_3856.npy,44. Shoes,19,Clothes_2of2.zip
+Animals/1. Dog/MVI_3004.MOV,data/include50/sequences/Animals/1. Dog/MVI_3004.npy,1. Dog,0,Animals_1of2.zip
+Adjectives/83. big large/MVI_5283.MOV,data/include50/sequences/Adjectives/83. big large/MVI_5283.npy,83. big large,41,Adjectives_5of8.zip
+People/61. Father/MVI_8626.MP4,data/include50/sequences/People/61. Father/MVI_8626.npy,61. Father,31,People_1of5.zip
+Animals/1. Dog/MVI_3003.MOV,data/include50/sequences/Animals/1. Dog/MVI_3003.npy,1. Dog,0,Animals_1of2.zip
+Adjectives/84. small little/MVI_5286.MOV,data/include50/sequences/Adjectives/84. small little/MVI_5286.npy,84. small little,43,Adjectives_5of8.zip
+People/78. Girl/MVI_8645.MP4,data/include50/sequences/People/78. Girl/MVI_8645.npy,78. Girl,37,People_4of5.zip
+Home/40. Paint/MVI_4928.MOV,data/include50/sequences/Home/40. Paint/MVI_4928.npy,40. Paint,17,Home_3of4.zip
+Seasons/61. Summer/MVI_9124.MP4,data/include50/sequences/Seasons/61. Summer/MVI_9124.npy,61. Summer,32,Seasons_1of1.zip
+Adjectives/2. quiet/MVI_9538.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9538.npy,2. quiet,7,Adjectives_1of8.zip
+Adjectives/79. short/MVI_5112.MOV,data/include50/sequences/Adjectives/79. short/MVI_5112.npy,79. short,40,Adjectives_4of8.zip
+Animals/1. Dog/MVI_8561.MP4,data/include50/sequences/Animals/1. Dog/MVI_8561.npy,1. Dog,0,Animals_1of2.zip
+Adjectives/87. hot/MVI_5137.MOV,data/include50/sequences/Adjectives/87. hot/MVI_5137.npy,87. hot,45,Adjectives_6of8.zip
+Greetings/55. Thank you/MVI_0008.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0008.npy,55. Thank you,29,Greetings_2of2.zip
+Greetings/48. Hello/MVI_0039.MOV,data/include50/sequences/Greetings/48. Hello/MVI_0039.npy,48. Hello,23,Greetings_1of2.zip
+Greetings/51. Good Morning/MVI_0099.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_0099.npy,51. Good Morning,25,Greetings_1of2.zip
+Clothes/42. T-Shirt/MVI_3706.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_3706.npy,42. T-Shirt,18,Clothes_2of2.zip
+Pronouns/40. I/MVI_9881.MOV,data/include50/sequences/Pronouns/40. I/MVI_9881.npy,40. I,16,Pronouns_1of2.zip
+Home/40. Paint/MVI_4927.MOV,data/include50/sequences/Home/40. Paint/MVI_4927.npy,40. Paint,17,Home_3of4.zip
+Adjectives/87. hot/MVI_9247.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9247.npy,87. hot,45,Adjectives_6of8.zip
+People/78. Girl/MVI_4985.MOV,data/include50/sequences/People/78. Girl/MVI_4985.npy,78. Girl,37,People_4of5.zip
+Greetings/51. Good Morning/MVI_0047.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_0047.npy,51. Good Morning,25,Greetings_1of2.zip
+Adjectives/83. big large/MVI_9394.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9394.npy,83. big large,41,Adjectives_5of8.zip
+Electronics/54. Cell phone/MVI_9102.MP4,data/include50/sequences/Electronics/54. Cell phone/MVI_9102.npy,54. Cell phone,28,Electronics_1of2.zip
+Seasons/64. Fall/MVI_9134.MP4,data/include50/sequences/Seasons/64. Fall/MVI_9134.npy,64. Fall,33,Seasons_1of1.zip
+People/61. Father/MVI_3912.MOV,data/include50/sequences/People/61. Father/MVI_3912.npy,61. Father,31,People_1of5.zip
+Places/28. Store or Shop/MVI_3309.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3309.npy,28. Store or Shop,9,Places_3of4.zip
+Adjectives/2. quiet/MVI_9371.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9371.npy,2. quiet,7,Adjectives_1of8.zip
+Greetings/48. Hello/MVI_0037.MOV,data/include50/sequences/Greetings/48. Hello/MVI_0037.npy,48. Hello,23,Greetings_1of2.zip
+Pronouns/44. it/MVI_0015.MOV,data/include50/sequences/Pronouns/44. it/MVI_0015.npy,44. it,20,Pronouns_1of2.zip
+Society/2. Death/MVI_8931.MP4,data/include50/sequences/Society/2. Death/MVI_8931.npy,2. Death,6,Society_1of3.zip
+People/61. Father/MVI_5081.MOV,data/include50/sequences/People/61. Father/MVI_5081.npy,61. Father,31,People_1of5.zip
+Animals/1. Dog/MVI_3059.MOV,data/include50/sequences/Animals/1. Dog/MVI_3059.npy,1. Dog,0,Animals_1of2.zip
+Greetings/51. Good Morning/MVI_0043.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_0043.npy,51. Good Morning,25,Greetings_1of2.zip
+Adjectives/84. small little/MVI_5206.MOV,data/include50/sequences/Adjectives/84. small little/MVI_5206.npy,84. small little,43,Adjectives_5of8.zip
+Society/2. Death/MVI_8662.MP4,data/include50/sequences/Society/2. Death/MVI_8662.npy,2. Death,6,Society_1of3.zip
+Jobs/84. Teacher/MVI_4460.MOV,data/include50/sequences/Jobs/84. Teacher/MVI_4460.npy,84. Teacher,42,Jobs_1of2.zip
+Clothes/37. Hat/MVI_5154.MOV,data/include50/sequences/Clothes/37. Hat/MVI_5154.npy,37. Hat,14,Clothes_1of2.zip
+Adjectives/83. big large/MVI_9477.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9477.npy,83. big large,41,Adjectives_5of8.zip
+Adjectives/84. small little/MVI_5127.MOV,data/include50/sequences/Adjectives/84. small little/MVI_5127.npy,84. small little,43,Adjectives_5of8.zip
+Adjectives/87. hot/MVI_5217.MOV,data/include50/sequences/Adjectives/87. hot/MVI_5217.npy,87. hot,45,Adjectives_6of8.zip
+Adjectives/87. hot/MVI_5138.MOV,data/include50/sequences/Adjectives/87. hot/MVI_5138.npy,87. hot,45,Adjectives_6of8.zip
+Colours/47. Red/MVI_3721.MOV,data/include50/sequences/Colours/47. Red/MVI_3721.npy,47. Red,22,Colours_1of2.zip
+Clothes/37. Hat/MVI_3986.MOV,data/include50/sequences/Clothes/37. Hat/MVI_3986.npy,37. Hat,14,Clothes_1of2.zip
+Places/28. Store or Shop/MVI_3307.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3307.npy,28. Store or Shop,9,Places_3of4.zip
+Animals/1. Dog/MVI_3030.MOV,data/include50/sequences/Animals/1. Dog/MVI_3030.npy,1. Dog,0,Animals_1of2.zip
+Colours/54. Black/MVI_5058.MOV,data/include50/sequences/Colours/54. Black/MVI_5058.npy,54. Black,27,Colours_2of2.zip
+Electronics/53. Fan/MVI_5388.MOV,data/include50/sequences/Electronics/53. Fan/MVI_5388.npy,53. Fan,26,Electronics_1of2.zip
+Pronouns/40. I/MVI_9878.MOV,data/include50/sequences/Pronouns/40. I/MVI_9878.npy,40. I,16,Pronouns_1of2.zip
+Colours/55. White/MVI_5209.MOV,data/include50/sequences/Colours/55. White/MVI_5209.npy,55. White,30,Colours_2of2.zip
+Colours/47. Red/MVI_8612.MP4,data/include50/sequences/Colours/47. Red/MVI_8612.npy,47. Red,22,Colours_1of2.zip
+Electronics/53. Fan/MVI_4964.MOV,data/include50/sequences/Electronics/53. Fan/MVI_4964.npy,53. Fan,26,Electronics_1of2.zip
+Pronouns/46. you (plural)/MVI_9975.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9975.npy,46. you (plural),21,Pronouns_2of2.zip
+Colours/55. White/MVI_3890.MOV,data/include50/sequences/Colours/55. White/MVI_3890.npy,55. White,30,Colours_2of2.zip
+Adjectives/1. loud/MVI_5337.MOV,data/include50/sequences/Adjectives/1. loud/MVI_5337.npy,1. loud,1,Adjectives_1of8.zip
+Greetings/48. Hello/MVI_9914.MOV,data/include50/sequences/Greetings/48. Hello/MVI_9914.npy,48. Hello,23,Greetings_1of2.zip
+People/78. Girl/MVI_5288.MOV,data/include50/sequences/People/78. Girl/MVI_5288.npy,78. Girl,37,People_4of5.zip
+Adjectives/94. good/MVI_5239.MOV,data/include50/sequences/Adjectives/94. good/MVI_5239.npy,94. good,48,Adjectives_7of8.zip
+Clothes/44. Shoes/MVI_3858.MOV,data/include50/sequences/Clothes/44. Shoes/MVI_3858.npy,44. Shoes,19,Clothes_2of2.zip
+Greetings/55. Thank you/MVI_9949.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_9949.npy,55. Thank you,29,Greetings_2of2.zip
+Adjectives/78. long/MVI_5186.MOV,data/include50/sequences/Adjectives/78. long/MVI_5186.npy,78. long,39,Adjectives_4of8.zip
+Adjectives/84. small little/MVI_9398.MOV,data/include50/sequences/Adjectives/84. small little/MVI_9398.npy,84. small little,43,Adjectives_5of8.zip
+Pronouns/44. it/MVI_9970.MOV,data/include50/sequences/Pronouns/44. it/MVI_9970.npy,44. it,20,Pronouns_1of2.zip
+Animals/1. Dog/MVI_4147.MOV,data/include50/sequences/Animals/1. Dog/MVI_4147.npy,1. Dog,0,Animals_1of2.zip
+People/77. Boy/MVI_3964.MOV,data/include50/sequences/People/77. Boy/MVI_3964.npy,77. Boy,36,People_4of5.zip
+Adjectives/83. big large/MVI_9476.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9476.npy,83. big large,41,Adjectives_5of8.zip
+Adjectives/97. dry/MVI_5326.MOV,data/include50/sequences/Adjectives/97. dry/MVI_5326.npy,97. dry,49,Adjectives_8of8.zip
+People/78. Girl/MVI_3817.MOV,data/include50/sequences/People/78. Girl/MVI_3817.npy,78. Girl,37,People_4of5.zip
+Days_and_Time/86. Time/MVI_9204.MP4,data/include50/sequences/Days_and_Time/86. Time/MVI_9204.npy,86. Time,44,Days_and_Time_3of3.zip
+Pronouns/46. you (plural)/MVI_0030.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_0030.npy,46. you (plural),21,Pronouns_2of2.zip
+Pronouns/46. you (plural)/MVI_9947.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9947.npy,46. you (plural),21,Pronouns_2of2.zip
+Places/23. Court/MVI_3285.MOV,data/include50/sequences/Places/23. Court/MVI_3285.npy,23. Court,8,Places_2of4.zip
+Means_of_Transportation/11. Car/MVI_4176.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_4176.npy,11. Car,2,Means_of_Transportation_1of2.zip
+People/77. Boy/MVI_4112.MOV,data/include50/sequences/People/77. Boy/MVI_4112.npy,77. Boy,36,People_4of5.zip
+Seasons/64. Fall/MVI_4578.MOV,data/include50/sequences/Seasons/64. Fall/MVI_4578.npy,64. Fall,33,Seasons_1of1.zip
+Animals/4. Bird/MVI_4155.MOV,data/include50/sequences/Animals/4. Bird/MVI_4155.npy,4. Bird,15,Animals_1of2.zip
+Animals/4. Bird/MVI_8567.MP4,data/include50/sequences/Animals/4. Bird/MVI_8567.npy,4. Bird,15,Animals_1of2.zip
+Home/34. Pen/MVI_8795.MP4,data/include50/sequences/Home/34. Pen/MVI_8795.npy,34. Pen,12,Home_2of4.zip
+Places/35. Bank/MVI_3500.MOV,data/include50/sequences/Places/35. Bank/MVI_3500.npy,35. Bank,13,Places_4of4.zip
+Adjectives/91. new/MVI_5309.MOV,data/include50/sequences/Adjectives/91. new/MVI_5309.npy,91. new,47,Adjectives_6of8.zip
+Animals/5. Cow/MVI_8569.MP4,data/include50/sequences/Animals/5. Cow/MVI_8569.npy,5. Cow,24,Animals_1of2.zip
+People/66. Brother/MVI_3780.MOV,data/include50/sequences/People/66. Brother/MVI_3780.npy,66. Brother,34,People_2of5.zip
+People/78. Girl/MVI_5135.MOV,data/include50/sequences/People/78. Girl/MVI_5135.npy,78. Girl,37,People_4of5.zip
+Places/19. House/MVI_3595.MOV,data/include50/sequences/Places/19. House/MVI_3595.npy,19. House,5,Places_1of4.zip
+Clothes/42. T-Shirt/MVI_3705.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_3705.npy,42. T-Shirt,18,Clothes_2of2.zip
+Colours/47. Red/MVI_3867.MOV,data/include50/sequences/Colours/47. Red/MVI_3867.npy,47. Red,22,Colours_1of2.zip
+Days_and_Time/67. Monday/MVI_5010.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_5010.npy,67. Monday,35,Days_and_Time_1of3.zip
+People/66. Brother/MVI_8631.MP4,data/include50/sequences/People/66. Brother/MVI_8631.npy,66. Brother,34,People_2of5.zip
+People/61. Father/MVI_4940.MOV,data/include50/sequences/People/61. Father/MVI_4940.npy,61. Father,31,People_1of5.zip
+Society/14. Election/MVI_4839.MOV,data/include50/sequences/Society/14. Election/MVI_4839.npy,14. Election,3,Society_2of3.zip
+Places/23. Court/MVI_3365.MOV,data/include50/sequences/Places/23. Court/MVI_3365.npy,23. Court,8,Places_2of4.zip
+Jobs/84. Teacher/MVI_8865.MP4,data/include50/sequences/Jobs/84. Teacher/MVI_8865.npy,84. Teacher,42,Jobs_1of2.zip
+Adjectives/83. big large/MVI_9234.MOV,data/include50/sequences/Adjectives/83. big large/MVI_9234.npy,83. big large,41,Adjectives_5of8.zip
+People/66. Brother/MVI_4957.MOV,data/include50/sequences/People/66. Brother/MVI_4957.npy,66. Brother,34,People_2of5.zip
+Clothes/42. T-Shirt/MVI_3852.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_3852.npy,42. T-Shirt,18,Clothes_2of2.zip
+Adjectives/91. new/MVI_9500.MOV,data/include50/sequences/Adjectives/91. new/MVI_9500.npy,91. new,47,Adjectives_6of8.zip
+People/61. Father/MVI_4941.MOV,data/include50/sequences/People/61. Father/MVI_4941.npy,61. Father,31,People_1of5.zip
+Clothes/37. Hat/MVI_3837.MOV,data/include50/sequences/Clothes/37. Hat/MVI_3837.npy,37. Hat,14,Clothes_1of2.zip
+Adjectives/1. loud/MVI_9370.MOV,data/include50/sequences/Adjectives/1. loud/MVI_9370.npy,1. loud,1,Adjectives_1of8.zip
+Adjectives/3. happy/MVI_9297.MOV,data/include50/sequences/Adjectives/3. happy/MVI_9297.npy,3. happy,11,Adjectives_1of8.zip
+Greetings/55. Thank you/MVI_0058.MOV,data/include50/sequences/Greetings/55. Thank you/MVI_0058.npy,55. Thank you,29,Greetings_2of2.zip
+Greetings/51. Good Morning/MVI_9970.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9970.npy,51. Good Morning,25,Greetings_1of2.zip
+People/66. Brother/MVI_5097.MOV,data/include50/sequences/People/66. Brother/MVI_5097.npy,66. Brother,34,People_2of5.zip
+Animals/4. Bird/MVI_3038.MOV,data/include50/sequences/Animals/4. Bird/MVI_3038.npy,4. Bird,15,Animals_1of2.zip
+Adjectives/3. happy/MVI_5343.MOV,data/include50/sequences/Adjectives/3. happy/MVI_5343.npy,3. happy,11,Adjectives_1of8.zip
+Colours/47. Red/MVI_4897.MOV,data/include50/sequences/Colours/47. Red/MVI_4897.npy,47. Red,22,Colours_1of2.zip
+Places/23. Court/MVI_3370.MOV,data/include50/sequences/Places/23. Court/MVI_3370.npy,23. Court,8,Places_2of4.zip
+Places/28. Store or Shop/MVI_3554.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3554.npy,28. Store or Shop,9,Places_3of4.zip
+Pronouns/40. I/MVI_9920.MOV,data/include50/sequences/Pronouns/40. I/MVI_9920.npy,40. I,16,Pronouns_1of2.zip
+Colours/54. Black/MVI_3887.MOV,data/include50/sequences/Colours/54. Black/MVI_3887.npy,54. Black,27,Colours_2of2.zip
+Adjectives/78. long/MVI_5188.MOV,data/include50/sequences/Adjectives/78. long/MVI_5188.npy,78. long,39,Adjectives_4of8.zip
+Places/23. Court/MVI_3286.MOV,data/include50/sequences/Places/23. Court/MVI_3286.npy,23. Court,8,Places_2of4.zip
+Animals/4. Bird/MVI_2989.MOV,data/include50/sequences/Animals/4. Bird/MVI_2989.npy,4. Bird,15,Animals_1of2.zip
+Adjectives/97. dry/MVI_9521.MOV,data/include50/sequences/Adjectives/97. dry/MVI_9521.npy,97. dry,49,Adjectives_8of8.zip
+Greetings/51. Good Morning/MVI_9934.MOV,data/include50/sequences/Greetings/51. Good Morning/MVI_9934.npy,51. Good Morning,25,Greetings_1of2.zip
+Days_and_Time/67. Monday/MVI_5447.MOV,data/include50/sequences/Days_and_Time/67. Monday/MVI_5447.npy,67. Monday,35,Days_and_Time_1of3.zip
+Days_and_Time/86. Time/MVI_5077.MOV,data/include50/sequences/Days_and_Time/86. Time/MVI_5077.npy,86. Time,44,Days_and_Time_3of3.zip
+Animals/1. Dog/MVI_3002.MOV,data/include50/sequences/Animals/1. Dog/MVI_3002.npy,1. Dog,0,Animals_1of2.zip
+Electronics/53. Fan/MVI_9098.MP4,data/include50/sequences/Electronics/53. Fan/MVI_9098.npy,53. Fan,26,Electronics_1of2.zip
+Means_of_Transportation/11. Car/MVI_3145.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3145.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Pronouns/46. you (plural)/MVI_9905.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_9905.npy,46. you (plural),21,Pronouns_2of2.zip
+Animals/4. Bird/MVI_2987.MOV,data/include50/sequences/Animals/4. Bird/MVI_2987.npy,4. Bird,15,Animals_1of2.zip
+Home/40. Paint/MVI_4413.MOV,data/include50/sequences/Home/40. Paint/MVI_4413.npy,40. Paint,17,Home_3of4.zip
+Means_of_Transportation/11. Car/MVI_3147.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3147.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Clothes/37. Hat/MVI_4865.MOV,data/include50/sequences/Clothes/37. Hat/MVI_4865.npy,37. Hat,14,Clothes_1of2.zip
+Adjectives/1. loud/MVI_9450.MOV,data/include50/sequences/Adjectives/1. loud/MVI_9450.npy,1. loud,1,Adjectives_1of8.zip
+Adjectives/78. long/MVI_9460.MOV,data/include50/sequences/Adjectives/78. long/MVI_9460.npy,78. long,39,Adjectives_4of8.zip
+Animals/5. Cow/MVI_3097.MOV,data/include50/sequences/Animals/5. Cow/MVI_3097.npy,5. Cow,24,Animals_1of2.zip
+People/77. Boy/MVI_4983.MOV,data/include50/sequences/People/77. Boy/MVI_4983.npy,77. Boy,36,People_4of5.zip
+Adjectives/91. new/MVI_9261.MOV,data/include50/sequences/Adjectives/91. new/MVI_9261.npy,91. new,47,Adjectives_6of8.zip
+Adjectives/97. dry/MVI_5168.MOV,data/include50/sequences/Adjectives/97. dry/MVI_5168.npy,97. dry,49,Adjectives_8of8.zip
+Colours/47. Red/MVI_3720.MOV,data/include50/sequences/Colours/47. Red/MVI_3720.npy,47. Red,22,Colours_1of2.zip
+Animals/1. Dog/MVI_3060.MOV,data/include50/sequences/Animals/1. Dog/MVI_3060.npy,1. Dog,0,Animals_1of2.zip
+Electronics/54. Cell phone/MVI_4537.MOV,data/include50/sequences/Electronics/54. Cell phone/MVI_4537.npy,54. Cell phone,28,Electronics_1of2.zip
+Adjectives/2. quiet/MVI_9537.MOV,data/include50/sequences/Adjectives/2. quiet/MVI_9537.npy,2. quiet,7,Adjectives_1of8.zip
+Adjectives/87. hot/MVI_9249.MOV,data/include50/sequences/Adjectives/87. hot/MVI_9249.npy,87. hot,45,Adjectives_6of8.zip
+Places/28. Store or Shop/MVI_3635.MOV,data/include50/sequences/Places/28. Store or Shop/MVI_3635.npy,28. Store or Shop,9,Places_3of4.zip
+Home/28. Window/MVI_4883.MOV,data/include50/sequences/Home/28. Window/MVI_4883.npy,28. Window,10,Home_1of4.zip
+Means_of_Transportation/11. Car/MVI_3209.MOV,data/include50/sequences/Means_of_Transportation/11. Car/MVI_3209.npy,11. Car,2,Means_of_Transportation_1of2.zip
+Greetings/48. Hello/MVI_0032.MOV,data/include50/sequences/Greetings/48. Hello/MVI_0032.npy,48. Hello,23,Greetings_1of2.zip
+Jobs/84. Teacher/MVI_5310.MOV,data/include50/sequences/Jobs/84. Teacher/MVI_5310.npy,84. Teacher,42,Jobs_1of2.zip
+Colours/47. Red/MVI_3866.MOV,data/include50/sequences/Colours/47. Red/MVI_3866.npy,47. Red,22,Colours_1of2.zip
+Pronouns/46. you (plural)/MVI_0083.MOV,data/include50/sequences/Pronouns/46. you (plural)/MVI_0083.npy,46. you (plural),21,Pronouns_2of2.zip
+People/61. Father/MVI_3909.MOV,data/include50/sequences/People/61. Father/MVI_3909.npy,61. Father,31,People_1of5.zip
+Clothes/42. T-Shirt/MVI_5169.MOV,data/include50/sequences/Clothes/42. T-Shirt/MVI_5169.npy,42. T-Shirt,18,Clothes_2of2.zip

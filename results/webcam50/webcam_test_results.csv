@@ -1,0 +1,17 @@
+expected,predicted,confidence,correct,saved_file
+1. Dog,1. Dog,93.41,1,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_012.npy
+1. Dog,1. Dog,97.61,1,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_013.npy
+1. Dog,1. Dog,4.87,1,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_014.npy
+1. Dog,1. Dog,0.0,1,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_015.npy
+1. Dog,4. Bird,84.49,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_016.npy
+1. Dog,4. Bird,27.49,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_017.npy
+1. Dog,4. Bird,99.97,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_018.npy
+1. Dog,4. Bird,98.51,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_019.npy
+1. Dog,4. Bird,92.18,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_020.npy
+1. Dog,4. Bird,0.45,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_021.npy
+1. Dog,4. Bird,99.96,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_022.npy
+1. Dog,4. Bird,99.55,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_023.npy
+1. Dog,4. Bird,99.99,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_024.npy
+1. Dog,4. Bird,99.95,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_025.npy
+1. Dog,4. Bird,99.98,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_026.npy
+1. Dog,4. Bird,88.78,0,N:\ISL-Recognition-Research\data\webcam50\00_1_Dog\sample_027.npy

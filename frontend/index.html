@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indian Sign Language Recognition</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <script src="vendor/mediapipe-hands/hands.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div>
+        <p class="kicker">Include-50 / live inference</p>
+        <h1>Indian Sign Language Recognition</h1>
+      </div>
+      <div id="api-status" class="pill">API checking</div>
+    </header>
+
+    <section class="workspace" aria-label="Live sign recognition">
+      <div class="camera-panel">
+        <div class="camera-frame">
+          <video id="camera" autoplay muted playsinline></video>
+          <canvas id="preview" aria-label="Privacy-rendered camera preview"></canvas>
+          <div id="camera-placeholder" class="camera-placeholder">
+            <strong>Camera is off</strong>
+            <span>Start the camera to begin landmark tracking.</span>
+          </div>
+          <div id="privacy-badge" class="privacy-badge">PRIVACY MODE: ON</div>
+          <div id="capture-badge" class="capture-badge">IDLE</div>
+        </div>
+        <div class="controls">
+          <button id="start-camera" class="button primary">Start camera</button>
+          <button id="capture" class="button" disabled>Capture sign</button>
+          <button id="stop-camera" class="button quiet" disabled>Stop</button>
+          <button id="reset" class="button quiet">Clear result</button>
+          <button id="clear-history" class="button quiet">Clear history</button>
+          <label class="button quiet upload-button" for="video-upload">Upload video</label>
+          <input id="video-upload" type="file" accept="video/*" hidden>
+          <label class="button quiet upload-button" for="reference-video-upload">Reference video</label>
+          <input id="reference-video-upload" type="file" accept="video/*" hidden>
+          <video id="reference-video" controls muted playsinline hidden></video>
+        </div>
+        <p id="message" class="message" role="status">Camera permission is required on this device.</p>
+      </div>
+
+      <aside class="readout">
+        <div class="section-heading"><span>Tracking quality</span><span id="quality-label">WAITING</span></div>
+        <div class="sequence-row"><span>MediaPipe</span><strong id="mediapipe-state">NOT STARTED</strong></div>
+        <div class="settings-row">
+          <span>Face visible</span>
+          <button id="face-toggle" class="toggle" type="button" aria-pressed="true">ON</button>
+        </div>
+        <div class="mode-switch" role="group" aria-label="Recognition mode">
+          <button id="single-mode" class="mode active" type="button">Single sign</button>
+          <button id="continuous-mode" class="mode" type="button">Continuous</button>
+        </div>
+        <label class="threshold-row">Confidence threshold <input id="confidence-threshold" type="number" min="0" max="1" step="0.05" value="0.35"></label>
+        <label class="expected-sign">Expected sign for validation
+          <select id="expected-sign"><option value="">Optional validation sign</option></select>
+        </label>
+        <details class="class-browser">
+          <summary>50 available dataset signs</summary>
+          <input id="class-filter" type="search" placeholder="Filter signs">
+          <div id="class-list"></div>
+        </details>
+        <div class="signals">
+          <div class="signal"><span>Pose</span><b id="pose-state" class="state">--</b></div>
+          <div class="signal"><span>Left hand</span><b id="left-state" class="state">--</b></div>
+          <div class="signal"><span>Right hand</span><b id="right-state" class="state">--</b></div>
+        </div>
+        <div class="sequence-row"><span>Sequence buffer</span><strong><span id="frame-count">0</span> / 45</strong></div>
+        <div class="sequence-row"><span>Frame diagnostics</span><strong id="frame-diagnostics">0 / 0 / 0 / 0</strong></div>
+        <div class="progress"><span id="progress-bar"></span></div>
+
+        <div class="result-block">
+          <div class="section-heading"><span>Recognition</span><span id="result-state">NO RESULT</span></div>
+          <div id="prediction" class="prediction">Gesture unclear</div>
+          <div class="confidence-line"><span>Confidence</span><strong id="confidence">--</strong></div>
+          <div class="confidence-line"><span>Reference match</span><strong id="reference-match">--</strong></div>
+          <div id="alternatives" class="alternatives"></div>
+          <div class="action-line"><span>Application action</span><strong id="action-result">None configured</strong></div>
+          <button id="retry" class="button quiet retry" type="button">Retry connection</button>
+        </div>
+
+        <div class="history-block">
+          <div class="section-heading"><span>Recognition history</span><span id="history-count">0</span></div>
+          <div id="history" class="history"><span class="history-empty">No signs recognized yet</span></div>
+        </div>
+
+        <div class="details">
+          <div><span>Model</span><strong id="model-version">--</strong></div>
+          <div><span>Last request</span><strong id="latency">--</strong></div>
+        </div>
+      </aside>
+    </section>
+
+    <footer>Camera landmarks are extracted in your browser. Only validated 45-frame sequences are sent to the inference API.</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: isl-recognition-frontend
+  namespace: isl-recognition
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: isl-recognition-frontend
+  template:
+    metadata:
+      labels:
+        app: isl-recognition-frontend
+    spec:
+      securityContext:
+        runAsNonRoot: true
+      containers:
+        - name: frontend
+          image: ghcr.io/your-org/isl-recognition-frontend:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8080
+          env:
+            - name: ISL_API_UPSTREAM
+              value: isl-recognition-api:80
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: isl-recognition-frontend
+  namespace: isl-recognition
+spec:
+  selector:
+    app: isl-recognition-frontend
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+  type: ClusterIP

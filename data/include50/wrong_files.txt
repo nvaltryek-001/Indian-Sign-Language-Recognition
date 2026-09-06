@@ -1,0 +1,25 @@
+data/include50/sequences\Adjectives\1. loud\MVI_9289.npy
+data/include50/sequences\Adjectives\3. happy\MVI_9295.npy
+data/include50/sequences\Adjectives\79. short\MVI_5191.npy
+data/include50/sequences\Adjectives\83. big large\MVI_5203.npy
+data/include50/sequences\Adjectives\84. small little\MVI_5128.npy
+data/include50/sequences\Adjectives\84. small little\MVI_5288.npy
+data/include50/sequences\Adjectives\84. small little\MVI_9480.npy
+data/include50/sequences\Adjectives\91. new\MVI_9342.npy
+data/include50/sequences\Clothes\37. Hat\MVI_8600.npy
+data/include50/sequences\Clothes\42. T-Shirt\MVI_3704.npy
+data/include50/sequences\Colours\47. Red\MVI_4207.npy
+data/include50/sequences\Colours\54. Black\MVI_8619.npy
+data/include50/sequences\Electronics\53. Fan\MVI_4533.npy
+data/include50/sequences\Electronics\54. Cell phone\MVI_4967.npy
+data/include50/sequences\Greetings\51. Good Morning\MVI_0048.npy
+data/include50/sequences\Home\28. Window\MVI_4362.npy
+data/include50/sequences\Home\34. Pen\MVI_4906.npy
+data/include50/sequences\Home\34. Pen\MVI_4907.npy
+data/include50/sequences\Home\34. Pen\MVI_4908.npy
+data/include50/sequences\Means_of_Transportation\16. train ticket\MVI_3162.npy
+data/include50/sequences\People\77. Boy\MVI_3962.npy
+data/include50/sequences\People\78. Girl\MVI_4113.npy
+data/include50/sequences\People\78. Girl\MVI_4114.npy
+data/include50/sequences\People\78. Girl\MVI_4984.npy
+data/include50/sequences\Places\19. House\MVI_3435.npy

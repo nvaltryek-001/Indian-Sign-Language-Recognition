@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: isl-recognition-api
+  namespace: isl-recognition
+spec:
+  rules:
+    - host: isl-recognition.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: isl-recognition-frontend
+                port:
+                  name: http
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: isl-recognition-api
+                port:
+                  name: http

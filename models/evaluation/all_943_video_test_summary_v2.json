@@ -1,0 +1,15 @@
+{
+  "total_videos": 943,
+  "tested": 943,
+  "correct": 918,
+  "wrong": 25,
+  "failed": 0,
+  "accuracy_percent": 97.35,
+  "average_confidence_percent": 97.17,
+  "model": "models\\include50_lstm_v2_best.keras",
+  "sequence_shape": [
+    45,
+    258
+  ],
+  "classes": 50
+}
