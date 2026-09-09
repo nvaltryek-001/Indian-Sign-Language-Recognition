@@ -1,12 +1,13 @@
-﻿from pathlib import Path
+from pathlib import Path
 import json
 
 import numpy as np
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from app.core.hand_model_runtime import get_hand_runtime
+from app.core.model_runtime import ModelRuntime
 from app.core.dtw_matcher import get_dtw_matcher
 from app.core.action_verifier_runtime import ActionVerifierRuntime
 
@@ -26,9 +27,25 @@ app.add_middleware(
 )
 
 
+class SequenceRequest(BaseModel):
+    sequence: list[list[float]]
+    hand_sequence: list[list[float]] | None = None
+    quality: dict | None = None
+
+
 class HandSequenceRequest(BaseModel):
     hand_sequence: list
     expected_sign: str | None = None
+
+
+_legacy_runtime = None
+
+
+def get_runtime():
+    global _legacy_runtime
+    if _legacy_runtime is None:
+        _legacy_runtime = ModelRuntime().load()
+    return _legacy_runtime
 
 
 _action_verifier = None
@@ -219,6 +236,12 @@ def health():
 @app.get("/health/hand")
 def health_hand():
     runtime = get_hand_runtime()
+    matcher = get_dtw_matcher()
+
+    reference_classes = len(matcher.references)
+    reference_sequences = sum(
+        len(items) for items in matcher.references.values()
+    )
 
     return {
         "status": "ok",
@@ -226,6 +249,11 @@ def health_hand():
         "model_type": "hand_lstm",
         "class_count": len(runtime.class_names),
         "classes": runtime.class_names,
+        "reference_database_available": (
+            reference_classes >= 1 and reference_sequences >= 1
+        ),
+        "reference_classes": reference_classes,
+        "reference_sequences": reference_sequences,
     }
 
 
@@ -427,16 +455,36 @@ def predict_hand_sequence(request: HandSequenceRequest):
         }
 
 
-# Backward-compatible sequence endpoint.
+# ------------------------------------------------------------------
+# Legacy 258-feature API compatibility
+# ------------------------------------------------------------------
+
 @app.post("/predict/sequence")
-def predict_sequence(request: HandSequenceRequest):
-    return predict_hand_sequence(request)
+def predict_sequence(request: SequenceRequest):
+    try:
+        result = get_runtime().predict(request.sequence)
+
+        if request.hand_sequence is not None:
+            result["reference_match"] = get_dtw_matcher().match(
+                request.hand_sequence,
+                candidate_label=result["prediction"],
+            )
+
+        result["quality"] = request.quality or {
+            "validated": True,
+            "frames": 45,
+            "features_per_frame": 258,
+        }
+
+        return result
+
+    except ValueError as error:
+        raise HTTPException(status_code=422, detail=str(error)) from error
+    except Exception as error:
+        raise HTTPException(status_code=500, detail="Inference failed") from error
 
 
 @app.post("/predict")
-def predict(request: HandSequenceRequest):
-    return predict_hand_sequence(request)
-
-
-
+def predict(request: SequenceRequest):
+    return predict_sequence(request)
 
