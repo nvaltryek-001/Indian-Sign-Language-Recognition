@@ -37,9 +37,9 @@ jobs:
         shell: bash
         run: test -s frontend/index.html && test -s frontend/styles.css && test -s frontend/config.js && test -s frontend/classes.json && test -s frontend/action-mapping.json
 
-      - name: Validate production model contract
+       - name: Validate production hand model contract
         run: >-
-          python -c "import json, numpy as np, tensorflow as tf; from pathlib import Path; m = tf.keras.models.load_model('models/include50_lstm_v2_best.keras'); assert m.input_shape[1:] == (45, 258), m.input_shape; assert m.output_shape[-1] == 50, m.output_shape; data = json.loads(Path('models/include50_classes_v2.json').read_text(encoding='utf-8')); assert len(data) == 50; assert all(str(i) in data for i in range(50)); out = m.predict(np.zeros((1, 45, 258), dtype=np.float32), verbose=0); assert out.shape == (1, 50); assert np.isfinite(out).all(); assert np.allclose(out.sum(axis=1), 1.0, atol=1e-5); print('model-contract-ok')"
+          python -c "import json, numpy as np, tensorflow as tf; from pathlib import Path; p=Path('models/include50_hand_lstm_savedmodel'); sm=tf.saved_model.load(str(p)); sig=sm.signatures.get('serve') or sm.signatures.get('serving_default'); assert sig is not None; inp=next(iter(sig.structured_input_signature[1].values())); out=next(iter(sig.structured_outputs.values())); assert tuple(inp.shape[1:]) == (45,126), inp.shape; assert out.shape[-1] == 50, out.shape; data=json.loads(Path('models/include50_hand_classes.json').read_text(encoding='utf-8')); assert len(data)==50 and all(str(i) in data for i in range(50)); x=np.zeros((1,45,126),dtype=np.float32); name=next(iter(sig.structured_input_signature[1])); y=np.asarray(next(iter(sig(**{name:tf.convert_to_tensor(x)}).values()))); assert y.shape==(1,50); assert np.isfinite(y).all(); assert np.allclose(y.sum(axis=1),1.0,atol=1e-5); print('hand-model-contract-ok')"
 
       - name: Build Docker image
         run: docker build -t isl-recognition:test .
