@@ -238,6 +238,11 @@ def health_hand():
     runtime = get_hand_runtime()
     matcher = get_dtw_matcher()
 
+    # Load the real DTW database in production.
+    # CI fake matchers do not implement load(), so keep them compatible.
+    if hasattr(matcher, "load"):
+        matcher.load()
+
     reference_classes = len(matcher.references)
     reference_sequences = sum(
         len(items) for items in matcher.references.values()
