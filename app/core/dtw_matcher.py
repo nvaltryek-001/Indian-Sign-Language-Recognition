@@ -1,4 +1,4 @@
-"""DTW reference matching for normalized, hand-only INCLUDE-50 sequences.
+﻿"""DTW reference matching for normalized, hand-only INCLUDE-50 sequences.
 
 The returned score is a reference-trajectory similarity, not an accuracy or a
 classifier probability.
@@ -140,3 +140,18 @@ class DTWReferenceMatcher:
             "reference_classes": len(self.references),
             "reference_sequences": reference_total,
         }
+
+# ============================================================
+# API COMPATIBILITY GETTER
+# ============================================================
+
+_dtw_matcher_instance = None
+
+def get_dtw_matcher():
+    global _dtw_matcher_instance
+
+    if _dtw_matcher_instance is None:
+        _dtw_matcher_instance = DTWReferenceMatcher()
+
+    return _dtw_matcher_instance
+

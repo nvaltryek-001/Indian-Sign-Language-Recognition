@@ -328,9 +328,7 @@ def predict_hand_sequence(request: HandSequenceRequest):
 
         if expected_sign:
             try:
-                references = get_dtw_matcher().get_reference_sequences(
-                    expected_sign
-                )
+                references = get_dtw_matcher().references.get(expected_sign, [])
 
                 verifier_result = get_action_verifier().predict_same_action(
                     sequence,
@@ -438,3 +436,7 @@ def predict_sequence(request: HandSequenceRequest):
 @app.post("/predict")
 def predict(request: HandSequenceRequest):
     return predict_hand_sequence(request)
+
+
+
+
