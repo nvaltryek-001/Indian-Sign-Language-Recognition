@@ -126,3 +126,20 @@ class HandModelRuntime:
             "top_predictions": top_predictions,
             "model_version": self.model_version,
         }
+
+# ------------------------------------------------------------
+# Shared hand runtime
+# ------------------------------------------------------------
+
+_hand_runtime = None
+
+
+def get_hand_runtime():
+    global _hand_runtime
+
+    if _hand_runtime is None:
+        _hand_runtime = HandModelRuntime()
+        _hand_runtime.load()
+
+    return _hand_runtime
+
