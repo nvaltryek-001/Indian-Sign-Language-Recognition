@@ -1,4 +1,4 @@
-name: CI
+﻿name: CI
 
 on:
   push:
@@ -7,26 +7,34 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: python -m pip install --upgrade pip && python -m pip install -r requirements-dev.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
 
-      - name: Compile source files
-        run: python -m compileall app tests
+      - name: Compile production source
+        run: |
+          python -m compileall app tests
 
-      - name: Run unit tests
-        run: python -m pytest -q
+      - name: Run production tests
+        run: |
+          python -m pytest -q \
+            tests/test_api.py \
+            tests/test_dataset_validation.py \
+            tests/test_model_integrity.py
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: "20"
 
@@ -35,14 +43,83 @@ jobs:
 
       - name: Check frontend assets
         shell: bash
-        run: test -s frontend/index.html && test -s frontend/styles.css && test -s frontend/config.js && test -s frontend/classes.json && test -s frontend/action-mapping.json
+        run: |
+          test -s frontend/index.html
+          test -s frontend/styles.css
+          test -s frontend/config.js
+          test -s frontend/classes.json
+          test -s frontend/action-mapping.json
 
-       - name: Validate production hand model contract
-        run: >-
-          python -c "import json, numpy as np, tensorflow as tf; from pathlib import Path; p=Path('models/include50_hand_lstm_savedmodel'); sm=tf.saved_model.load(str(p)); sig=sm.signatures.get('serve') or sm.signatures.get('serving_default'); assert sig is not None; inp=next(iter(sig.structured_input_signature[1].values())); out=next(iter(sig.structured_outputs.values())); assert tuple(inp.shape[1:]) == (45,126), inp.shape; assert out.shape[-1] == 50, out.shape; data=json.loads(Path('models/include50_hand_classes.json').read_text(encoding='utf-8')); assert len(data)==50 and all(str(i) in data for i in range(50)); x=np.zeros((1,45,126),dtype=np.float32); name=next(iter(sig.structured_input_signature[1])); y=np.asarray(next(iter(sig(**{name:tf.convert_to_tensor(x)}).values()))); assert y.shape==(1,50); assert np.isfinite(y).all(); assert np.allclose(y.sum(axis=1),1.0,atol=1e-5); print('hand-model-contract-ok')"
+      - name: Validate production hand model
+        run: |
+          python -c "
+          import json
+          import numpy as np
+          import tensorflow as tf
+          from pathlib import Path
 
-      - name: Build Docker image
+          model_path = Path('models/include50_hand_lstm_savedmodel')
+          class_path = Path('models/include50_hand_classes.json')
+
+          assert model_path.is_dir(), f'Missing model: {model_path}'
+          assert class_path.is_file(), f'Missing class map: {class_path}'
+
+          model = tf.saved_model.load(str(model_path))
+
+          signature = (
+              model.signatures.get('serve')
+              or model.signatures.get('serving_default')
+          )
+
+          assert signature is not None, 'No serving signature found'
+
+          inputs = signature.structured_input_signature[1]
+          outputs = signature.structured_outputs
+
+          input_spec = next(iter(inputs.values()))
+          output_spec = next(iter(outputs.values()))
+
+          assert tuple(input_spec.shape[1:]) == (45, 126), input_spec.shape
+          assert output_spec.shape[-1] == 50, output_spec.shape
+
+          class_map = json.loads(
+              class_path.read_text(encoding='utf-8')
+          )
+
+          assert len(class_map) == 50
+          assert all(str(i) in class_map for i in range(50))
+
+          input_name = next(iter(inputs))
+
+          x = np.zeros(
+              (1, 45, 126),
+              dtype=np.float32
+          )
+
+          result = signature(
+              **{
+                  input_name: tf.convert_to_tensor(x)
+              }
+          )
+
+          y = np.asarray(next(iter(result.values())))
+
+          assert y.shape == (1, 50)
+          assert np.isfinite(y).all()
+          assert np.allclose(
+              y.sum(axis=1),
+              1.0,
+              atol=1e-5
+          )
+
+          print('PRODUCTION HAND MODEL: OK')
+          print('Input:', input_spec.shape)
+          print('Output:', output_spec.shape)
+          print('Classes:', len(class_map))
+          "
+
+      - name: Build backend Docker image
         run: docker build -t isl-recognition:test .
 
-      - name: Build frontend image
+      - name: Build frontend Docker image
         run: docker build -t isl-recognition-frontend:test frontend
