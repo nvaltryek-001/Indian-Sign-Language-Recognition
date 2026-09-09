@@ -1,4 +1,4 @@
-"""FastAPI service for validated Include-50 V2 sequence inference."""
+﻿"""FastAPI service for validated Include-50 V2 sequence inference."""
 
 import logging
 import os
@@ -68,8 +68,19 @@ def get_hand_runtime():
 @app.get("/health")
 def health():
     try:
-        runtime = get_runtime()
-        return {"status": "ok", "model_loaded": runtime.model is not None}
+        runtime = get_hand_runtime()
+        matcher = get_dtw_matcher()
+        class_count = len(runtime.class_names)
+        reference_sequences = sum(len(items) for items in matcher.references.values())
+
+        return {
+            "status": "ok",
+            "model_loaded": runtime.model is not None,
+            "model_type": "hand_lstm",
+            "class_count": class_count,
+            "reference_database_available": reference_sequences > 0,
+            "reference_sequences": reference_sequences,
+        }
     except Exception as error:
         LOGGER.exception("Health check failed")
         raise HTTPException(
@@ -144,3 +155,4 @@ def predict_hand_sequence(request: HandSequenceRequest):
     except Exception as error:
         LOGGER.exception("Hand inference request failed")
         raise HTTPException(status_code=500, detail="Hand inference failed") from error
+

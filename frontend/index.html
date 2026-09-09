@@ -1,103 +1,1063 @@
-<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Indian Sign Language Recognition</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="config.js"></script>
-  <script src="vendor/mediapipe-hands/hands.js"></script>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="INCLUDE-50 Indian Sign Language Recognition using MediaPipe, LSTM, DTW and Action Verification"
+    >
+
+    <title>ISL Vision | INCLUDE-50 Recognition</title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
 </head>
+
 <body>
-  <main class="shell">
-    <header class="masthead">
-      <div>
-        <p class="kicker">Include-50 / live inference</p>
-        <h1>Indian Sign Language Recognition</h1>
-      </div>
-      <div id="api-status" class="pill">API checking</div>
-    </header>
 
-    <section class="workspace" aria-label="Live sign recognition">
-      <div class="camera-panel">
-        <div class="camera-frame">
-          <video id="camera" autoplay muted playsinline></video>
-          <canvas id="preview" aria-label="Privacy-rendered camera preview"></canvas>
-          <div id="camera-placeholder" class="camera-placeholder">
-            <strong>Camera is off</strong>
-            <span>Start the camera to begin landmark tracking.</span>
-          </div>
-          <div id="privacy-badge" class="privacy-badge">PRIVACY MODE: ON</div>
-          <div id="capture-badge" class="capture-badge">IDLE</div>
-        </div>
-        <div class="controls">
-          <button id="start-camera" class="button primary">Start camera</button>
-          <button id="capture" class="button" disabled>Capture sign</button>
-          <button id="stop-camera" class="button quiet" disabled>Stop</button>
-          <button id="reset" class="button quiet">Clear result</button>
-          <button id="clear-history" class="button quiet">Clear history</button>
-          <label class="button quiet upload-button" for="video-upload">Upload video</label>
-          <input id="video-upload" type="file" accept="video/*" hidden>
-          <label class="button quiet upload-button" for="reference-video-upload">Reference video</label>
-          <input id="reference-video-upload" type="file" accept="video/*" hidden>
-          <video id="reference-video" controls muted playsinline hidden></video>
-        </div>
-        <p id="message" class="message" role="status">Camera permission is required on this device.</p>
-      </div>
+<!-- ========================================================
+     HEADER
+     ======================================================== -->
 
-      <aside class="readout">
-        <div class="section-heading"><span>Tracking quality</span><span id="quality-label">WAITING</span></div>
-        <div class="sequence-row"><span>MediaPipe</span><strong id="mediapipe-state">NOT STARTED</strong></div>
-        <div class="settings-row">
-          <span>Face visible</span>
-          <button id="face-toggle" class="toggle" type="button" aria-pressed="true">ON</button>
-        </div>
-        <div class="mode-switch" role="group" aria-label="Recognition mode">
-          <button id="single-mode" class="mode active" type="button">Single sign</button>
-          <button id="continuous-mode" class="mode" type="button">Continuous</button>
-        </div>
-        <label class="threshold-row">Confidence threshold <input id="confidence-threshold" type="number" min="0" max="1" step="0.05" value="0.35"></label>
-        <label class="expected-sign">Expected sign for validation
-          <select id="expected-sign"><option value="">Optional validation sign</option></select>
-        </label>
-        <details class="class-browser">
-          <summary>50 available dataset signs</summary>
-          <input id="class-filter" type="search" placeholder="Filter signs">
-          <div id="class-list"></div>
-        </details>
-        <div class="signals">
-          <div class="signal"><span>Pose</span><b id="pose-state" class="state">--</b></div>
-          <div class="signal"><span>Left hand</span><b id="left-state" class="state">--</b></div>
-          <div class="signal"><span>Right hand</span><b id="right-state" class="state">--</b></div>
-        </div>
-        <div class="sequence-row"><span>Sequence buffer</span><strong><span id="frame-count">0</span> / 45</strong></div>
-        <div class="sequence-row"><span>Frame diagnostics</span><strong id="frame-diagnostics">0 / 0 / 0 / 0</strong></div>
-        <div class="progress"><span id="progress-bar"></span></div>
+<header class="topbar">
 
-        <div class="result-block">
-          <div class="section-heading"><span>Recognition</span><span id="result-state">NO RESULT</span></div>
-          <div id="prediction" class="prediction">Gesture unclear</div>
-          <div class="confidence-line"><span>Confidence</span><strong id="confidence">--</strong></div>
-          <div class="confidence-line"><span>Reference match</span><strong id="reference-match">--</strong></div>
-          <div id="alternatives" class="alternatives"></div>
-          <div class="action-line"><span>Application action</span><strong id="action-result">None configured</strong></div>
-          <button id="retry" class="button quiet retry" type="button">Retry connection</button>
+    <div class="brand">
+
+        <div class="brand-mark">
+            ✋
         </div>
 
-        <div class="history-block">
-          <div class="section-heading"><span>Recognition history</span><span id="history-count">0</span></div>
-          <div id="history" class="history"><span class="history-empty">No signs recognized yet</span></div>
+        <div>
+
+            <div class="brand-name">
+                ISL <span>•</span> VISION
+            </div>
+
+            <div class="brand-subtitle">
+                INCLUDE-50&nbsp;&nbsp;|&nbsp;&nbsp;
+                REAL-TIME INDIAN SIGN LANGUAGE RECOGNITION
+            </div>
+
         </div>
 
-        <div class="details">
-          <div><span>Model</span><strong id="model-version">--</strong></div>
-          <div><span>Last request</span><strong id="latency">--</strong></div>
+    </div>
+
+
+    <div class="top-status">
+
+        <div class="system-status">
+
+            <span
+                id="systemDot"
+                class="status-dot offline"
+            ></span>
+
+            <div>
+
+                <strong id="systemStatus">
+                    SYSTEM OFFLINE
+                </strong>
+
+                <small id="systemMessage">
+                    Connecting to backend...
+                </small>
+
+            </div>
+
         </div>
-      </aside>
+
+
+        <button
+            class="header-btn"
+            id="settingsBtn"
+            type="button"
+        >
+            ⚙
+            <span>Settings</span>
+        </button>
+
+        <button
+            class="header-btn"
+            id="helpBtn"
+            type="button"
+        >
+            ?
+            <span>Help</span>
+        </button>
+
+        <button
+            class="header-btn"
+            id="aboutBtn"
+            type="button"
+        >
+            ℹ
+            <span>About</span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ========================================================
+     MAIN
+     ======================================================== -->
+
+<main class="container">
+
+
+    <!-- ====================================================
+         MAIN WORKSPACE
+         ==================================================== -->
+
+    <section class="workspace">
+
+
+        <!-- ==================================================
+             CAMERA PANEL
+             ================================================== -->
+
+        <section class="card camera-card">
+
+            <div class="card-header">
+
+                <div>
+
+                    <div class="section-title">
+                        <span class="section-icon">▣</span>
+                        LIVE CAMERA
+                    </div>
+
+                    <div class="section-subtitle">
+                        Your face and hands will be visible here
+                    </div>
+
+                </div>
+
+                <span
+                    class="model-label"
+                    id="cameraResolution"
+                >
+                    Camera ready
+                </span>
+
+            </div>
+
+
+            <!-- REAL CAMERA VIEWPORT -->
+
+            <div
+                id="cameraViewport"
+                class="camera-viewport"
+            >
+
+                <!-- REAL WEBCAM VIDEO -->
+                <video
+                    id="webcam"
+                    autoplay
+                    playsinline
+                    muted
+                ></video>
+
+
+                <!-- LANDMARK CANVAS -->
+                <canvas
+                    id="landmarkCanvas"
+                ></canvas>
+
+
+                <!-- CAMERA PLACEHOLDER -->
+
+                <div
+                    id="cameraPlaceholder"
+                    class="camera-placeholder"
+                >
+
+                    <div class="camera-placeholder-icon">
+                        ◉
+                    </div>
+
+                    <h2>
+                        Camera is off
+                    </h2>
+
+                    <p>
+                        Click START CAMERA to begin.
+                    </p>
+
+                </div>
+
+
+                <!-- TOP STATUS -->
+
+                <div
+                    id="cameraLiveBadge"
+                    class="camera-live-badge hidden"
+                >
+                    <span class="live-dot"></span>
+                    CAMERA ON
+                </div>
+
+
+                <!-- FACE STATUS -->
+
+                <div
+                    id="faceBadge"
+                    class="camera-badge face-badge hidden"
+                >
+                    FACE VISIBLE
+                </div>
+
+
+                <!-- HAND STATUS -->
+
+                <div class="camera-side-status">
+
+                    <div
+                        id="leftHandBadge"
+                        class="side-badge"
+                    >
+                        <span class="mini-dot"></span>
+                        Left Hand
+                        <strong id="leftHandStatus">
+                            —
+                        </strong>
+                    </div>
+
+                    <div
+                        id="rightHandBadge"
+                        class="side-badge"
+                    >
+                        <span class="mini-dot"></span>
+                        Right Hand
+                        <strong id="rightHandStatus">
+                            —
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <!-- RESOLUTION -->
+
+                <div
+                    id="resolutionBadge"
+                    class="resolution-badge hidden"
+                >
+                    1280 × 720
+                </div>
+
+
+                <!-- CAPTURE STATUS -->
+
+                <div
+                    id="captureOverlay"
+                    class="capture-overlay hidden"
+                >
+
+                    <div>
+                        CAPTURING
+                    </div>
+
+                    <strong id="captureFrameText">
+                        0 / 45
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- CAMERA CONTROLS -->
+
+            <div class="camera-controls">
+
+                <button
+                    id="startCameraBtn"
+                    class="btn btn-primary"
+                    type="button"
+                >
+                    ▶&nbsp; START CAMERA
+                </button>
+
+                <button
+                    id="captureBtn"
+                    class="btn btn-accent"
+                    type="button"
+                    disabled
+                >
+                    ●&nbsp; CAPTURE SIGN
+                </button>
+
+                <button
+                    id="stopCameraBtn"
+                    class="btn btn-danger-outline"
+                    type="button"
+                    disabled
+                >
+                    ■&nbsp; STOP
+                </button>
+
+                <button
+                    id="clearResultBtn"
+                    class="btn btn-light"
+                    type="button"
+                >
+                    ✕&nbsp; CLEAR RESULT
+                </button>
+
+                <button
+                    id="clearHistoryBtn"
+                    class="btn btn-light"
+                    type="button"
+                >
+                    ◷&nbsp; CLEAR HISTORY
+                </button>
+
+            </div>
+
+
+            <div class="secondary-controls">
+
+                <button
+                    id="uploadBtn"
+                    class="btn btn-secondary"
+                    type="button"
+                >
+                    ↑&nbsp; UPLOAD VIDEO
+                </button>
+
+                <button
+                    id="referenceBtn"
+                    class="btn btn-secondary"
+                    type="button"
+                >
+                    ▣&nbsp; REFERENCE VIDEO
+                </button>
+
+                <input
+                    id="videoInput"
+                    type="file"
+                    accept="video/*"
+                    hidden
+                >
+
+            </div>
+
+
+            <div
+                id="cameraMessage"
+                class="camera-message"
+            >
+                Camera ready. Start the camera to begin.
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             RECOGNITION PANEL
+             ================================================== -->
+
+        <section class="card recognition-card">
+
+            <div class="card-header">
+
+                <div>
+
+                    <div class="section-title">
+                        <span class="section-icon">▥</span>
+                        RECOGNITION RESULT
+                    </div>
+
+                    <div class="section-subtitle">
+                        AI Prediction using LSTM + DTW + Verifier
+                    </div>
+
+                </div>
+
+                <span
+                    class="model-label"
+                    id="modelLabel"
+                >
+                    Model: loading...
+                </span>
+
+            </div>
+
+
+            <div class="recognition-grid">
+
+
+                <!-- LEFT RESULT COLUMN -->
+
+                <div class="recognition-left">
+
+
+                    <!-- EXPECTED SIGN -->
+
+                    <div class="inner-card">
+
+                        <div class="inner-title">
+                            ◎&nbsp; Expected Sign
+                        </div>
+
+                        <select
+                            id="expectedSign"
+                            class="select"
+                        >
+                        </select>
+
+                    </div>
+
+
+                    <!-- TRACKING -->
+
+                    <div class="inner-card">
+
+                        <div class="inner-title-row">
+
+                            <div class="inner-title">
+                                ≋&nbsp; Tracking Quality
+                            </div>
+
+                            <span>
+                                MediaPipe
+                            </span>
+
+                        </div>
+
+
+                        <div class="tracking-list">
+
+                            <div class="tracking-row">
+
+                                <span>Face</span>
+
+                                <span>
+                                    <i
+                                        id="trackFaceDot"
+                                        class="track-dot"
+                                    ></i>
+
+                                    <b id="trackFace">
+                                        Waiting
+                                    </b>
+                                </span>
+
+                            </div>
+
+
+                            <div class="tracking-row">
+
+                                <span>Left Hand</span>
+
+                                <span>
+                                    <i
+                                        id="trackLeftDot"
+                                        class="track-dot"
+                                    ></i>
+
+                                    <b id="trackLeft">
+                                        Waiting
+                                    </b>
+
+                                </span>
+
+                            </div>
+
+
+                            <div class="tracking-row">
+
+                                <span>Right Hand</span>
+
+                                <span>
+
+                                    <i
+                                        id="trackRightDot"
+                                        class="track-dot"
+                                    ></i>
+
+                                    <b id="trackRight">
+                                        Waiting
+                                    </b>
+
+                                </span>
+
+                            </div>
+
+
+                            <div class="tracking-row">
+
+                                <span>Pose</span>
+
+                                <span>
+
+                                    <i
+                                        id="trackPoseDot"
+                                        class="track-dot"
+                                    ></i>
+
+                                    <b>
+                                        Not used
+                                    </b>
+
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- THRESHOLD -->
+
+                    <div class="inner-card">
+
+                        <div class="inner-title">
+                            ⚙&nbsp; Confidence Threshold
+                        </div>
+
+                        <div class="threshold-row">
+
+                            <input
+                                id="thresholdSlider"
+                                type="range"
+                                min="0.10"
+                                max="0.95"
+                                step="0.05"
+                                value="0.35"
+                            >
+
+                            <output
+                                id="thresholdValue"
+                            >
+                                0.35
+                            </output>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT RESULT COLUMN -->
+
+                <div class="result-panel">
+
+
+                    <div
+                        id="matchBadge"
+                        class="match-badge neutral"
+                    >
+                        <span>●</span>
+                        WAITING
+                    </div>
+
+
+                    <div class="result-label">
+                        Detected Sign
+                    </div>
+
+                    <div
+                        id="detectedSign"
+                        class="detected-sign"
+                    >
+                        —
+                    </div>
+
+
+                    <!-- CONFIDENCE -->
+
+                    <div class="metric">
+
+                        <div class="metric-head">
+
+                            <span>
+                                Confidence
+                            </span>
+
+                            <strong id="confidenceText">
+                                —
+                            </strong>
+
+                        </div>
+
+                        <div class="progress-track">
+
+                            <div
+                                id="confidenceBar"
+                                class="progress-fill confidence-fill"
+                                style="width:0%"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- REFERENCE -->
+
+                    <div class="metric">
+
+                        <div class="metric-head">
+
+                            <span>
+                                Reference Match
+                            </span>
+
+                            <strong id="referenceText">
+                                —
+                            </strong>
+
+                        </div>
+
+                        <div class="progress-track">
+
+                            <div
+                                id="referenceBar"
+                                class="progress-fill reference-fill"
+                                style="width:0%"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SEQUENCE -->
+
+                    <div class="sequence-card">
+
+                        <div class="sequence-head">
+
+                            <span>
+                                Sequence Buffer
+                            </span>
+
+                            <strong id="sequenceText">
+                                0 / 45
+                            </strong>
+
+                        </div>
+
+                        <div class="sequence-sub">
+                            Capturing hand landmarks
+                        </div>
+
+                        <div class="progress-track sequence-track">
+
+                            <div
+                                id="sequenceBar"
+                                class="progress-fill sequence-fill"
+                                style="width:0%"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </section>
 
-    <footer>Camera landmarks are extracted in your browser. Only validated 45-frame sequences are sent to the inference API.</footer>
-  </main>
-  <script src="app.js"></script>
+
+    <!-- ====================================================
+         LOWER DASHBOARD
+         ==================================================== -->
+
+    <section class="lower-grid">
+
+
+        <!-- DATASET -->
+
+        <section class="card dataset-card">
+
+            <div class="section-title">
+                <span class="section-icon">▤</span>
+                AVAILABLE DATASET SIGNS
+                <small>
+                    (INCLUDE-50)
+                </small>
+            </div>
+
+
+            <div class="search-box">
+
+                <span>⌕</span>
+
+                <input
+                    id="signSearch"
+                    type="search"
+                    placeholder="Search signs..."
+                >
+
+            </div>
+
+
+            <div
+                id="signGrid"
+                class="sign-grid"
+            >
+            </div>
+
+        </section>
+
+
+        <!-- HISTORY -->
+
+        <section class="card history-card">
+
+            <div class="section-title-row">
+
+                <div class="section-title">
+                    <span class="section-icon">◷</span>
+                    RECENT RECOGNITIONS
+                </div>
+
+                <span
+                    id="historyCount"
+                    class="small-count"
+                >
+                    Total: 0
+                </span>
+
+            </div>
+
+
+            <div class="table-wrap">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>#</th>
+                            <th>Time</th>
+                            <th>Sign</th>
+                            <th>Confidence</th>
+                            <th>Result</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="historyBody">
+
+                        <tr>
+                            <td colspan="5">
+                                No recognition results yet.
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- APPLICATION STATUS -->
+
+        <section class="card status-card">
+
+            <div class="section-title">
+                <span class="section-icon">◉</span>
+                APPLICATION STATUS
+            </div>
+
+
+            <div class="app-status-list">
+
+                <div class="app-status-row">
+
+                    <span>
+                        Backend API
+                    </span>
+
+                    <strong id="apiStatus">
+                        Checking...
+                    </strong>
+
+                </div>
+
+
+                <div class="app-status-row">
+
+                    <span>
+                        MediaPipe
+                    </span>
+
+                    <strong id="mediaPipeStatus">
+                        Loading...
+                    </strong>
+
+                </div>
+
+
+                <div class="app-status-row">
+
+                    <span>
+                        Camera
+                    </span>
+
+                    <strong id="cameraStatus">
+                        Inactive
+                    </strong>
+
+                </div>
+
+
+                <div class="app-status-row">
+
+                    <span>
+                        Model
+                    </span>
+
+                    <strong id="appModelStatus">
+                        Loading...
+                    </strong>
+
+                </div>
+
+
+                <div class="app-status-row">
+
+                    <span>
+                        Dataset
+                    </span>
+
+                    <strong>
+                        50 signs
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="instructions">
+
+                <strong>
+                    💡 Instructions
+                </strong>
+
+                <ol>
+
+                    <li>
+                        Click START CAMERA to enable webcam
+                    </li>
+
+                    <li>
+                        Select expected sign
+                    </li>
+
+                    <li>
+                        Perform the sign in front of the camera
+                    </li>
+
+                    <li>
+                        Click CAPTURE SIGN
+                    </li>
+
+                    <li>
+                        Wait for 45 frames
+                    </li>
+
+                    <li>
+                        View LSTM + reference result
+                    </li>
+
+                </ol>
+
+            </div>
+
+        </section>
+
+    </section>
+
+</main>
+
+
+<!-- ========================================================
+     FOOTER
+     ======================================================== -->
+
+<footer class="footer">
+
+    <strong>
+        ISL • VISION
+    </strong>
+
+    <span>|</span>
+
+    <span>
+        Indian Sign Language Recognition using LSTM + DTW
+    </span>
+
+    <span class="footer-right">
+        Final Year Project&nbsp;&nbsp;|&nbsp;&nbsp;© 2026
+    </span>
+
+</footer>
+
+
+<!-- ========================================================
+     ABOUT MODAL
+     ======================================================== -->
+
+<div
+    id="aboutModal"
+    class="modal hidden"
+>
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            id="closeAbout"
+        >
+            ×
+        </button>
+
+        <h2>
+            ISL • VISION
+        </h2>
+
+        <p>
+            Real-Time Indian Sign Language Recognition
+        </p>
+
+        <div class="modal-info">
+
+            <div>
+                <strong>Dataset</strong>
+                <span>INCLUDE-50</span>
+            </div>
+
+            <div>
+                <strong>Classes</strong>
+                <span>50 ISL signs</span>
+            </div>
+
+            <div>
+                <strong>Features</strong>
+                <span>126 hand features/frame</span>
+            </div>
+
+            <div>
+                <strong>Sequence</strong>
+                <span>45 frames</span>
+            </div>
+
+            <div>
+                <strong>Model</strong>
+                <span>Hand LSTM</span>
+            </div>
+
+            <div>
+                <strong>Matching</strong>
+                <span>DTW + Action Verifier</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ========================================================
+     HELP MODAL
+     ======================================================== -->
+
+<div
+    id="helpModal"
+    class="modal hidden"
+>
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            id="closeHelp"
+        >
+            ×
+        </button>
+
+        <h2>
+            How to use
+        </h2>
+
+        <ol class="help-list">
+
+            <li>
+                Allow camera permission.
+            </li>
+
+            <li>
+                Click START CAMERA.
+            </li>
+
+            <li>
+                Confirm your face and hands are visible.
+            </li>
+
+            <li>
+                Select one of the 50 INCLUDE-50 signs.
+            </li>
+
+            <li>
+                Click CAPTURE SIGN.
+            </li>
+
+            <li>
+                Perform the selected sign naturally.
+            </li>
+
+            <li>
+                Wait until 45 frames are collected.
+            </li>
+
+            <li>
+                Review prediction, confidence and reference match.
+            </li>
+
+        </ol>
+
+    </div>
+
+</div>
+
+
+<!-- ========================================================
+     SCRIPTS
+     ======================================================== -->
+
+<script src="config.js"></script>
+
+<script src="vendor/mediapipe-hands/hands.js"></script>
+
+<script src="app.js"></script>
+
 </body>
+
 </html>

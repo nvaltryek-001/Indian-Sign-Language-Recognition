@@ -1,21 +1,65 @@
+﻿# Python
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
 venv/
 venv311/
+
+# Environment / secrets
 .env
 .env.*
 !.env.example
+
+# Logs
 *.log
-data/*/webcam_*.npy
-data/*/webcam_*.csv
-data/*/validation/
+
+# Large datasets
 data/include50/videos/
 data/include50/sequences/
 data/include50/hand_sequences/
 data/include50/augmented_train/
 data/include50/v3_augmented/
 data/include50/archives/
+data/*/validation/
+data/*/webcam_*.npy
+data/*/webcam_*.csv/
+
+# Other datasets / development material
 dataset/
 baseline/
+paper/
+results/
+tests/
+
+# Not needed in production
+*.ipynb
+
+# Local backups
+*.backup
+*.backup-*
+*.before_camera_*
+*_old_*.js
+*_old_*.html
+*_old_*.css
+
+# Local testing / validation output
+data/webcam50_validation/
+app/inference/test_all_50_signs.py
+app/inference/test_remaining_signs.py
+
+# Temporary development scripts
+create_action_verifier_runtime.py
+fix_action_matching_v2.py
+fix_action_matching_v3.py
+fix_action_matching_v31.py
+fix_verifier_loading.py
+train_action_verifier.py
+upgrade_soft_matching.py
+
+# Frontend dated backups
+frontend/*.backup_*
+frontend/*.before_*
+frontend/app_old_*
+frontend/index_old_*
+frontend/styles_old_*

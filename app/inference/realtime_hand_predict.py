@@ -32,6 +32,73 @@ WINDOW_NAME = "ISL Hand Recognition (126 features)"
 VOTE_WINDOWS = 3
 MIN_HAND_FRAMES = 8
 
+# ============================================================
+# SOFT ACTION MATCHING CONFIGURATION
+# ============================================================
+#
+# These values are NOT LSTM accuracy thresholds.
+# They control the final action-relatedness decision.
+#
+# The goal:
+#   SAME SIGN + natural variation  -> MATCHING
+#   PARTIAL SAME SIGN              -> MATCHING
+#   COMPLETELY DIFFERENT ACTION    -> NOT MATCHING
+#
+# DTW match_percent is used as action similarity evidence.
+# We do NOT use a single threshold by itself.
+# ============================================================
+
+# Strong action similarity.
+STRONG_ACTION_SIMILARITY = 65.0
+
+# Soft/variation action similarity.
+SOFT_ACTION_SIMILARITY = 50.0
+
+# Partial action similarity.
+PARTIAL_ACTION_SIMILARITY = 30.0
+
+# If another sign has very high LSTM confidence,
+# don't allow weak expected-sign similarity to override it.
+STRONG_WRONG_PREDICTION = 0.75
+
+# If expected action is only slightly worse/better than
+# competing action, allow the action evidence to participate.
+ACTION_MARGIN_TOLERANCE = 8.0
+
+# Require the action decision to be positive in at least
+# two of the latest three completed windows.
+MATCH_VOTE_REQUIRED = 2
+
+
+
+# ============================================================
+# V3.1 ACTION-FIRST MATCHING
+# ============================================================
+
+# Action similarity is the PRIMARY evidence.
+#
+# Natural human variation is allowed:
+#   - speed
+#   - hand position
+#   - hand angle
+#   - trajectory
+#   - starting position
+#   - ending position
+#   - signing style
+
+STRONG_ACTION_SIMILARITY = 60.0
+MODERATE_ACTION_SIMILARITY = 45.0
+PARTIAL_ACTION_SIMILARITY = 30.0
+
+# A competing prediction can reject only when it is very
+# confident AND its action similarity is clearly stronger.
+STRONG_WRONG_PREDICTION = 0.80
+STRONG_CONFLICT_MARGIN = 12.0
+
+VOTE_WINDOWS = 3
+MATCH_VOTE_REQUIRED = 2
+MIN_HAND_FRAMES = 8
+
 
 def load_class_names(path):
     """Load the strict index-to-label map expected from hand-model training."""
@@ -88,46 +155,408 @@ def vote_prediction(history):
     return label, confidence, stable
 
 
-def classify(model, class_names, matcher, sequence, history, expected_label=None):
-    """Classify once per completed window and apply temporal voting."""
+def classify(
+    model,
+    class_names,
+    matcher,
+    sequence,
+    history,
+    match_history,
+    expected_label=None,
+):
+    """Action-first matching for natural human sign variation.
+
+    ACTION SIMILARITY is primary.
+
+    LSTM is supporting evidence and conflict detection.
+
+    The performer does not need to reproduce the reference
+    video exactly.
+    """
 
     array = np.asarray(sequence, dtype=np.float32)
+
     if array.shape != (SEQUENCE_LENGTH, FEATURES_PER_FRAME):
-        raise ValueError(f"Expected {(SEQUENCE_LENGTH, FEATURES_PER_FRAME)}, got {array.shape}")
-    if not np.isfinite(array).all():
-        raise ValueError("Captured hand sequence contains NaN or Inf")
-
-    probabilities = np.asarray(model.predict(array[None, :, :], verbose=0)[0])
-    index = int(np.argmax(probabilities))
-    raw_label = class_names[index]
-    raw_confidence = float(probabilities[index])
-    history.append((raw_label, raw_confidence))
-    label, confidence, stable = vote_prediction(history)
-
-    # With an expected sign, DTW answers "does this movement match expected?".
-    # Otherwise it measures the movement match for the temporally voted label.
-    reference_label = expected_label or label
-    reference_match = matcher.match(array, candidate_label=reference_label)
-    if expected_label:
-        status = "MATCHING" if stable and label == expected_label and reference_match["available"] else "NOT MATCHING"
-    else:
-        status = "MATCHING" if stable and reference_match["available"] else (
-            "STABILIZING" if not stable else "REFERENCE UNAVAILABLE"
+        raise ValueError(
+            f"Expected {(SEQUENCE_LENGTH, FEATURES_PER_FRAME)}, "
+            f"got {array.shape}"
         )
 
-    if expected_label:
-        print(f"\nEXPECTED: {expected_label}")
-        print(f"DETECTED: {label}")
-    else:
-        print(f"\nSIGN: {label}")
-    print(f"LSTM CONFIDENCE: {confidence * 100:.1f}%")
-    if reference_match["available"]:
-        print(f"REFERENCE MATCH: {reference_match['match_percent']:.1f}%")
-    else:
-        print("REFERENCE MATCH: unavailable")
-    print(f"STATUS: {status}")
-    return label, confidence, reference_match, status
+    if not np.isfinite(array).all():
+        raise ValueError(
+            "Captured hand sequence contains NaN or Inf"
+        )
 
+    # ========================================================
+    # LSTM
+    # ========================================================
+
+    probabilities = np.asarray(
+        model.predict(
+            array[None, :, :],
+            verbose=0,
+        )[0],
+        dtype=np.float32,
+    )
+
+    index = int(np.argmax(probabilities))
+
+    raw_label = class_names[index]
+    raw_confidence = float(probabilities[index])
+
+    history.append(
+        (raw_label, raw_confidence)
+    )
+
+    label, confidence, stable = vote_prediction(history)
+
+    # ========================================================
+    # NO EXPECTED SIGN
+    # ========================================================
+
+    if expected_label is None:
+
+        reference_match = matcher.match(
+            array,
+            candidate_label=label,
+        )
+
+        if reference_match["available"]:
+            status = (
+                "MATCHING"
+                if stable
+                else "STABILIZING"
+            )
+        else:
+            status = "REFERENCE UNAVAILABLE"
+
+        print(f"\nSIGN: {label}")
+        print(
+            f"LSTM CONFIDENCE: "
+            f"{confidence * 100:.1f}%"
+        )
+
+        if reference_match["available"]:
+            print(
+                f"ACTION SIMILARITY: "
+                f"{reference_match['match_percent']:.1f}%"
+            )
+        else:
+            print(
+                "ACTION SIMILARITY: unavailable"
+            )
+
+        print(f"STATUS: {status}")
+
+        return (
+            label,
+            confidence,
+            reference_match,
+            status,
+        )
+
+    # ========================================================
+    # EXPECTED SIGN
+    # ========================================================
+
+    expected_index = class_names.index(
+        expected_label
+    )
+
+    expected_probability = float(
+        probabilities[expected_index]
+    )
+
+    top_indices = np.argsort(
+        probabilities
+    )[-3:][::-1]
+
+    expected_in_top3 = (
+        expected_index in top_indices
+    )
+
+    # ========================================================
+    # EXPECTED ACTION
+    # ========================================================
+
+    expected_match = matcher.match(
+        array,
+        candidate_label=expected_label,
+    )
+
+    expected_similarity = (
+        float(expected_match["match_percent"])
+        if expected_match["available"]
+        else 0.0
+    )
+
+    # ========================================================
+    # COMPETING ACTION
+    # ========================================================
+
+    if raw_label == expected_label:
+
+        predicted_match = expected_match
+
+    else:
+
+        predicted_match = matcher.match(
+            array,
+            candidate_label=raw_label,
+        )
+
+    predicted_similarity = (
+        float(predicted_match["match_percent"])
+        if predicted_match["available"]
+        else 0.0
+    )
+
+    action_margin = (
+        expected_similarity
+        - predicted_similarity
+    )
+
+    # ========================================================
+    # 1. STRONG EXPECTED ACTION
+    #
+    # IMPORTANT:
+    #
+    # LSTM confidence is NOT required to be high.
+    #
+    # If the performed action strongly resembles the expected
+    # sign, it can match.
+    # ========================================================
+
+    strong_action = (
+        expected_match["available"]
+        and expected_similarity
+        >= STRONG_ACTION_SIMILARITY
+    )
+
+    # ========================================================
+    # 2. STRONG DIFFERENT ACTION
+    #
+    # Only reject when ALL are true:
+    #
+    #   - LSTM strongly predicts another sign
+    #   - competing action is clearly stronger
+    #   - expected action is not strong
+    # ========================================================
+
+    strong_conflict = (
+        raw_label != expected_label
+        and raw_confidence
+        >= STRONG_WRONG_PREDICTION
+        and expected_similarity
+        < STRONG_ACTION_SIMILARITY
+        and predicted_similarity
+        >= expected_similarity
+        + STRONG_CONFLICT_MARGIN
+    )
+
+    # ========================================================
+    # 3. MODERATE SAME ACTION
+    # ========================================================
+
+    moderate_action = (
+        expected_similarity
+        >= MODERATE_ACTION_SIMILARITY
+        and not strong_conflict
+        and (
+            expected_in_top3
+            or expected_probability >= 0.10
+            or action_margin >= 0
+            or raw_confidence < 0.50
+        )
+    )
+
+    # ========================================================
+    # 4. PARTIAL ACTION
+    # ========================================================
+
+    partial_action = (
+        expected_similarity
+        >= PARTIAL_ACTION_SIMILARITY
+        and expected_similarity
+        < MODERATE_ACTION_SIMILARITY
+        and not strong_conflict
+        and (
+            expected_in_top3
+            or expected_probability >= 0.10
+            or action_margin >= 0
+            or raw_confidence < 0.35
+        )
+    )
+
+    # ========================================================
+    # WINDOW DECISION
+    # ========================================================
+
+    if strong_conflict:
+
+        window_matching = False
+        match_type = "DIFFERENT ACTION"
+
+    elif strong_action:
+
+        window_matching = True
+        match_type = "STRONG / SAME ACTION"
+
+    elif moderate_action:
+
+        window_matching = True
+        match_type = "VARIATION / SAME ACTION"
+
+    elif partial_action:
+
+        window_matching = True
+        match_type = "PARTIAL ACTION"
+
+    else:
+
+        window_matching = False
+        match_type = "DIFFERENT ACTION"
+
+    # ========================================================
+    # TEMPORAL HISTORY
+    # ========================================================
+
+    match_history.append(
+        window_matching
+    )
+
+    matching_votes = sum(
+        match_history
+    )
+
+    # Strong expected action is immediately accepted.
+    if strong_action and not strong_conflict:
+
+        final_matching = True
+
+    elif strong_conflict:
+
+        final_matching = False
+
+    else:
+
+        final_matching = (
+            matching_votes
+            >= MATCH_VOTE_REQUIRED
+        )
+
+    status = (
+        "MATCHING"
+        if final_matching
+        else "NOT MATCHING"
+    )
+
+    # ========================================================
+    # OUTPUT
+    # ========================================================
+
+    print(
+        f"\nEXPECTED: {expected_label}"
+    )
+
+    print(
+        f"DETECTED: {label}"
+    )
+
+    print(
+        f"LSTM CONFIDENCE: "
+        f"{confidence * 100:.1f}%"
+    )
+
+    print(
+        f"EXPECTED LSTM PROBABILITY: "
+        f"{expected_probability * 100:.1f}%"
+    )
+
+    if expected_match["available"]:
+
+        print(
+            f"EXPECTED ACTION SIMILARITY: "
+            f"{expected_similarity:.1f}%"
+        )
+
+    else:
+
+        print(
+            "EXPECTED ACTION SIMILARITY: "
+            "unavailable"
+        )
+
+    if predicted_match["available"]:
+
+        print(
+            f"DETECTED ACTION SIMILARITY: "
+            f"{predicted_similarity:.1f}%"
+        )
+
+    else:
+
+        print(
+            "DETECTED ACTION SIMILARITY: "
+            "unavailable"
+        )
+
+    print(
+        f"ACTION MARGIN "
+        f"(expected - detected): "
+        f"{action_margin:+.1f}%"
+    )
+
+    print(
+        f"EXPECTED IN LSTM TOP-3: "
+        f"{'YES' if expected_in_top3 else 'NO'}"
+    )
+
+    print(
+        f"WINDOW DECISION: "
+        f"{match_type}"
+    )
+
+    print(
+        f"MATCH VOTES: "
+        f"{matching_votes}/{len(match_history)}"
+    )
+
+    print(
+        f"STATUS: {status}"
+    )
+
+    display_match = (
+        expected_similarity
+        if expected_match["available"]
+        else None
+    )
+
+    return (
+        label,
+        confidence,
+        {
+            **expected_match,
+            "match_percent":
+                display_match,
+
+            "expected_similarity":
+                expected_similarity,
+
+            "detected_similarity":
+                predicted_similarity,
+
+            "action_margin":
+                action_margin,
+
+            "window_matching":
+                window_matching,
+
+            "match_type":
+                match_type,
+        },
+        status,
+    )
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
@@ -142,6 +571,7 @@ def main(argv=None):
 
     sequence = deque(maxlen=SEQUENCE_LENGTH)
     prediction_history = deque(maxlen=VOTE_WINDOWS)
+    match_history = deque(maxlen=VOTE_WINDOWS)
     capturing = False
     detected_hand_frames = 0
     status = "Press C to capture 45 frames; Q to quit."
@@ -181,7 +611,13 @@ def main(argv=None):
                             print("\nSTATUS: NO SIGN DETECTED")
                         else:
                             display_label, display_confidence, match, display_status = classify(
-                                model, class_names, matcher, list(sequence), prediction_history, expected_label
+                                model,
+                                class_names,
+                                matcher,
+                                list(sequence),
+                                prediction_history,
+                                match_history,
+                                expected_label,
                             )
                             display_match = match.get("match_percent") if match["available"] else None
                         capturing = False
@@ -194,8 +630,20 @@ def main(argv=None):
                 cv2.putText(preview, f"{prefix}: {display_label}", (16, 95), cv2.FONT_HERSHEY_SIMPLEX, 0.65, (0, 255, 0), 2)
                 if display_confidence is not None:
                     cv2.putText(preview, f"Confidence: {display_confidence * 100:.1f}%", (16, 125), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (255, 255, 255), 1)
-                match_text = f"Match: {display_match:.1f}%" if display_match is not None else "Match: unavailable"
-                cv2.putText(preview, match_text, (16, 150), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (255, 255, 255), 1)
+                match_text = (
+                    f"Action Similarity: {display_match:.1f}%"
+                    if display_match is not None
+                    else "Action Similarity: unavailable"
+                )
+                cv2.putText(
+                    preview,
+                    match_text,
+                    (16, 150),
+                    cv2.FONT_HERSHEY_SIMPLEX,
+                    0.50,
+                    (255, 255, 255),
+                    1,
+                )
                 cv2.putText(preview, f"Status: {display_status}", (16, 175), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 255, 0), 1)
                 if expected_label:
                     cv2.putText(preview, f"Expected: {expected_label}", (16, 200), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
@@ -206,6 +654,8 @@ def main(argv=None):
                     break
                 if key == ord("c") and not capturing:
                     sequence.clear()
+                    match_history.clear()
+                    prediction_history.clear()
                     capturing = True
                     detected_hand_frames = 0
                     display_label, display_confidence, display_match = "Capturing", None, None
