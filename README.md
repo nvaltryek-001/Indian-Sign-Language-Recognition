@@ -525,6 +525,30 @@ The project also records separate validation and held-out test metrics for the a
 
 These results should be presented as separate evaluation records unless the evaluation reports establish that they refer to the same model checkpoint, dataset split, and protocol.
 
+### Charts: active hand-focused LSTM
+
+Rendered from the saved evaluation artefacts in `models/evaluation/hand_model/` with `python scripts/plot_hand_model_eval.py`.
+
+| Confusion matrix (115 / 124 correct) | Per-sign recall |
+|---|---|
+| <img src="docs/evaluation/hand_model_confusion_matrix.png" alt="Confusion matrix of the hand LSTM on the INCLUDE-50 test split, with the nine mistakes outlined" /> | <img src="docs/evaluation/hand_model_per_sign_recall.png" alt="Per-sign recall sorted from lowest to highest with test support" /> |
+
+The test split is small: 1 to 4 clips per sign, and "Pen" has no test clip. A single miss moves a sign's recall by 25 to 50 points, so treat per-sign numbers as indicative.
+
+<details>
+<summary><b>Earlier checkpoint: <code>include50_lstm_v2_best</code> (258-feature holistic input)</b></summary>
+
+A separate evaluation record from `models/evaluation/graphs/final_50sign_evaluation_summary.json`: validation **95.04%** (141 clips), test **87.32%** (142 clips). This is a different model and split from the active hand LSTM above.
+
+| | |
+|---|---|
+| ![Validation vs test accuracy](models/evaluation/graphs/01_50sign_validation_vs_test_accuracy.png) | ![Accuracy and confidence](models/evaluation/graphs/04_50sign_accuracy_confidence_combined.png) |
+| ![Validation confidence](models/evaluation/graphs/02_50sign_validation_confidence.png) | ![Test confidence](models/evaluation/graphs/03_50sign_test_confidence.png) |
+| ![Validation correct vs incorrect](models/evaluation/graphs/05_50sign_validation_correct_incorrect.png) | ![Test correct vs incorrect](models/evaluation/graphs/06_50sign_test_correct_incorrect.png) |
+| ![Overall model performance](models/evaluation/graphs/07_overall_model_performance.png) | ![Confidence distribution](models/evaluation/graphs/05_confidence_distribution.png) |
+
+</details>
+
 ### Observed weaker classes
 
 The recorded V2 test split reports:
